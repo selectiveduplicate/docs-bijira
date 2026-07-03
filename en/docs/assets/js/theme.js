@@ -84,10 +84,11 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Expanded sections start with checked=true due to the vertical-line design.
-  // Fix: uncheck all non-active top-level section toggles on all screen sizes so only
-  // the section containing the current page stays expanded.
-  const topLevelItems = document.querySelectorAll('.md-nav--primary > .md-nav__list > .md-nav__item--nested');
-  topLevelItems.forEach(function(item) {
+  // Fix: uncheck every non-active section toggle at any nesting depth (e.g.
+  // "Guides > Developer Portal") so only the section chain containing the
+  // current page stays expanded on load.
+  const nestedItems = document.querySelectorAll('.md-nav--primary .md-nav__item--nested');
+  nestedItems.forEach(function(item) {
     if (!item.classList.contains('md-nav__item--active')) {
       const toggle = Array.from(item.children).find(function(el) {
         return el.tagName === 'INPUT' && el.type === 'checkbox' && el.classList.contains('md-nav__toggle');
@@ -98,26 +99,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Accordion behavior: when any nested item is expanded, collapse all its siblings
-  // at the same level. Applies at every depth (top-level and sub-menus).
-  document.querySelectorAll('.md-nav--primary .md-nav__toggle').forEach(function(toggle) {
-    toggle.addEventListener('change', function() {
-      if (!this.checked) return;
-      const parentItem = this.closest('.md-nav__item--nested');
-      if (!parentItem) return;
-      const parentList = parentItem.parentElement;
-      if (!parentList) return;
-      parentList.querySelectorAll(':scope > .md-nav__item--nested').forEach(function(siblingItem) {
-        if (siblingItem === parentItem) return;
-        const siblingToggle = Array.from(siblingItem.children).find(function(el) {
-          return el.tagName === 'INPUT' && el.type === 'checkbox' && el.classList.contains('md-nav__toggle');
-        });
-        if (siblingToggle) {
-          siblingToggle.checked = false;
-        }
-      });
-    });
-  });
+  // Menu items expand/collapse independently: expanding one item no longer
+  // collapses its siblings. Each item stays open until the user collapses it.
 });
 
 /*
