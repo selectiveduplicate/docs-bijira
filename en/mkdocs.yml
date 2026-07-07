@@ -712,6 +712,7 @@ nav:
         - Use the MCP Registry API: next/ai-workspace/mcp-registry/mcp-registry-api.md
     - GenAI Applications: next/ai-workspace/genai-applications.md
     - Configure Inbound Auth: next/ai-workspace/configure-inbound-auth.md
+    - Secrets Management: next/ai-workspace/secrets-management.md
     - Invoke via SDKs: next/ai-workspace/using-sdks.md
     - Policies:
         - Overview: next/ai-workspace/policies/overview.md
