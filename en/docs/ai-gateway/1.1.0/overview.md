@@ -8,7 +8,7 @@ tags:
   - llm
   - mcp
 author: WSO2 API Platform Documentation Team
-last_updated: 2026-06-11
+last_updated: 2026-07-08
 content_type: "concept"
 ---
 
