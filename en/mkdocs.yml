@@ -705,15 +705,13 @@ nav:
         - Overview: next/ai-workspace/mcp-proxies/overview.md
         - Configure Proxy: next/ai-workspace/mcp-proxies/configure-proxy.md
         - Apply Policies: next/ai-workspace/mcp-proxies/apply-policies.md
-    - MCP Registry:
-        - What is an MCP Registry?: next/ai-workspace/mcp-registry/mcp-registry.md
-        - Publish MCP Proxies: next/ai-workspace/mcp-registry/publish-mcp-proxies.md
-        - Browse the MCP Hub: next/ai-workspace/mcp-registry/browse-mcp-hub.md
-        - Use the MCP Registry API: next/ai-workspace/mcp-registry/mcp-registry-api.md
     - CI/CD:
         - Overview: next/ai-workspace/ci-cd/overview.md
         - Configure CI/CD Workflow: next/ai-workspace/ci-cd/configure-ci-cd-workflow.md
     - GenAI Applications: next/ai-workspace/genai-applications.md
+    - Authentication:
+        - Overview: next/ai-workspace/authentication/overview.md
+        - Set up Asgardeo: next/ai-workspace/authentication/asgardeo-setup.md
     - Configure Inbound Auth: next/ai-workspace/configure-inbound-auth.md
     - Invoke via SDKs: next/ai-workspace/using-sdks.md
     - Policies:

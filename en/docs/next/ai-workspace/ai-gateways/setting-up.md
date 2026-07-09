@@ -52,9 +52,7 @@ The AI Gateways page displays a list of all configured gateways with the followi
 
        3. **URL*** (Required): Enter the gateway URL (e.g., `https://localhost:8443`). This is the endpoint where the gateway runtime is accessible.
 
-       4. **Associated Environment*** (Required): Select the environment from the dropdown (e.g., `Development`, `Production`).
-
-    ![Add AI Gateway form showing Name, Description, URL pre-filled with localhost:8443, and Associated Environment dropdown set to Development](../../../assets/img/ai-gateway/ai-workspace/ai-gateway/ai-gateway-form.png)
+    ![Add AI Gateway form showing Name, Description, URL pre-filled with localhost:8443](../../../assets/img/ai-gateway/standalone-ai-workspace/ai-gateway/ai-gateway-form.png)
 
 4. Click **Add Gateway** to create the gateway.
 
@@ -92,8 +90,8 @@ The Get Started section provides setup instructions for multiple deployment opti
     Run this command in your terminal to download the gateway:
 
     ```bash
-    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.0.0/wso2apip-ai-gateway-1.0.0.zip && \
-    unzip wso2apip-ai-gateway-1.0.0.zip
+    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.2.0-M1/wso2apip-ai-gateway-1.2.0-M1.zip && \
+    unzip wso2apip-ai-gateway-1.2.0-M1.zip
     ```
 
     **Step 2: Configure the Gateway**
@@ -101,7 +99,7 @@ The Get Started section provides setup instructions for multiple deployment opti
     Run this command to create the environment configuration file with the required environment variables:
 
     ```bash
-    cat > wso2apip-ai-gateway-1.0.0/configs/keys.env << 'ENVFILE'
+    cat > wso2apip-ai-gateway-1.2.0-M1/configs/keys.env << 'ENVFILE'
     MOESIF_KEY=<your-moesif-key>
     GATEWAY_CONTROLPLANE_HOST=connect.bijira.dev
     GATEWAY_REGISTRATION_TOKEN=<your-gateway-token>
@@ -115,7 +113,7 @@ The Get Started section provides setup instructions for multiple deployment opti
     1. Navigate to the gateway folder:
 
         ```bash
-        cd wso2apip-ai-gateway-1.0.0
+        cd wso2apip-ai-gateway-1.2.0-M1
         ```
 
     2. Run this command to start the gateway using the environment file created in Step 2:
@@ -147,8 +145,8 @@ The Get Started section provides setup instructions for multiple deployment opti
     Run this command in your terminal to download the gateway:
 
     ```bash
-    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.1.0/wso2apip-ai-gateway-1.1.0.zip && \
-    unzip wso2apip-ai-gateway-1.1.0.zip
+    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.2.0-M1/wso2apip-ai-gateway-1.2.0-M1.zip && \
+    unzip wso2apip-ai-gateway-1.2.0-M1.zip
     ```
 
     **Step 2: Configure the Gateway**
@@ -160,7 +158,7 @@ The Get Started section provides setup instructions for multiple deployment opti
     1. Navigate to the gateway folder:
 
         ```bash
-        cd wso2apip-ai-gateway-1.1.0
+        cd wso2apip-ai-gateway-1.2.0-M1
         ```
 
     2. Run this command to start the gateway using the environment file created in Step 2:
@@ -180,8 +178,8 @@ The Get Started section provides setup instructions for multiple deployment opti
     Run this command in your terminal to download the gateway:
 
     ```bash
-    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.1.0/wso2apip-ai-gateway-1.1.0.zip && \
-    unzip wso2apip-ai-gateway-1.1.0.zip
+    curl -sLO https://github.com/wso2/api-platform/releases/download/ai-gateway/v1.2.0-M1/wso2apip-ai-gateway-1.2.0-M1.zip && \
+    unzip wso2apip-ai-gateway-1.2.0-M1.zip
     ```
 
     **Step 2: Configure the Gateway**
@@ -193,7 +191,7 @@ The Get Started section provides setup instructions for multiple deployment opti
     1. Navigate to the gateway folder:
 
         ```bash
-        cd wso2apip-ai-gateway-1.1.0
+        cd wso2apip-ai-gateway-1.2.0-M1
         ```
 
     2. Run this command to start the gateway using the environment file created in Step 2:
