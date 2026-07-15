@@ -1,3 +1,17 @@
+---
+title: "Configure Rate Limiting for an API Gateway Cluster"
+description: "Configure a distributed Redis cluster with WSO2 API Manager to synchronize burst control and backend rate limiting counters across Gateway nodes, using asynchronous or async-sync hybrid mode."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/advanced-topics/configuring-rate-limiting-api-gateway-cluster/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/advanced-topics/configuring-rate-limiting-api-gateway-cluster.md
+tags:
+  - api-manager
+  - rate-limiting
+  - clustering
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configure Distributed Burst Control, Backend Rate Limiting for an API Gateway Cluster
 
 Typically, you need to have more than one Gateway node in your WSO2 API Manager (WSO2 API-M) deployment when either

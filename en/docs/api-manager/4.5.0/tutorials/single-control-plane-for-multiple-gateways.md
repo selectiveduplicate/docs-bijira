@@ -1,3 +1,17 @@
+---
+title: "Single Control Plane for Multiple Gateways"
+description: "Set up a single WSO2 API Manager control plane to publish and manage APIs deployed across the Universal Gateway, Kubernetes Gateway, and Immutable Gateway (Microgateway)."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/single-control-plane-for-multiple-gateways/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/single-control-plane-for-multiple-gateways.md
+tags:
+  - api-manager
+  - control-plane
+  - multi-gateway
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # WSO2's Centralized API Management: The Single Control Plane for Multiple Gateways
 
 ## Introduction

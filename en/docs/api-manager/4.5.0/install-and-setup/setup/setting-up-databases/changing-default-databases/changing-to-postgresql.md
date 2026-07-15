@@ -1,3 +1,17 @@
+---
+title: "Changing to PostgreSQL"
+description: "Replace the default embedded H2 database with PostgreSQL in WSO2 API Manager: set up the database and users, install JDBC drivers, run the db scripts, and configure the shared, apim, and carbon datasources in deployment.toml."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/setting-up-databases/changing-default-databases/changing-to-postgresql/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/setting-up-databases/changing-default-databases/changing-to-postgresql.md
+tags:
+  - api-manager
+  - database-setup
+  - postgresql
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Changing to PostgreSQL
 
 By default, WSO2 API Manager uses the embedded H2 database as the database for storing user management and registry data. Given below are the  instructions you need to follow in order to use PostgreSQL for this purpose.

@@ -1,3 +1,17 @@
+---
+title: "Set Up WSO2 Identity Server as a Federated Authenticator"
+description: "Configure WSO2 Identity Server 7.1.0 as a federated authenticator for API Manager, including application setup, role assignment, and organization creation for B2B API management."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/b2b-api-management/setup-identity-server/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/b2b-api-management/setup-identity-server.md
+tags:
+  - api-manager
+  - b2b-api-management
+  - sso
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Setup WSO2 Identity Server as a Federated Authenticator
 
 WSO2 Identity Server 7.1.0 includes B2B organization support. The following instructions detail how to configure it as a federated authenticator for WSO2 API Manager.

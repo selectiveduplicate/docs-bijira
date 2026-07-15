@@ -1,3 +1,17 @@
+---
+title: "Content Length Guardrail"
+description: "Configure the Content Length Guardrail mediator in WSO2 API Manager to validate JSON payload byte length against minimum and maximum thresholds using JSON Path expressions."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/content-length-guardrail/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/content-length-guardrail.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Content Length Guardrail
 
 The **Content Length Guardrail** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to perform **content-byte-length validation** on incoming or outgoing JSON payloads. This component acts as a *guardrail* to enforce specific content moderation rules based on configurable minimum and maximum byte sizes and JSON Path expressions.

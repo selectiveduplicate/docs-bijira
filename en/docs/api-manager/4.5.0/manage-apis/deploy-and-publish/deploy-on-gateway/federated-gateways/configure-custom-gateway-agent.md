@@ -1,3 +1,17 @@
+---
+title: "Configure a Custom Gateway Agent"
+description: "Write and deploy a custom Gateway Agent bundle so WSO2 API Manager can deploy and manage APIs on a third-party API gateway not supported out of the box."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/federated-gateways/configure-custom-gateway-agent/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/federated-gateways/configure-custom-gateway-agent.md
+tags:
+  - api-manager
+  - federated-gateways
+  - gateway-agent
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configure a Custom Gateway Agent
 
 WSO2 API Manager is capable of deploying APIs to external third party API Gateways. Essentially, if the API Provider wants to deploy their APIs a third party gateway that is not supported OOTB by WSO2 API-M, you need to use a custom Gateway Agent. To configure a custom Gateway Agent, you need to do the following:

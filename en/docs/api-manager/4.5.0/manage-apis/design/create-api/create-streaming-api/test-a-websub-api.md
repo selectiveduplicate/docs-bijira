@@ -1,3 +1,17 @@
+---
+title: "Test a WebSub/WebHook API"
+description: "Try out a WebSub/WebHook streaming API from the Developer Portal by generating an access token, creating a callback URL, and subscribing to and unsubscribing from a topic."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/create-api/create-streaming-api/test-a-websub-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/create-api/create-streaming-api/test-a-websub-api.md
+tags:
+  - api-manager
+  - websub
+  - streaming-apis
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Test a WebSub/WebHook API
 
 **Testing a WebSub/WebHook Streaming API** refers to the process of trying out a WebSub/WebHook API at the Developer Portal and making sure that the functionalities and behaviors are correctly met.

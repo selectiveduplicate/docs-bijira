@@ -1,3 +1,17 @@
+---
+title: "Azure Content Safety Guardrail"
+description: "Configure the Azure Content Safety Guardrail, a Synapse mediator policy for WSO2 API Manager Universal Gateway that moderates LLM request and response content for hate, sexual, self-harm, and violence categories using Azure Content Safety's Content Moderation API."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/azure-content-safety/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/azure-content-safety.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Azure Content Safety Guardrail
 
 The **Azure Content Safety Guardrail** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to perform **content moderation** on LLM requests or responses using **Azure Content Safety's Content Moderation API**. 

@@ -1,3 +1,17 @@
+---
+title: "WSO2 Rule Validator"
+description: "Reference for the WSO2 Rule Validator, a Spectral-based JSON/YAML linter used by API Manager Governance: ruleset syntax, rule fields, core functions, and aliases."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/rule-validator/rule-validator/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/rule-validator/rule-validator.md
+tags:
+  - api-manager
+  - governance
+  - rule-validator
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # WSO2 Rule Validator
 
 ---

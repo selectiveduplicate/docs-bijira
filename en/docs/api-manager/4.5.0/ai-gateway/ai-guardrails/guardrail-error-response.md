@@ -1,3 +1,17 @@
+---
+title: "Guardrail Error Response"
+description: "Understand the default HTTP 446 structured error response emitted by AI Guardrails in WSO2 AI Gateway, and learn how to customize it with a custom fault sequence and deployment.toml configuration."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/guardrail-error-response/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/guardrail-error-response.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Guardrail Error Response
 
 When a **guardrail policy intervenes**—due to violations of organizational safety, security, or compliance standards—it is essential that downstream systems are notified **clearly and reliably**. To facilitate this, **AI Guardrails in WSO2 AI Gateway emit structured error responses**, enabling applications to observe, react, and recover appropriately.

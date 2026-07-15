@@ -1,3 +1,17 @@
+---
+title: "Deploying WSO2 API-M in a Simple Scalable Setup"
+description: "Configure a distributed WSO2 API-M deployment with separate All-in-One and Universal Gateway nodes, including database setup, SSL certificates, event hub/throttling configuration, and high availability."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-simple-scalable-setup/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-simple-scalable-setup.md
+tags:
+  - api-manager
+  - distributed-deployment
+  - high-availability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configuring a Distributed API-M Deployment
 
 WSO2 API-M can be deployed as an [all-in-one deployment](../../../install-and-setup/setup/single-node/all-in-one-deployment-overview.md) or as a distributed deployment. In the distributed setup, the respective component distributions, namely WSO2 API Manager All-in-One, and WSO2 Universal Gateway are deployed as separate nodes.

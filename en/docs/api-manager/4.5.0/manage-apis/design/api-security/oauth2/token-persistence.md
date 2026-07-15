@@ -1,3 +1,17 @@
+---
+title: "OAuth2 Token Persistence"
+description: "Understand how WSO2 API Manager persists JWT and opaque OAuth2 tokens, how to optimize JWT persistence for large-scale deployments, and how synchronous and asynchronous opaque token persistence (with their CON_APP_KEY recovery flows) work."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-security/oauth2/token-persistence/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-security/oauth2/token-persistence.md
+tags:
+  - api-manager
+  - oauth2
+  - token-persistence
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Token Persistence
 
 In WSO2 API Manager, OAuth2 token persistence is integral to authentication and authorization. This guide describes OAuth2 token persistence with JWTs and Opaque tokens and the possible approaches you can follow for token persistence in a production environment. 

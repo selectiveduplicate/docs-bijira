@@ -1,3 +1,17 @@
+---
+title: "Disable Subscription Requirement for an API"
+description: "Disable and re-enable the subscription requirement for an API in API Manager, and configure a global or tenant-level setting to prevent publishers from disabling subscription validation."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/disable-subscriptions-for-an-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/disable-subscriptions-for-an-api.md
+tags:
+  - api-manager
+  - subscriptions
+  - rate-limiting
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Disable Subscription Requirement for an API
 
 By default when you create and publish an API, subscriptions are mandatory for API consumption. But, there could be scenarios where an API Publisher might want to publish an API that does not require subscriptions for API consumption.

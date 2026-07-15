@@ -1,5 +1,15 @@
 ---
-title: Publishing Custom Analytics Events Data - API Manager Documentation
+title: "Publishing Custom Analytics Data"
+description: "Implement an AnalyticsCustomDataProvider class to add custom properties to the analytics event schema, then configure the API Manager gateway to publish this custom data."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/monitoring/api-analytics/samples/publishing-custom-analytics-data/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/monitoring/api-analytics/samples/publishing-custom-analytics-data.md
+tags:
+  - api-manager
+  - api-analytics
+  - observability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
 ---
 
 # Publishing Custom Analytics Events Data

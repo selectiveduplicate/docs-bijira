@@ -1,3 +1,17 @@
+---
+title: "Scenario 14 - External Key Manager Support"
+description: "Tutorial on configuring Keycloak as an external key manager for WSO2 API Manager so an existing identity provider can issue access tokens for API consumption without duplicating user data."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/scenarios/scenario14-external-key-manager/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/scenarios/scenario14-external-key-manager.md
+tags:
+  - api-manager
+  - key-managers
+  - keycloak
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Scenario 14 - External Key Manager Support
 
 This is a tutorial that is part of a series and can be used as a standalone tutorial on how to configure a Key Manager. For more details on the scenario and general prerequisites, please see [the scenario overview page](../../tutorials/scenarios/scenario-overview.md).

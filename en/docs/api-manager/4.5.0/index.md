@@ -1,5 +1,16 @@
 ---
 template: templates/no-navbars.html
+title: "WSO2 API Manager 4.5.0 Documentation"
+description: "Home page for WSO2 API Manager 4.5.0 documentation, with links to getting started guides, deployment options, setup, developer resources, tutorials, and the control plane and gateway components that make up the product."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/index/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/index.md
+tags:
+  - api-manager
+  - getting-started
+  - architecture
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
 ---
 
 <style>
@@ -129,12 +140,12 @@ template: templates/no-navbars.html
         justify-content: space-between;
         flex-direction: row;
         grid-template-columns: 400px 4fr;
-        gap: 150px;
+        gap: 50px;
     }
     .tiles-container {
         display: flex;
         align-items: start;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: space-between;
     }
     .tile {

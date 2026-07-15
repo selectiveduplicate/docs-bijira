@@ -1,3 +1,17 @@
+---
+title: "Scenario 13: Integrate with Services via Connectors"
+description: "Tutorial on using WSO2 Micro Integrator connectors and an Inbound Endpoint to pick up a CSV file dropped in a directory and send its contents as an email through the Email connector."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/scenarios/scenario13-integrate-with-connectors/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/scenarios/scenario13-integrate-with-connectors.md
+tags:
+  - api-manager
+  - micro-integrator
+  - connectors
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Scenario 13 - Integrate with Services via Connectors
 
 This is a tutorial that is part of a series and can be used as a standalone tutorial on how to use connectors. For more details on the scenario and general prerequisites, please see [the scenario overview page](../../tutorials/scenarios/scenario-overview.md).

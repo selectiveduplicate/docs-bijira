@@ -1,3 +1,17 @@
+---
+title: "Transforming API Message Payloads"
+description: "Configure the API Gateway's JSON and XML message builders and formatters to transform API request and response payloads between content types."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/regular-gateway-policies/transforming-api-message-payload/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/regular-gateway-policies/transforming-api-message-payload.md
+tags:
+  - api-manager
+  - message-transformation
+  - json-xml-conversion
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Transforming API Message Payload
 
 When a request comes to the API Manager, it sends the response in the same format of the request. For example, 

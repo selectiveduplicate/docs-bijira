@@ -1,3 +1,17 @@
+---
+title: "Set Up Google reCAPTCHA"
+description: "Register a Google reCAPTCHA API key pair, configure the site key and secret in deployment.toml, and enable reCAPTCHA for the WSO2 API Manager login from the Carbon console."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/security/logins-and-passwords/setting-up-recaptcha/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/security/logins-and-passwords/setting-up-recaptcha.md
+tags:
+  - api-manager
+  - security
+  - sso
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Setting Up ReCaptcha
 
 [reCaptcha](https://developers.google.com/recaptcha/) is a free service

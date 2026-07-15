@@ -1,3 +1,17 @@
+---
+title: "Backup and Recovery Best Practices"
+description: "Best practices for backing up API Manager databases and product instances, and recommended strategies for recovering a deployment after an outage."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-best-practices/backup-recovery/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-best-practices/backup-recovery.md
+tags:
+  - api-manager
+  - deployment
+  - disaster-recovery
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Backup and Recovery
 
 None of the WSO2 products persist data in the file systems or retain or generate artifacts. By default, we only store log files in the file system and data and artifacts in the databases and the repository.

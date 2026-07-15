@@ -1,3 +1,17 @@
+---
+title: "Passing End User Attributes to the Backend via the API Gateway"
+description: "Configure the API Gateway to send end-user attributes to the backend service as a signed backend JWT, customize the JWT or claims generator, and validate the JWT using the JWKS endpoint."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/passing-enduser-attributes-to-the-backend-via-api-gateway/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/passing-enduser-attributes-to-the-backend-via-api-gateway.md
+tags:
+  - api-manager
+  - api-gateway
+  - jwt
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Passing End User Attributes to the Backend
 
 There can be scenarios where a backend service needs to make different decisions or respond with different data, depending on the application end-user that consumes an API. To achieve this the backend service needs to have access to the respective end-user's data at the time an API call takes place.

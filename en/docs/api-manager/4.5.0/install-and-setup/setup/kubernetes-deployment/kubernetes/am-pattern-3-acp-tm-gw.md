@@ -1,3 +1,17 @@
+---
+title: "Pattern 3: Distributed Deployment with Gateway and Traffic Manager Separated from the Control Plane"
+description: "Deploy WSO2 API Manager 4.5.0 on Kubernetes using Helm charts in a distributed pattern that separates the Universal Gateway and Traffic Manager from the API Control Plane, including Docker image building, database setup, and Gateway API or NGINX Ingress configuration."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-3-acp-tm-gw/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-3-acp-tm-gw.md
+tags:
+  - api-manager
+  - kubernetes
+  - distributed-deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 3: Distributed API-M Deployment with Gateway and Traffic Manager Separated from the Control Plane
 
 This is the standard distributed deployment for API Manager. The default configuration consists of two API control planes, two Traffic Managers, and two Universal Gateways. This is a production-ready deployment pattern.

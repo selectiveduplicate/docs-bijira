@@ -1,3 +1,17 @@
+---
+title: "Message Flow in the API Manager Gateway"
+description: "Explains how requests and responses move through the API Manager Gateway, covering the request/response handlers, mediation extensions, and the in sequence and out sequence."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/guides/message-flow-in-the-api-manager-gateway/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/guides/message-flow-in-the-api-manager-gateway.md
+tags:
+  - api-manager
+  - gateway
+  - mediation
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Message Flow in the API Manager Gateway
 
 The Gateway of an API Manager deployment is responsible for the main business functionality of serving API traffic. The following diagram illustrates the message flow in the Gateway at a very high level.

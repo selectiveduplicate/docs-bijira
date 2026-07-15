@@ -1,3 +1,17 @@
+---
+title: "Prevent API Suspension"
+description: "Configure endpoint suspension settings in WSO2 API Manager to stop APIs from being suspended when their backend endpoint is unreachable, using either the Publisher Portal or the endpoint XML configuration."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/endpoints/resiliency/prevent-api-suspension/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/endpoints/resiliency/prevent-api-suspension.md
+tags:
+  - api-manager
+  - endpoints
+  - resiliency
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Prevent API Suspension
 
 WSO2 API Manager suspends your API if the endpoint of your API cannot be reached. The default suspension time is 30 seconds. Any requests to your API will not be able to reach your endpoint for 30 seconds and will return an error message, as shown below.

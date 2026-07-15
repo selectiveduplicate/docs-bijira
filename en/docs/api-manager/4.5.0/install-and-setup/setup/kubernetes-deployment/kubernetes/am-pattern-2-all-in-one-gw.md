@@ -1,3 +1,17 @@
+---
+title: "Deploy API Manager Pattern 2: All-in-One with Universal Gateway on Kubernetes"
+description: "Deploy WSO2 API Manager's simple scalable setup on Kubernetes using Helm, with a single All-in-One node and separate Universal Gateway replicas for improved scalability."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-2-all-in-one-gw/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-2-all-in-one-gw.md
+tags:
+  - api-manager
+  - kubernetes
+  - helm-deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 2: API-M Deployment with Simple Scalable Setup
 
 This is the standard distributed deployment for API Manager. The default configuration consists of a single All-in-One and two Universal Gateways for better scalability and performance.

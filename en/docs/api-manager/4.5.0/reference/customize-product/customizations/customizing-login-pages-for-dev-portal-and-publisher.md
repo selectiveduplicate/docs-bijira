@@ -1,3 +1,17 @@
+---
+title: "Customize Login Pages for Developer Portal and Publisher"
+description: "Customize the SAML2 SSO, OAuth, OpenID, and Passive STS login pages served by the authenticationendpoint webapp, including per-service-provider JSP redirection and reusable header/footer/title extensions."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-login-pages-for-dev-portal-and-publisher/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-login-pages-for-dev-portal-and-publisher.md
+tags:
+  - api-manager
+  - sso
+  - customization
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Customizing Login Pages for Developer Portal and Publisher
 
 Custom pages for logging into the server are available for SAML2 SSO, OAuth and OpenID. This section guides you through this customization.

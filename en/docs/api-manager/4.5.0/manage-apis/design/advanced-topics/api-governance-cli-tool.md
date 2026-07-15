@@ -1,3 +1,17 @@
+---
+title: "API Governance CLI Tool"
+description: "Configure and use the API Governance CLI tool to validate APIs against custom rulesets, customize rules in rules.yaml, and generate violation reports."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/api-governance-cli-tool/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/api-governance-cli-tool.md
+tags:
+  - api-manager
+  - governance
+  - cli
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # API Governance CLI Tool
 
 The API Governance CLI Tool is designed to validate API(s) against a set of rules and generate a report detailing any violations. This tool is intended for developers and API administrators to ensure compliance with best practices and organizational standards.

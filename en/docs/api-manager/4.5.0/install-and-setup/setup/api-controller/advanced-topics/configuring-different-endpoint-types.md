@@ -1,3 +1,17 @@
+---
+title: "Configuring Different Endpoint Types in API Controller"
+description: "Configure REST, SOAP, dynamic, and AWS Lambda backend endpoints in apictl parameter files, including load-balanced and failover routing policies."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/api-controller/advanced-topics/configuring-different-endpoint-types/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/api-controller/advanced-topics/configuring-different-endpoint-types.md
+tags:
+  - api-manager
+  - api-controller
+  - endpoints
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 #  Configuring Different Endpoint Types
 
 When there are multiple environments, to allow easily configuring environment-specific details, **WSO2 API Controller (apictl)** supports an additional parameter file. (Please refer [Configuring Environment Specific Parameters](../../../../install-and-setup/setup/api-controller/advanced-topics/configuring-environment-specific-parameters.md) for more information). You can specify different types of endpoints in this file, as discussed in this section.

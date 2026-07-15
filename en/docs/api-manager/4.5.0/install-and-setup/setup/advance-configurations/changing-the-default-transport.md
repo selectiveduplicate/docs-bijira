@@ -1,3 +1,17 @@
+---
+title: "Changing the Default Transport"
+description: "Configure the PassThrough HTTP/S transport for WSO2 API Manager, including transport receiver and sender parameters and connection throttling settings in deployment.toml."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/advance-configurations/changing-the-default-transport/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/advance-configurations/changing-the-default-transport.md
+tags:
+  - api-manager
+  - transport-configuration
+  - deployment-toml
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Changing the Default Transport
 
 APIs are made up of Apache Synapse configurations that WSO2 API Manager accesses through a transport protocol. The default API Manager transport is the PassThrough transport, but you can configure a different default transport in your `deployment.toml` file.

@@ -1,3 +1,17 @@
+---
+title: "Run API Manager as a Windows Service"
+description: "Configure YAJSW to install, start, stop, and uninstall WSO2 API Manager as a Windows service, including the minimal wrapper.conf setup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/install/installing-the-product/installing-api-m-as-a-windows-service/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/install/installing-the-product/installing-api-m-as-a-windows-service.md
+tags:
+  - api-manager
+  - windows-service
+  - installation
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Running API Manager as a Windows Service
 
 !!! note

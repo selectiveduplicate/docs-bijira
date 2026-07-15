@@ -1,3 +1,17 @@
+---
+title: "Word Count Guardrail"
+description: "Configure the Word Count Guardrail mediator in WSO2 API Manager to validate JSON payload content by word count against minimum and maximum thresholds using JSON Path expressions."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/word-count-guardrail/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/word-count-guardrail.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Word Count Guardrail
 
 The **Word Count Guardrail** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to perform **word count-based validation** on incoming or outgoing JSON payloads. This component acts as a *guardrail* to enforce specific content moderation rules based on configurable minimum and maximum word counts and JSON Path expressions.

@@ -1,3 +1,17 @@
+---
+title: "Attach Policies to an API"
+description: "Attach default request, response, and fault policies to an API at the API level or operation level using the WSO2 API Publisher's drag-and-drop policy editor."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/attach-policy/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/attach-policy.md
+tags:
+  - api-manager
+  - api-policies
+  - api-publisher
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Attaching Policies
 
 Follow the instructions below to attach one or more default policies that are shipped with WSO2 API Manager to an existing API.

@@ -1,3 +1,17 @@
+---
+title: "Customize the API Lifecycle"
+description: "Add a custom state (such as Rejected) to the default API lifecycle in WSO2 API Manager by editing the LifeCycle configuration and its state transitions from the Management Console."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/lifecycle-management/customize-api-life-cycle/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/lifecycle-management/customize-api-life-cycle.md
+tags:
+  - api-manager
+  - lifecycle-management
+  - governance
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Customize API Life Cycle
 
 APIs created in WSO2 API Manager have their own life cycle consisting of the following: a set of life cycle states, specific actions for each state transition, and a checklist of items before a state transition occurs. An API has a predefined life cycle consists of [six states](../../../manage-apis/design/lifecycle-management/api-lifecycle.md#api-lifecycle-states). This tutorial demonstrates how you can edit the default API lifecycle and customize it according to your requirements.

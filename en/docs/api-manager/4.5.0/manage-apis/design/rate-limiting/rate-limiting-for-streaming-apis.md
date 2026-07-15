@@ -1,3 +1,17 @@
+---
+title: "Rate Limiting for Streaming APIs"
+description: "Configure count-based, time-based, and count-time hybrid rate limiting policies for WebSocket, SSE, and WebSub (WebHook) Streaming APIs in WSO2 API Manager, and apply them through Business Plans."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/rate-limiting-for-streaming-apis/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/rate-limiting-for-streaming-apis.md
+tags:
+  - api-manager
+  - rate-limiting
+  - streaming-apis
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Rate Limiting for Streaming APIs
 
 ## Overview

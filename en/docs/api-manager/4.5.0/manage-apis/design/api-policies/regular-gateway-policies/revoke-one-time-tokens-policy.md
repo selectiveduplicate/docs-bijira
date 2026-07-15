@@ -1,3 +1,17 @@
+---
+title: "Revoke One Time Tokens Policy"
+description: "Configure the Revoke One Time Token gateway policy to restrict a JWT access token to a single use by attaching the policy to an API resource and adding the matching scope to the JWT."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/regular-gateway-policies/revoke-one-time-tokens-policy/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-policies/regular-gateway-policies/revoke-one-time-tokens-policy.md
+tags:
+  - api-manager
+  - gateway-policies
+  - oauth2
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Revoke One Time Tokens Policy
 
 The [JWT access tokens](../../../../manage-apis/design/api-security/oauth2/access-token-types/jwt-tokens.md) issued in the Gateway can be used to access the dedicated API resource as many times as the user needs. However, if the application developer wants to restrict this ability by providing only one chance to access the resource then One Time Token can be used. One Time Token is a JWT that will be revoked after single usage. This feature is **only available for JWT access tokens**.

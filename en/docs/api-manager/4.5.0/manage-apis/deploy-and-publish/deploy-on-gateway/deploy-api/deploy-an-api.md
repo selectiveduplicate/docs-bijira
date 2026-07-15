@@ -1,3 +1,17 @@
+---
+title: "Deploy an API"
+description: "Deploy an API revision to a selected API Gateway environment via the Publisher Portal so it can be invoked, and undeploy an API to remove it from a Gateway environment."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/deploy-api/deploy-an-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/deploy-api/deploy-an-api.md
+tags:
+  - api-manager
+  - deployment
+  - api-revisions
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Deploy an API
 
 <div class="admonition note">

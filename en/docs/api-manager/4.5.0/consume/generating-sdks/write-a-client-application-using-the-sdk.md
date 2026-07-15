@@ -1,3 +1,17 @@
+---
+title: "Write a Client Application Using the SDK"
+description: "Build a Java client application using a generated API SDK: unzip and build the SDK with Maven, set up the API client with an access token, and invoke API resources, including a renewable-token variant using an interceptor."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/consume/generating-sdks/write-a-client-application-using-the-sdk/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/consume/generating-sdks/write-a-client-application-using-the-sdk.md
+tags:
+  - api-manager
+  - generating-sdks
+  - developer-portal
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Write a Client Application Using the SDK
 
 

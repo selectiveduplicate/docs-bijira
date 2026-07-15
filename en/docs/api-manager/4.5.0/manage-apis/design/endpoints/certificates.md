@@ -1,3 +1,17 @@
+---
+title: "Manage Endpoint Certificates"
+description: "Upload, view, and delete backend endpoint certificates for HTTP/REST and HTTP/SOAP APIs in API Publisher without restarting the Gateway server."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/endpoints/certificates/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/endpoints/certificates.md
+tags:
+  - api-manager
+  - endpoints
+  - security
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Managing Endpoint Certificates
 
 If your API backend is secured with a self-signed certificate (or a certificate which is not signed by a CA) you need to import the backend certificate to the API manager (Gateway) client-truststore and restart the server. This feature enables you to upload the backend certificate through API Publisher while creating or editing your API **without restarting the server**. 

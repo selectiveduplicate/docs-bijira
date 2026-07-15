@@ -1,3 +1,17 @@
+---
+title: "Writing Custom Gateway Handlers"
+description: "Understand the default API Gateway handler chain in WSO2 API Manager and learn how to write, build, and engage a custom handler such as a custom authentication handler."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/extending-api-manager/extending-gateway/writing-custom-handlers/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/extending-api-manager/extending-gateway/writing-custom-handlers.md
+tags:
+  - api-manager
+  - api-gateway
+  - custom-handlers
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Writing Custom Handlers
 
 This section introduces handlers and explains how to write a custom handler using an example.

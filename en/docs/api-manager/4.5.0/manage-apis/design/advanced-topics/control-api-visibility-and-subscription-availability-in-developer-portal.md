@@ -1,3 +1,17 @@
+---
+title: "Control API Visibility and Subscription Availability in the Developer Portal"
+description: "Configure who can view an API (public, restricted by roles, or visible to my domain) and who can subscribe to it across tenants, using the API Publisher UI or the REST API."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/control-api-visibility-and-subscription-availability-in-developer-portal/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/advanced-topics/control-api-visibility-and-subscription-availability-in-developer-portal.md
+tags:
+  - api-manager
+  - developer-portal
+  - multi-tenancy
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Control API Visibility, Subscription Availability and API documentation visibility in the Developer Portal
 
 By default, the APIs created in the API Publisher Portal are visible to anyone (even anonymous users) who visits the Developer Portal. However, API Publishers can control the visibility of APIs using two approaches. API Publishers can select as to which users can view their APIs and which users can subscribe to their APIs.

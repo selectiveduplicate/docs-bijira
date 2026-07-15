@@ -1,3 +1,17 @@
+---
+title: "Configure Secondary User Stores"
+description: "Configure secondary user stores for WSO2 API Manager either through the Management Console or by manually creating LDAP, Active Directory, or JDBC user store XML configuration files."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/administer/managing-users-and-roles/managing-user-stores/configuring-secondary-user-stores/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/administer/managing-users-and-roles/managing-user-stores/configuring-secondary-user-stores.md
+tags:
+  - api-manager
+  - user-stores
+  - identity-and-access-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configuring Secondary User Stores
 
 The default configuration of the WSO2 API Manager has a single, embedded user store (primary user store). If required, you can configure WSO2 products to connect to several secondary user stores as well. After configuration, users from different stores can log in and perform operations depending on their roles/permissions. You can also configure customized user stores and connect them with the products as secondary stores.

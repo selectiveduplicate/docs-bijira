@@ -1,3 +1,17 @@
+---
+title: "Performance Test Results for Token Persistence"
+description: "Benchmark results comparing token endpoint throughput and CPU/IOPS usage in WSO2 API Manager with and without token persistence, across Client Credentials, Password, and Refresh grant types."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-best-practices/performance-test-results-token-persistence/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-best-practices/performance-test-results-token-persistence.md
+tags:
+  - api-manager
+  - token-persistence
+  - performance-testing
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Performance Test Results for Token Persistence
 
 

@@ -1,3 +1,17 @@
+---
+title: "Reset Application Throttling Policies"
+description: "Reset the application-level rate limiting quota for a specific end-user in WSO2 API Manager by providing their username or UUID, without waiting for the throttle window to expire."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/resetting-application-throttling-policies/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/rate-limiting/resetting-application-throttling-policies.md
+tags:
+  - api-manager
+  - rate-limiting
+  - applications
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Reset Application Throttling Policies
 
 WSO2 API Manager allows you to reset the Application-level rate limiting tier for a specified end-user. This feature can be used by the application owner or shared owner to reset throttle policies by providing the username or the UUID of the application user on their request. 

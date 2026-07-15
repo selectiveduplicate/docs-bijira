@@ -1,3 +1,17 @@
+---
+title: "Pattern 5: All-in-One with Separated Key Manager and Gateway on Kubernetes"
+description: "Deploy WSO2 API Manager on Kubernetes using an All-in-One Control Plane, separate Key Manager instances, and separate Universal Gateway instances via Helm charts."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-5-all-in-one-gw-km/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-5-all-in-one-gw-km.md
+tags:
+  - api-manager
+  - kubernetes
+  - key-managers
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 5: API-M Deployment with Simple Scalable Setup with Key Manager Separated
 
 This document provides step-by-step instructions to deploy WSO2 API Manager in a standard distributed setup on Kubernetes. This pattern consists of a single API Control Plane (All-in-One), two Key Manager instances, and two Universal Gateway instances. It provides an optimal balance between high availability and resource utilization.

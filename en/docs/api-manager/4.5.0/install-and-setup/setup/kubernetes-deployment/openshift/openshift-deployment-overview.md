@@ -1,3 +1,17 @@
+---
+title: "Deploy WSO2 API Manager on OpenShift"
+description: "Prepare OpenShift-compatible Docker images, configure security context settings in values.yaml, and deploy WSO2 API Manager on OpenShift Container Platform using Helm charts in all-in-one or distributed patterns."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/openshift/openshift-deployment-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/openshift/openshift-deployment-overview.md
+tags:
+  - api-manager
+  - openshift
+  - kubernetes
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Deploy WSO2 API Manager on OpenShift
 
 This guide provides comprehensive instructions for deploying WSO2 API Manager on OpenShift Container Platform using Helm charts. OpenShift environments have unique security requirements that differ from standard Kubernetes clusters, requiring specific configuration adjustments for successful deployment.

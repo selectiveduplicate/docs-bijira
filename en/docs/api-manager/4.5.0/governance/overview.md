@@ -1,3 +1,17 @@
+---
+title: "API Management Governance Overview"
+description: "Overview of API governance in WSO2 API Manager: the benefits of a governance strategy, including security, consistency, lifecycle management, and discoverability."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/overview.md
+tags:
+  - api-manager
+  - governance
+  - lifecycle-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # WSO2 API Management Governance
 
 Governing how APIs are managed throughout their lifecycle has become a critical priority for many modern organizations. It encompasses a set of processes, practices, roles, and responsibilities aimed at ensuring the effective and efficient management of APIs. Establishing a governance strategy is essential for maintaining consistency, security, and compliance in API development, management, and consumption.

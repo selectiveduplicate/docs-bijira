@@ -1,3 +1,17 @@
+---
+title: "URL Guardrail"
+description: "Configure the URL Guardrail, a custom Synapse mediator for WSO2 API Manager Universal Gateway that validates URLs embedded in JSON payloads using DNS resolution or HTTP HEAD checks."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/url-guardrail/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/url-guardrail.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # URL Guardrail
 
 The **URL Guardrail** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to perform **URL validity checks** on incoming or outgoing JSON payloads. This component acts as a *guardrail* to enforce content safety by validating embedded URLs for accessibility or DNS resolution.

@@ -1,3 +1,17 @@
+---
+title: "Deploying APIs to Federated Gateways with WSO2 API Manager"
+description: "Walk through federating API deployment from WSO2 API Manager to AWS API Gateway: register AWS as a federated gateway, create and deploy a sample API, and secure it with an OAuth 2.0 Lambda Authorizer."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/deploying-apis-to-federated-gateways-with-wso2/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/deploying-apis-to-federated-gateways-with-wso2.md
+tags:
+  - api-manager
+  - federated-gateways
+  - aws
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Federated API Gateway Deployment: Using WSO2 API Manager to Federate API Deployment to AWS API Gateway
 
 ## Introduction

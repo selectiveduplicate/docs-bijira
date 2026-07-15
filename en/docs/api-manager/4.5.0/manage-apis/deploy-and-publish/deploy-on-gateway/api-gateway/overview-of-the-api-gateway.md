@@ -1,3 +1,17 @@
+---
+title: "Overview of the Universal Gateway"
+description: "Explains how the WSO2 Universal Gateway secures, throttles, and routes API calls, including its transport, handler, and message-processing architecture and its main security features."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/overview-of-the-api-gateway/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/overview-of-the-api-gateway.md
+tags:
+  - api-manager
+  - api-gateway
+  - architecture
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Overview of the Universal Gateway
 
 [![API-M overview](../../../../assets/img/learn/apim-overview.png){: style="width:60%"}](../../../../assets/img/learn/apim-overview.png)

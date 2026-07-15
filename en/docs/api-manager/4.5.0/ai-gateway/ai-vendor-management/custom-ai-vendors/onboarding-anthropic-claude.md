@@ -1,3 +1,17 @@
+---
+title: "Onboard Anthropic Claude as a Custom AI Vendor"
+description: "Configure Anthropic's Claude as a custom AI/LLM vendor in WSO2 API Manager's AI Gateway, including LLM attribute mappings, authentication, and model setup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-vendor-management/custom-ai-vendors/onboarding-anthropic-claude/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-vendor-management/custom-ai-vendors/onboarding-anthropic-claude.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-vendors
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Onboarding Anthropic's Claude
 
 This guide explains how to integrate WSO2 API Manager with **Claude**, allowing you to access Claude's APIs via API Manager's AI Gateway. It provides step-by-step instructions for configuring Claude as a custom AI vendor to effectively manage and track AI API interactions.

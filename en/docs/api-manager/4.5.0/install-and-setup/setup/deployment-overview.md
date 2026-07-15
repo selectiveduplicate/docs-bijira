@@ -1,3 +1,17 @@
+---
+title: "WSO2 API Manager Deployment Overview"
+description: "Compare WSO2 API Manager deployment options on VMs, Kubernetes, and OpenShift, and review the seven supported deployment patterns from all-in-one to fully distributed setups."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/deployment-overview.md
+tags:
+  - api-manager
+  - deployment
+  - kubernetes
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # WSO2 API Manager Deployment Overview
 
 WSO2 API Manager (WSO2 APIM) offers a flexible and componentized deployment architecture that supports diverse scalability, availability, and security requirements. The platform can be deployed in various patterns—from simple, all-in-one setups to fully distributed, production-grade environments—adapting seamlessly to organizational needs.

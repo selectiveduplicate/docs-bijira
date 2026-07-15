@@ -1,3 +1,17 @@
+---
+title: "Enable or Disable the Developer Portal Footer"
+description: "Show or hide the Developer Portal footer and customize its HTML, text, background, color, and height by editing the userTheme.json file."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/enable-or-disable-footer/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/enable-or-disable-footer.md
+tags:
+  - api-manager
+  - developer-portal
+  - customization
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Enable or Disable Footer
 
 The footer section is visible by default. You can hide the footer by configuring the `userTheme.json` file.

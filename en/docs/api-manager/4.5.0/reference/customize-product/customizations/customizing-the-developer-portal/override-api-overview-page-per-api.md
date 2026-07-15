@@ -1,3 +1,17 @@
+---
+title: "Override the API Overview Page per API"
+description: "Add custom Markdown content in the API Publisher to override the default Overview page shown for a specific API in the Developer Portal, using property placeholder keys like ___name___ and ___version___."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/override-api-overview-page-per-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/override-api-overview-page-per-api.md
+tags:
+  - api-manager
+  - developer-portal
+  - customization
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Override API Overview page per API
 
 It is possible to display a custom Overview content for any API by following the steps given below.

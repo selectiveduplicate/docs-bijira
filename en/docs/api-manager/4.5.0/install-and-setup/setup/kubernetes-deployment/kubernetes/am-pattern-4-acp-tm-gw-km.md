@@ -1,3 +1,17 @@
+---
+title: "Pattern 4: Fully Distributed Kubernetes Deployment"
+description: "Deploy WSO2 API Manager 4.5.0 on Kubernetes using the fully distributed pattern with separate API Control Plane, Traffic Manager, Universal Gateway, and Key Manager Helm charts for a scalable, production-ready setup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-4-acp-tm-gw-km/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-4-acp-tm-gw-km.md
+tags:
+  - api-manager
+  - kubernetes
+  - distributed-deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 4: API-M Deployment with Fully Distributed Setup
 
 This is the fully distributed deployment for API Manager. The default configuration consists of two API Control Planes, two Traffic Managers, two Universal Gateways, and two Key Managers. This is the most scalable and production-ready deployment pattern.

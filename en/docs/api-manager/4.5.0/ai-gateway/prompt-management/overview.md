@@ -1,3 +1,17 @@
+---
+title: "Prompt Management Overview"
+description: "Overview of Prompt Management in the WSO2 AI Gateway: create, organize, and govern reusable prompt templates and prompt decorators to standardize and secure AI interactions."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/prompt-management/overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/prompt-management/overview.md
+tags:
+  - api-manager
+  - ai-gateway
+  - prompt-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # Prompt Management
 
 As organizations integrate AI into their applications, the ability to manage and standardize prompts becomes essential for ensuring reliable, safe, and high-quality AI interactions. The **Prompt Management** capabilities of the WSO2 AI Gateway empower teams to create, organize, and govern prompts, maximizing the effectiveness of Large Language Models (LLMs) while maintaining compliance and consistency.

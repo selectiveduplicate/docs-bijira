@@ -1,3 +1,17 @@
+---
+title: "Pattern 6: API-M Deployment with IS as Key Manager on Kubernetes"
+description: "Deploy a single-node WSO2 API Manager instance on Kubernetes with WSO2 Identity Server 7.x configured as a third-party key manager, using Helm charts."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-6-all-in-one-is-as-km/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-6-all-in-one-is-as-km.md
+tags:
+  - api-manager
+  - kubernetes
+  - key-managers
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 6: API-M Deployment with IS as Key Manager
 
 This deployment consists of a single API-M node with a single API-M runtime with IS configured as a third party key manager.

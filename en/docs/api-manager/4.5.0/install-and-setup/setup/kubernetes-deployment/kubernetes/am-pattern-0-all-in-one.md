@@ -1,3 +1,17 @@
+---
+title: "Deploy API Manager on Kubernetes: Pattern 0 All-in-One"
+description: "Deploy WSO2 API Manager on Kubernetes as a single all-in-one node using Helm charts, covering gateway routing, keystore mounting, secret encryption, and database configuration."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-0-all-in-one/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/kubernetes-deployment/kubernetes/am-pattern-0-all-in-one.md
+tags:
+  - api-manager
+  - kubernetes
+  - helm-deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 0: API-M Deployment with All-in-One Setup
 
 This deployment consists of a single API-M node with a single API-M runtime. You can use this pattern if you expect to receive low traffic to your deployment and do not need any high availability in your environment.

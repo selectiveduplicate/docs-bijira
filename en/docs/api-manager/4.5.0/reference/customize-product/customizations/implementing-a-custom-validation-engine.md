@@ -1,3 +1,17 @@
+---
+title: "Implement a Custom Validation Engine"
+description: "Build and deploy a custom Validation Engine for WSO2 API Manager governance by implementing the ValidationEngine OSGi interface, following the Spectral Validation Engine pattern."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/implementing-a-custom-validation-engine/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/implementing-a-custom-validation-engine.md
+tags:
+  - api-manager
+  - governance
+  - customization
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Implementing a Custom Validation Engine
 
 This document provides step-by-step instructions for creating and deploying a custom Validation Engine in WSO2 API Manager, following the official implementation pattern of the Spectral Validation Engine.

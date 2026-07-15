@@ -1,3 +1,16 @@
+---
+title: "Deploy an API on AWS API Gateway"
+description: "Configure AWS API Gateway as a federated gateway in WSO2 API Manager: register AWS credentials, set up a third-party key manager, secure the API with a Lambda authorizer, and deploy, publish, and invoke the API."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/federated-gateways/deploy-on-aws-api-gateway/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/federated-gateways/deploy-on-aws-api-gateway.md
+tags:
+  - api-manager
+  - federated-gateways
+  - aws
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
 
 # Deploy API on AWS API Gateway
 

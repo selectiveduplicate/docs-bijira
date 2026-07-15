@@ -1,3 +1,17 @@
+---
+title: "Default Product Ports"
+description: "Reference list of the default ports used by the WSO2 API Manager runtime, including HTTPS/HTTP transports, LDAP, message broker, throttling, and random ports opened at startup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/reference/default-product-ports/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/reference/default-product-ports.md
+tags:
+  - api-manager
+  - deployment
+  - ports
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Default Product Ports
 
 This page describes the default ports used by each runtime of WSO2 API Manager.

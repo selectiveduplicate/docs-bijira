@@ -1,3 +1,17 @@
+---
+title: "API Creator and Publisher Governance Capabilities"
+description: "Explains how API creators and publishers monitor API governance compliance in WSO2 API Manager: policy evaluation, blocking vs. non-blocking checks, labeling APIs, the compliance dashboard, and blocked API operations."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/api-governance-api-creator-capabilities/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/governance/api-governance-api-creator-capabilities.md
+tags:
+  - api-manager
+  - governance
+  - compliance-dashboard
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # API Creator, Publisher Capabilities
 
 WSO2 API Manager enables API creators and publishers to effectively monitor the compliance status of their APIs.

@@ -1,3 +1,17 @@
+---
+title: "Regex PII Masking Policy"
+description: "Configure the Regex PII Masking policy for WSO2 API Manager's AI Gateway to detect and mask or redact personally identifiable information in AI API request and response payloads using custom regular expressions."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/regex-pii-masking/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/regex-pii-masking.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Regex PII Masking Policy
 
 The **Regex PII Masking Policy** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to safeguard Personally Identifiable Information (PII) in AI API traffic by leveraging user-defined regular expressions. It provides flexible, rule-based mechanisms to detect and obscure sensitive data in both request and response flows.

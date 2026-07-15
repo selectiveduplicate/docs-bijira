@@ -1,3 +1,17 @@
+---
+title: "Create and Publish a WebSub/WebHook API"
+description: "Tutorial to design, publish, and test a WebSub/WebHook API in WSO2 API Manager that listens for GitHub issue creation events and delivers them to a subscriber callback URL."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/streaming-api/create-and-publish-websub-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/tutorials/streaming-api/create-and-publish-websub-api.md
+tags:
+  - api-manager
+  - streaming-api
+  - websub
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Create and Publish a WebSub/WebHook API
 
 This tutorial will guide you to create a [WebHook API](../../manage-apis/design/create-api/create-streaming-api/create-a-websub-streaming-api.md) which will listen to the issues created in GitHub and send you 

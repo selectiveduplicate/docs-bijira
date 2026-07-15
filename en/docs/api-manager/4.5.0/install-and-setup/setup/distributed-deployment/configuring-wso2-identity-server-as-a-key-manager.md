@@ -1,3 +1,17 @@
+---
+title: "Configure WSO2 Identity Server as a Resident Key Manager"
+description: "Set up WSO2 Identity Server as the Resident Key Manager for a distributed WSO2 API Manager deployment, covering database sharing, the IS connector, deployment.toml configuration, and optional HA."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/install-and-setup/setup/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager.md
+tags:
+  - api-manager
+  - key-managers
+  - distributed-deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Set up WSO2 Identity Server as a Resident Key Manager
 
 Follow the instructions below to configure WSO2 Identity Server (WSO2 IS) as the Resident Key Manager of the WSO2 API Manager (WSO2 API-M) deployment globally.

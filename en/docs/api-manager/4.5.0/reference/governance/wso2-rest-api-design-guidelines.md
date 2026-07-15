@@ -1,3 +1,17 @@
+---
+title: "WSO2 REST API Design Guidelines"
+description: "Reference list of REST API design governance rules for naming conventions, path casing, OpenAPI info/contact/license fields, and schema formatting, with valid and invalid examples for each rule."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/governance/wso2-rest-api-design-guidelines/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/governance/wso2-rest-api-design-guidelines.md
+tags:
+  - api-manager
+  - governance
+  - api-design
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # WSO2 REST API Design Guidelines
 
 A set of guidelines focused on enforcing uniformity in API style, including naming conventions, formatting, and documentation to ensure clarity and maintainability across all APIs.

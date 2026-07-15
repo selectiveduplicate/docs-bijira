@@ -1,3 +1,17 @@
+---
+title: "Configure OAuth2 Token Expiration"
+description: "Configure the default access token expiration time and time stamp skew for OAuth2 tokens in API Manager via deployment.toml, and understand how skew affects token life span across Key Managers."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-security/oauth2/token-expiration/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-security/oauth2/token-expiration.md
+tags:
+  - api-manager
+  - oauth2
+  - key-managers
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Token Expiration
 
 ### Configuring the token expiration time

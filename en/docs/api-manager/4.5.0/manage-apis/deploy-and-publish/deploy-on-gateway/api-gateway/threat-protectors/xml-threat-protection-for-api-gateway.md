@@ -1,3 +1,17 @@
+---
+title: "XML Threat Protection for the API Gateway"
+description: "Configure the XML threat protector policy in WSO2 API Manager to limit XML payload depth, element and attribute counts, entity expansion, and enforce XML schema validation against malicious requests."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/threat-protectors/xml-threat-protection-for-api-gateway/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/deploy-and-publish/deploy-on-gateway/api-gateway/threat-protectors/xml-threat-protection-for-api-gateway.md
+tags:
+  - api-manager
+  - threat-protection
+  - api-gateway
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # XML Threat Protection for Universal Gateway
 
 The XML threat protector in WSO2 API Manager validates the XML payload vulnerabilities based on the pre-configured 

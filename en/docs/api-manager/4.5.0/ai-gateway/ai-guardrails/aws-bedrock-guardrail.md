@@ -1,3 +1,17 @@
+---
+title: "AWS Bedrock Guardrail"
+description: "Configure the AWS Bedrock Guardrail mediation policy in WSO2 API Manager to enforce AWS Bedrock Guardrails Service safeguards, including request/response blocking and PII masking or redaction, on AI APIs."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/aws-bedrock-guardrail/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/ai-gateway/ai-guardrails/aws-bedrock-guardrail.md
+tags:
+  - api-manager
+  - ai-gateway
+  - ai-guardrails
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # AWS Bedrock Guardrail
 
 The **AWS Bedrock Guardrail** is a custom Synapse mediator for **WSO2 API Manager Universal Gateway**, designed to enforce safeguards using **AWS Bedrock Guardrails Service**. 

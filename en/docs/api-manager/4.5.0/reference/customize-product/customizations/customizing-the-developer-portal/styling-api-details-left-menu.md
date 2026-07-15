@@ -1,3 +1,17 @@
+---
+title: "Style the API Details Left Menu"
+description: "Customize the position, icons, colors, and background of the API details left menu in the Developer Portal by editing the leftMenu attributes in userTheme.json."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/styling-api-details-left-menu/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/reference/customize-product/customizations/customizing-the-developer-portal/styling-api-details-left-menu.md
+tags:
+  - api-manager
+  - developer-portal
+  - theming
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Styling API Details Left Menu
 
 The API details left menu can be customized to match with your design needs by configuring the `defaultTheme.js` file.

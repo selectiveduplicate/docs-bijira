@@ -1,3 +1,17 @@
+---
+title: "Create a GraphQL API"
+description: "Design a GraphQL API in WSO2 API Manager from an SDL schema, and configure authorization, security, and rate limiting for query, mutation, and subscription operations."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/create-api/create-graphql-api/create-a-graphql-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/create-api/create-graphql-api/create-a-graphql-api.md
+tags:
+  - api-manager
+  - graphql
+  - rate-limiting
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Create a GraphQL API
 
 GraphQL, which has been developed by Facebook, is a data query language for APIs. When using GraphQL, users can explicitly specify as to what data they need from an API. GraphQL APIs are an alternative to REST-based APIs. 

@@ -1,3 +1,17 @@
+---
+title: "Enable Notifications for New API Versions"
+description: "Configure email server settings and enable notifications in API Manager so existing subscribers are automatically notified when a new version of an API is released."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-versioning/enabling-notifications/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/api-versioning/enabling-notifications.md
+tags:
+  - api-manager
+  - api-versioning
+  - notifications
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Enabling Notifications
 
 You can enable notifications when you create new API versions, to notify the existing subscribers (via email) that a new version of the API is available. If you want to send a different type of notification, you can extend the `org.wso2.carbon.apimgt.impl.notification.Notifier` abstract class based on your requirements.

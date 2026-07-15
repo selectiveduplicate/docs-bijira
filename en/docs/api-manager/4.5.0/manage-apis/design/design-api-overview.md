@@ -1,3 +1,17 @@
+---
+title: "Designing an API Overview"
+description: "Overview of the API design phase in WSO2 API Manager: creating REST, GraphQL, and streaming APIs, securing them with authentication, authorization, and rate limiting, plus documenting, testing, and versioning APIs."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/design-api-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.5.0/manage-apis/design/design-api-overview.md
+tags:
+  - api-manager
+  - api-design
+  - api-lifecycle
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # Designing an API
 
 Designing an API spans through a few phases of an API Lifecycle. A correct tool can help design an API seamlessly and efficiently. WSO2 API Manager supports the designing of an API via the API Publisher Portal. 
