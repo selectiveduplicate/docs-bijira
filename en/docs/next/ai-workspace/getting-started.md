@@ -38,10 +38,10 @@ cd wso2apip-ai-workspace-1.0.0-alpha
 ./scripts/setup.sh
 ```
 
-The script generates everything the stack requires: the encryption and JWT signing keys and the admin login credentials (written to `api-platform.env`), and the TLS certificate shared by both services (written to `resources/certificates/`).
+The script generates everything the stack requires: the encryption and JWT signing keys (written to `api-platform.env`), the admin username and password (printed to the terminal only), and the TLS certificate shared by both services (written to `resources/certificates/`).
 
 !!! warning "Save the printed admin username and password"
-    The password is shown only once and stored nowhere. Rerun `./scripts/setup.sh --force` to rotate it.
+    The admin password is shown only once and is not stored in `api-platform.env` or anywhere else. If you lose it, rerun `./scripts/setup.sh --force` to generate a new one.
 
 ## Step 3: Start the Stack
 
@@ -68,7 +68,7 @@ An AI gateway is the runtime that processes and routes requests between your app
 1. Navigate to **AI Gateways** in the left navigation menu.
 2. Click **+ Add AI Gateway**.
 3. Fill in the **Name** and **URL**, then click **Add Gateway**.
-4. Copy the **Gateway Registration Token** and follow the setup instructions to start the gateway runtime.
+4. Copy the **Gateway Registration Token** and save it securely immediately — it is shown only once. Then follow the setup instructions to start the gateway runtime.
 5. Once connected, the gateway status changes from **Inactive** to **Active**.
 
 For detailed instructions, see [AI Gateways](ai-gateways/setting-up.md).
