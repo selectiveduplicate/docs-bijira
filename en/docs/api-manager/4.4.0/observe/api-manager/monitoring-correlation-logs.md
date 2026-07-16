@@ -1,3 +1,17 @@
+---
+title: "Monitoring Correlation Logs for Observability in WSO2 API Manager"
+description: "Enable Correlation Logs (observability) in WSO2 API Manager to trace method calls, external HTTP calls, and database (JDBC/LDAP) calls under a single Correlation ID, and use the logs to diagnose latency bottlenecks."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/observe/api-manager/monitoring-correlation-logs/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/observe/api-manager/monitoring-correlation-logs.md
+tags:
+  - api-manager
+  - logging
+  - correlation-logs
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Monitoring Correlation Logs
 
 Observability in WSO2 API Manager (WSO2 API-M) is really important to debug issues in a short period. WSO2 API-M facilitates observability by logging the following important points of the system with the time taken to achieve them. 

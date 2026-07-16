@@ -1,3 +1,17 @@
+---
+title: "Change the Default Database to Oracle"
+description: "Set up an Oracle database for WSO2 API Manager, replacing the default H2 database, and configure the shared, apim, and carbon datasources in deployment.toml."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/setting-up-databases/changing-default-databases/changing-to-oracle/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/setting-up-databases/changing-default-databases/changing-to-oracle.md
+tags:
+  - api-manager
+  - databases
+  - oracle
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Changing to Oracle
 
 By default, WSO2 API Manager uses the embedded H2 database as the database for storing user management and registry data. Given below are the instructions you need to follow in order to use Oracle database for this purpose.

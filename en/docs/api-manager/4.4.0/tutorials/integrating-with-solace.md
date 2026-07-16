@@ -1,3 +1,17 @@
+---
+title: "Integrating with the Solace Event Broker"
+description: "Tutorial on integrating the Solace event broker with WSO2 API Manager: configuring the Solace gateway environment, importing an AsyncAPI definition, deploying, subscribing to, and invoking a Solace API."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/integrating-with-solace/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/integrating-with-solace.md
+tags:
+  - api-manager
+  - solace
+  - async-api
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # External Broker and Gateway Integration with API Manager
 
 WSO2 API Manager now supports integrating external third party Gateways and Brokers. Solace is an advanced event broker which is efficiently streaming events and information across cloud, on-premises, and IoT environments. In this section, you will integrate the Solace gateway environment with API Manager.

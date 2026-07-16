@@ -1,3 +1,17 @@
+---
+title: "Maintain Separate Production and Sandbox Gateways"
+description: "Configure a hybrid Universal Gateway or separate production and sandbox Universal Gateways in deployment.toml, and set up multi-region Gateway environments in WSO2 API Manager."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/deploy-and-publish/deploy-on-gateway/api-gateway/maintaining-separate-production-and-sandbox-gateways/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/deploy-and-publish/deploy-on-gateway/api-gateway/maintaining-separate-production-and-sandbox-gateways.md
+tags:
+  - api-manager
+  - gateway-deployment
+  - environments
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Maintaining Separate Production and Sandbox Gateways
 
 With WSO2 API Manager, you can maintain a production and a sandbox endpoint for a given API. The production endpoint is the actual location of the API, whereas the sandbox endpoint points to its testing/pre-production environment.

@@ -1,3 +1,17 @@
+---
+title: "Backward Compatibility and Default API Versions"
+description: "Understand default API versions in WSO2 API Manager and how marking a version as default relates to maintaining backward compatibility for existing subscribers."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-versioning/backward-compatibility/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-versioning/backward-compatibility.md
+tags:
+  - api-manager
+  - api-versioning
+  - default-version
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Backward Compatibility
 
 The following section explains the concept of a default version and backward compatibility with regard to an API version.

@@ -1,3 +1,17 @@
+---
+title: "Overview of Access Tokens"
+description: "Learn how consumer-key and consumer-secret credentials relate to access tokens in WSO2 API Manager, and the difference between application access tokens and user access tokens."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-application/generate-keys/obtain-access-token/overview-of-access-tokens/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-application/generate-keys/obtain-access-token/overview-of-access-tokens.md
+tags:
+  - api-manager
+  - oauth2
+  - access-tokens
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Overview of Access Tokens
 
 When an Application Developer registers an Application on the Developer Portal, the Application is given a consumer-key and a consumer-secret, which represents the credentials of the Application that is being registered. The consumer-key becomes the unique identifier of the Application, similar to a user's username, and is used to authenticate users. When an Access Token is issued for the Application, it is issued against the latter mentioned consumer-key.

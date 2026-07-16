@@ -1,3 +1,17 @@
+---
+title: "Invoke API Manager from the BPEL Engine"
+description: "Call back the API Manager workflow callback endpoint from a BPEL engine using its SOAP or REST URIs, with sample curl and SOAP requests for progressing a workflow."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/extending-api-manager/extending-workflows/invoking-the-api-manager-from-the-bpel-engine/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/extending-api-manager/extending-workflows/invoking-the-api-manager-from-the-bpel-engine.md
+tags:
+  - api-manager
+  - workflows
+  - bpel
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Invoking the API Manager from the BPEL Engine
 
 Once the workflow configurations are finalized at the BPEL, the call-back URL of the APIM, which is originally configured in the `<APIM_HOME>/repository/conf/api-manager.xml` file and sent to the BPEL engine in the outflow will be called to progress the workflow. In APIM, the endpoint is available in both SOAP and REST variants as follows:

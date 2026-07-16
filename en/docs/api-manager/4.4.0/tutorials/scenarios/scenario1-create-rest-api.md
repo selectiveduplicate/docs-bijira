@@ -1,3 +1,17 @@
+---
+title: "Scenario 1: Create a REST API from an OpenAPI Definition"
+description: "Walk through importing an OpenAPI definition to create a REST API in WSO2 API Manager, remove resource-level authentication, deploy it to the Gateway, test it with the Try Out console, and publish it to the Developer Portal."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/scenarios/scenario1-create-rest-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/scenarios/scenario1-create-rest-api.md
+tags:
+  - api-manager
+  - rest-api
+  - openapi
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Scenario 1 - Create REST API from an OpenAPI Definition
 
 This tutorial is part of a series that guides you through all the capabilities of API Manager. This involves creating a REST API from an OpenAPI Definition. For more details on the scenario and general prerequisites, please see [the scenario overview page](../../tutorials/scenarios/scenario-overview.md).

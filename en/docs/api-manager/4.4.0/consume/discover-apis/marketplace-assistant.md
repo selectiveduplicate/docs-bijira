@@ -1,3 +1,17 @@
+---
+title: "Get Started with the Marketplace Assistant"
+description: "Register for the AI Subscription Portal, configure the on-premise token in deployment.toml, and sync your APIs to start using the AI-powered Marketplace Assistant in the developer portal."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/discover-apis/marketplace-assistant/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/discover-apis/marketplace-assistant.md
+tags:
+  - api-manager
+  - ai-gateway
+  - developer-portal
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "quickstart"
+---
+
 # Marketplace Assistant Getting Started Guide
 
 The Marketplace Assistant is a powerful tool provided by API Manager, utilizing AI to chat with your APIs and offer recommendations, moving beyond traditional keyword searches. Using this you can access role-restricted APIs in addition to the public APIs defined according to the [developer portal visibility](../../design/advanced-topics/control-api-visibility-and-subscription-availability-in-developer-portal.md#control-api-visibility-in-the-developer-portal).

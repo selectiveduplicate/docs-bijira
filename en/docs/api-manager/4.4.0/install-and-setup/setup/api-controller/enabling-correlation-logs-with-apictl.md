@@ -1,3 +1,17 @@
+---
+title: "Enable Correlation Logs with apictl"
+description: "Use WSO2 API Controller (apictl) commands to get and set correlation logging components in a WSO2 API Manager environment without restarting the server."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/enabling-correlation-logs-with-apictl/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/enabling-correlation-logs-with-apictl.md
+tags:
+  - api-manager
+  - api-controller
+  - observability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Enabling Correlation Logs with apictl
 
 **WSO2 API Controller (apictl)** allows you to enable/disable correlation logs in WSO2 API Manager (WSO2 API-M) without a server restart. (For more information on correlation logs support in WSO2 API-M, see [Monitoring Correlation Logs](../../../observe/api-manager/monitoring-correlation-logs.md)) 

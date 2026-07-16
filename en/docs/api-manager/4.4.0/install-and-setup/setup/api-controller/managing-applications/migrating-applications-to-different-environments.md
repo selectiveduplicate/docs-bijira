@@ -1,3 +1,17 @@
+---
+title: "Migrating Applications to Different Environments"
+description: "Use WSO2 API Controller (apictl) to export applications from one environment and import them into another, including options for preserving or changing the application owner and skipping subscriptions or keys."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/managing-applications/migrating-applications-to-different-environments/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/managing-applications/migrating-applications-to-different-environments.md
+tags:
+  - api-manager
+  - api-controller
+  - applications
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Migrating Apps to Different Environments
 **WSO2 API Controller (apictl)** allows you to maintain multiple environments running on the same WSO2 API Manager (WSO2 API-M) version. This feature allows you to import and export applications between your environments. For example, if you have an application running in the development environment, you can import it and export it to the production environment. Thereby, applications do not have to be created from scratch in different environments.
 

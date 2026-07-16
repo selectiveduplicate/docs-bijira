@@ -1,3 +1,17 @@
+---
+title: "Extending the Key Manager Interface"
+description: "Reference for the KeyManager interface methods in WSO2 API Manager, used to implement a custom Key Manager Connector for a third-party OAuth2 Authorization Server."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/extending-api-manager/extending-key-management/extending-the-key-manager-interface/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/extending-api-manager/extending-key-management/extending-the-key-manager-interface.md
+tags:
+  - api-manager
+  - key-managers
+  - oauth2
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Extending the Key Manager Interface
 
 In a typical WSO2 API Manager (WSO2 API-M) deployment, different components talk to the **KeyManager** interface to achieve different tasks. 

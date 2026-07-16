@@ -1,3 +1,17 @@
+---
+title: "Kubernetes Deployment Pattern 1: All-in-One HA Setup"
+description: "Deploy a highly available WSO2 API Manager cluster on Kubernetes using Helm charts with multiple all-in-one nodes and an external database, covering custom Docker image builds, database setup, ingress, keystore mounting, secret encryption, and accessing the management consoles."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-1-all-in-one-ha/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-1-all-in-one-ha.md
+tags:
+  - api-manager
+  - kubernetes
+  - high-availability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Pattern 1: API-M Deployment with All-in-One HA Setup
 
 This deployment consists of a highly available API-M cluster with multiple nodes of the API-M runtime. You can use this pattern if you expect to receive moderate traffic and require high availability in your environment.

@@ -1,3 +1,17 @@
+---
+title: "Introducing Rate Limiting Use Cases"
+description: "Explains why rate limiting matters for backend services, gateway-hosted APIs, and consuming applications, covering maximum backend throughput, subscription tiers, burst control, advanced rate limiting policies, and per-token quotas in API Manager."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/rate-limiting/introducing-throttling-use-cases/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/rate-limiting/introducing-throttling-use-cases.md
+tags:
+  - api-manager
+  - rate-limiting
+  - throttling
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Introducing Rate Limiting Use-Cases
 
 Rate limiting allows you to limit the number of successful hits to an API during a given period, typically in cases such as the following:

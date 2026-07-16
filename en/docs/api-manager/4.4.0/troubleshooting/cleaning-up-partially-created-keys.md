@@ -1,3 +1,17 @@
+---
+title: "Clean Up Partially Created Application Keys"
+description: "Fix stale OAuth application data left in WSO2 API Manager when key generation or deletion fails partway through, using the Clean Up button in the application details page."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/troubleshooting/cleaning-up-partially-created-keys/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/troubleshooting/cleaning-up-partially-created-keys.md
+tags:
+  - api-manager
+  - key-managers
+  - troubleshooting
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "troubleshooting"
+---
+
 # Cleaning Up Partially Created Keys
 
 An application created in WSO2 API Manager has a corresponding OAuth application in the Key Manager node. An application can be created or deleted partially, where the OAuth application is successfully created/deleted but there is stale data left in the API Manager node. This can happen due to network failures between the API Manager and the Key Manager nodes, partial deletion of applications, etc.

@@ -1,3 +1,17 @@
+---
+title: "Configuring the Primary User Store"
+description: "Overview of primary user store types supported by API Manager (JDBC, read-only LDAP, read-write LDAP, and Active Directory) and how to select one via the deployment.toml user_store section."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/managing-users-and-roles/managing-user-stores/configure-primary-user-store/configuring-the-primary-user-store/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/managing-users-and-roles/managing-user-stores/configure-primary-user-store/configuring-the-primary-user-store.md
+tags:
+  - api-manager
+  - user-management
+  - user-stores
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # Configuring the Primary User Store
 
 This documentation explains the process of setting up a primary user store for your system.

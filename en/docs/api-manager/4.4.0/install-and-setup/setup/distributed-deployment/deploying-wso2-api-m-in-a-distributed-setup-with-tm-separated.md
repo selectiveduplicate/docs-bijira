@@ -1,3 +1,17 @@
+---
+title: "Distributed Deployment with Traffic Manager Separated from the Control Plane"
+description: "Configure a distributed WSO2 API Manager deployment where the Traffic Manager component runs on its own node, separate from the Control Plane (Key Manager, Publisher, and Developer Portal) and Gateway Worker nodes."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-distributed-setup-with-tm-separated/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-distributed-setup-with-tm-separated.md
+tags:
+  - api-manager
+  - distributed-deployment
+  - traffic-manager
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configuring a Distributed API-M Deployment with Traffic Manager Separated from the Control Plane
 
 The WSO2 API-M server can be deployed as an [all-in-one deployment](../../../install-and-setup/setup/single-node/all-in-one-deployment-overview.md) or as a distributed deployment. In the distributed setup, the [API-M server profiles](../../../install-and-setup/setup/distributed-deployment/product-profiles.md) are deployed as separate API-M nodes. 

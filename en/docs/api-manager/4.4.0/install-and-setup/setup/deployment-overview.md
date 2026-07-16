@@ -1,3 +1,17 @@
+---
+title: "WSO2 API Manager Deployment Overview"
+description: "Compare WSO2 API Manager deployment patterns - standard HA, standard HA with multitenancy, simple scalable, and simple scalable with Traffic Manager separation - and find links to set up the API-M and integration clusters for each."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/deployment-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/deployment-overview.md
+tags:
+  - api-manager
+  - deployment-patterns
+  - high-availability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # WSO2 API Manager Deployment Overview
 
 WSO2 API Manager consists of an API management layer and an integration layer. The API management layer contains several components, which you can use in your deployment according to your requirement. The integration layer includes either the Micro Integrator runtime (for services integration) and the Streaming Integrator runtime (for streaming requirements) or both runtimes.

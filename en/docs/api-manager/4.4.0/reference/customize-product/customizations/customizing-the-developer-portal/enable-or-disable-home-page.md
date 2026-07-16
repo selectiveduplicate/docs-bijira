@@ -1,3 +1,17 @@
+---
+title: "Enable or Disable the Developer Portal Home Page"
+description: "Configure the userTheme.json file to enable a branded landing page for the developer portal, and customize its carousel, tag-based API listings, parallax, and contact sections."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/customizations/customizing-the-developer-portal/enable-or-disable-home-page/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/customize-product/customizations/customizing-the-developer-portal/enable-or-disable-home-page.md
+tags:
+  - api-manager
+  - developer-portal
+  - ui-customization
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Enable or Disable Home Page
 
 It is a common requirement to have a Landing Page if the developer portal is required to present corporate branding. The default Landing Page is the API listing page. But when we enable the Home Page, there will be an additional Landing Page. It can be customized based on the design requirements by configuring the `defaultTheme.js` file.

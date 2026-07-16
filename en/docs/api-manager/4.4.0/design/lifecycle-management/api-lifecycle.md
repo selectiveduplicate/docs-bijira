@@ -1,3 +1,17 @@
+---
+title: "Manage the API Lifecycle"
+description: "Understand the six default API lifecycle states in WSO2 API Manager - CREATED, PRE-RELEASED, PUBLISHED, BLOCKED, DEPRECATED, and RETIRED - and how to transition an API between them from the Publisher portal."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/lifecycle-management/api-lifecycle/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/lifecycle-management/api-lifecycle.md
+tags:
+  - api-manager
+  - lifecycle-management
+  - api-publisher
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # API Lifecycle
 
 The API lifecycle is one of the key factors in API management. An API lifecycle has predefined states. These states represent the stages that an API has in the process of starting to develop an API until it's retirement. WSO2 API Manager related APIs and API Products have a lifecycle that contains six stages which allows you to identify in which state that the APIs or API Products are currently in.

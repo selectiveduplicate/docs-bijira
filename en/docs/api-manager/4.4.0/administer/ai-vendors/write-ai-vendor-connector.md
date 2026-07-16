@@ -1,3 +1,17 @@
+---
+title: "Write a Connector for a Custom AI Vendor"
+description: "Create and deploy a custom AI vendor connector for WSO2 API Manager by implementing the LLMProviderService interface, building the Maven project into a connector JAR, and deploying it to the API-M server's dropins directory."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/ai-vendors/write-ai-vendor-connector/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/ai-vendors/write-ai-vendor-connector.md
+tags:
+  - api-manager
+  - ai-apis
+  - ai-vendor-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Write a Connector for a Custom AI Vendor
 
 When onboarding a custom AI vendor to API Manager, you have the option to either use the built-in <a href='https://github.com/wso2/carbon-apimgt/blob/master/components/apimgt/org.wso2.carbon.apimgt.api/src/main/java/org/wso2/carbon/apimgt/api/DefaultLLMProviderService.java'>`default`</a> connector or write your own custom connector.

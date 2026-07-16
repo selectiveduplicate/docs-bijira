@@ -1,3 +1,17 @@
+---
+title: "Configure Message Builders and Formatters"
+description: "Configure the default and custom message builders and formatters used by the WSO2 API Manager Gateway to process incoming payloads and build outgoing message streams based on content type."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-policies/regular-gateway-policies/configuring-message-builders-formatters/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-policies/regular-gateway-policies/configuring-message-builders-formatters.md
+tags:
+  - api-manager
+  - gateway-policies
+  - message-mediation
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configuring Message Builders and Formatters
 
 When a message comes into WSO2 API Manager Gateway, the receiving transport selects a message builder based on the message's content type. It uses that builder to process the message's raw payload data and convert it into SOAP. Conversely, when sending a message out from API Gateway, a message formatter is used to build the outgoing stream from the message. As with message builders, the message formatter is selected based on the message's content type. Given below is the typical workflow:

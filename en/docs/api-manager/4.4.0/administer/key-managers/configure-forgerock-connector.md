@@ -1,3 +1,17 @@
+---
+title: "Configure ForgeRock as a Key Manager"
+description: "Configure ForgeRock as a third-party Key Manager for WSO2 API Manager using the WSO2 API-M ForgeRock connector, including OAuth 2.0 provider setup, dynamic client registration, and key generation."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/key-managers/configure-forgerock-connector/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/key-managers/configure-forgerock-connector.md
+tags:
+  - api-manager
+  - key-managers
+  - oauth2
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configure ForgeRock as a Key Manager
 
 WSO2 API Manager has the capability to support multiple Key Managers at the same time. So with the use of connectors, it is capable of supporting any authorization server as a Key Manager. Additionally, WSO2 API Manager is prepacked with an inbuilt resident Key Manager.

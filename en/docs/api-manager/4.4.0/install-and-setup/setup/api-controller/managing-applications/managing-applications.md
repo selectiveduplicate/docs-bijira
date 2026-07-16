@@ -1,3 +1,17 @@
+---
+title: "Manage Applications with apictl"
+description: "Use WSO2 API Controller (apictl) to list and delete Developer Portal Applications in an environment, including owner-based filtering and command deprecation notes."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/managing-applications/managing-applications/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/managing-applications/managing-applications.md
+tags:
+  - api-manager
+  - api-controller
+  - applications
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Managing Applications
 
 ## Add Applications in an environment

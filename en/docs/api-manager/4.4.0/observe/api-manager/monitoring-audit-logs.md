@@ -1,3 +1,17 @@
+---
+title: "Monitoring Audit Logs in WSO2 API Manager"
+description: "Configure and review audit logs in WSO2 API Manager, including the default log4j2 appender settings and the set of Publisher and Developer Portal actions, such as sign-in, API and application lifecycle changes, and subscriptions, that get recorded."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/observe/api-manager/monitoring-audit-logs/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/observe/api-manager/monitoring-audit-logs.md
+tags:
+  - api-manager
+  - logging
+  - audit-logs
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Monitoring Audit Logs
 
 Auditing is a primary requirement when it comes to monitoring production servers. For example, DevOps need to have a clear mechanism for identifying who did what, and to filter possible system violations or breaches.

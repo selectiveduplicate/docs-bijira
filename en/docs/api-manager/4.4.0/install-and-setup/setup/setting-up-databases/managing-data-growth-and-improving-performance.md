@@ -1,3 +1,17 @@
+---
+title: "Managing Data Growth and Improving Performance"
+description: "Clean up accumulated runtime data such as unused OAuth2 tokens, sessions, and Registry records in WSO2 API Manager using regular cleanup and deep cleanup stored procedures to prevent database growth from degrading performance."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/setting-up-databases/managing-data-growth-and-improving-performance/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/setting-up-databases/managing-data-growth-and-improving-performance.md
+tags:
+  - api-manager
+  - database
+  - performance
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Managing Data Growth and Improving Performance
 
 WSO2 API Manager (WSO2 API-M) when in use, will store metadata and runtime data in its connected databases. For example, it stores APIs, applications, subscriptions, and tokens that are created by users. Metadata related to applications and APIs are not been written to the databases frequently. However, as runtime data depends on different attributes such as the number of users, number of connected applications, and usage patterns, having a considerable load on the system will result in runtime data accumulating slowly over time. This will result in high data growth of the tables and this in return will negatively impact the performance of the system. 

@@ -1,3 +1,17 @@
+---
+title: "Configuring a Distributed API Manager Deployment"
+description: "Step-by-step guide to set up the default distributed WSO2 API Manager deployment with separate Gateway Worker and Control Plane nodes: install the servers, configure databases, harden for production, create SSL certificates, connect analytics, and configure and start each profile with high availability."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-distributed-setup/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/deploying-wso2-api-m-in-a-distributed-setup.md
+tags:
+  - api-manager
+  - distributed-deployment
+  - high-availability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configuring a Distributed API-M Deployment with Gateway and Control Plane
 
 The WSO2 API-M server can be deployed as an [all-in-one deployment](../../../install-and-setup/setup/single-node/all-in-one-deployment-overview.md) or as a distributed deployment. In the distributed setup, the [API-M server profiles](../../../install-and-setup/setup/distributed-deployment/product-profiles.md) are deployed as separate API-M nodes. 

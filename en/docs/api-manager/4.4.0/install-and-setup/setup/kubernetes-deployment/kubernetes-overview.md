@@ -1,3 +1,17 @@
+---
+title: "Kubernetes Deployment Overview and Prerequisites"
+description: "Supported Kubernetes distributions, managed Kubernetes services, Helm versions, and resource requirements for deploying WSO2 API Manager 4.4.0 on Kubernetes, with links to each of the available deployment patterns."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/kubernetes-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/kubernetes-overview.md
+tags:
+  - api-manager
+  - kubernetes
+  - deployment-patterns
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # Prerequisites
 
 To successfully deploy WSO2 API Manager (WSO2 API-M) in your Kubernetes environment, you'll need a Kubernetes cluster, a Kubernetes client (`kubectl`), and Helm for package management. Additionally, your environment must meet specific requirements across managed Kubernetes services, resource allocations, and supported Kubernetes distributions. Each section below outlines these requirements for a successful deployment.

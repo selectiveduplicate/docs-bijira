@@ -1,3 +1,17 @@
+---
+title: "Add a Third-party API"
+description: "Publish APIs deployed on external gateways in WSO2 API Manager as third-party APIs, converting existing API types or importing streaming APIs via the Other option."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/deploy-and-publish/publish-on-dev-portal/third-party-api-support/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/deploy-and-publish/publish-on-dev-portal/third-party-api-support.md
+tags:
+  - api-manager
+  - developer-portal
+  - third-party-apis
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Add a Third-party API
 
 WSO2 API Manager provides the capability to publish APIs that are deployed in an external gateway. Since these APIs are not deployed in the WSO2 API gateway, the API will not be proxied through the gateway.

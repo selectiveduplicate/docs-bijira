@@ -1,3 +1,17 @@
+---
+title: "API Manager FAQ"
+description: "Answers to frequently asked questions about WSO2 API Manager covering general product information, installation and startup, deployment patterns, functionality, authentication and security, and common troubleshooting scenarios."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/faq/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/faq.md
+tags:
+  - api-manager
+  - faq
+  - troubleshooting
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # FAQ
 
 ## About WSO2 API Manager

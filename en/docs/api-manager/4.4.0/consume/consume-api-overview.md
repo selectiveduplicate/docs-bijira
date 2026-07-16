@@ -1,3 +1,17 @@
+---
+title: "API Consumer Overview"
+description: "Overview of the API consumer workflow in WSO2 API Manager: discovering, subscribing to, testing, and rating APIs through the Developer Portal."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/consume-api-overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/consume-api-overview.md
+tags:
+  - api-manager
+  - developer-portal
+  - api-consumption
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 # Consumer API - Overview
 
 An API Consumer is typically an application developer who may be internal or external to your organization. Consuming APIs is the process by which the application developer accesses the various APIs that are exposed by you (the API provider) and then uses those APIs to develop one’s own software applications and products. 

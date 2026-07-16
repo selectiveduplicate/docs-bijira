@@ -1,3 +1,17 @@
+---
+title: "Encrypt Passwords in Configuration Files"
+description: "Use the Secure Vault and Cipher tool to encrypt plain text passwords in deployment.toml, secure API backend endpoint credentials, change already encrypted passwords, and resolve encrypted passwords during server startup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/logins-and-passwords/working-with-encrypted-passwords/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/logins-and-passwords/working-with-encrypted-passwords.md
+tags:
+  - api-manager
+  - secure-vault
+  - password-encryption
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Encrypting Passwords in Configuration Files
 
 All WSO2 products are shipped with a **Secure Vault** implementation that allows you to store encrypted passwords in configuration files. By default, the system user passwords, key store passwords, etc. in configuration files are stored in plain text, but storing sensitive data such as passwords in plain text makes the data more susceptible to compromise.

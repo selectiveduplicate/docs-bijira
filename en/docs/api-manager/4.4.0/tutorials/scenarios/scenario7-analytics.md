@@ -1,3 +1,17 @@
+---
+title: "Tutorial Scenario 7: Set Up and View API Analytics"
+description: "Configure Choreo API-M Analytics for an on-premises API Manager deployment, generate traffic against a subscribed API, and view usage, usage-over-time, and response-time graphs in Choreo Insights."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/scenarios/scenario7-analytics/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/tutorials/scenarios/scenario7-analytics.md
+tags:
+  - api-manager
+  - analytics
+  - tutorial-scenarios
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "tutorial"
+---
+
 # Scenario 7 - Analytics
 
 This is a tutorial that is part of a series and can be used as a standalone tutorial on how to set up and view analytics for an API. For more details on the scenario and general prerequisites, please see [the scenario overview page](../../tutorials/scenarios/scenario-overview.md).

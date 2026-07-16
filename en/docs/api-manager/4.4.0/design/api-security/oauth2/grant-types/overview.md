@@ -1,3 +1,17 @@
+---
+title: "OAuth2 Grant Types Overview"
+description: "Overview of the OAuth2 grant types supported by WSO2 API Manager, including password, client credentials, authorization code, refresh token, JWT, SAML extension, Kerberos, and NTLM grants."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-security/oauth2/grant-types/overview/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/api-security/oauth2/grant-types/overview.md
+tags:
+  - api-manager
+  - oauth2
+  - grant-types
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "overview"
+---
+
 #OAuth2 Grant Types
 
 

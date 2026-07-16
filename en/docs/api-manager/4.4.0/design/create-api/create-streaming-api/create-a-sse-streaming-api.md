@@ -1,3 +1,17 @@
+---
+title: "Create a Server-Sent Events (SSE) API"
+description: "Create a Server-Sent Events (SSE) streaming API from scratch in WSO2 API Manager, configure its topics and runtime settings, and expose an SSE backend through the Gateway."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-streaming-api/create-a-sse-streaming-api/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-streaming-api/create-a-sse-streaming-api.md
+tags:
+  - api-manager
+  - streaming-api
+  - sse
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Create a Server Sent Events API
 
 ## Overview

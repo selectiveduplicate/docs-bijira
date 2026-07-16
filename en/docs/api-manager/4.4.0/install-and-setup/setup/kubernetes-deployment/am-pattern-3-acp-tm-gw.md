@@ -1,3 +1,17 @@
+---
+title: "Kubernetes Deployment Pattern 3: Simple Scalable Setup with Traffic Manager Separation"
+description: "Deploy WSO2 API Manager 4.4.0 on Kubernetes using a distributed pattern that separates the Traffic Manager from the API Control Plane and Universal Gateways, covering Helm chart configuration, database setup, and connecting the Traffic Manager and Gateway components."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-3-acp-tm-gw/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-3-acp-tm-gw.md
+tags:
+  - api-manager
+  - kubernetes
+  - traffic-manager
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Simple Scalable Deployment with Traffic Manager Separation
 
 This is the standard distributed deployment for API Manager. The default configuration consists of two API control planes, two Traffic Managers, and two Universal Gateways. This is a production-ready deployment pattern.

@@ -1,3 +1,17 @@
+---
+title: "Renewing a CA-Signed Certificate in a Keystore"
+description: "Check a certificate's validity period, generate a certificate signing request, and import the renewed CA-signed certificate into a Java keystore."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/configuring-keystores/keystore-basics/renewing-a-ca-signed-certificate-in-a-keystore/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/configuring-keystores/keystore-basics/renewing-a-ca-signed-certificate-in-a-keystore.md
+tags:
+  - api-manager
+  - keystores
+  - certificate-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Renewing a CA-Signed Certificate in a Keystore
 
 A digital certificate has a validity period, after which the certificate expires. Once a certificate expires, it is no longer valid, and it can cause the client-server communication to fail at the SSL handshake level. Therefore, it is important to plan certificate renewal ahead of time. Neglecting certificate renewal can eventually lead to a catastrophic situation such as major service outage.

@@ -1,3 +1,17 @@
+---
+title: "API Analytics Architecture"
+description: "Overview of the API Analytics architecture, showing how gateways publish analytics statistics to the regional, internet-facing Analytics Cloud."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/api-analytics/choreo-analytics/api-analytics-architecture/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/api-analytics/choreo-analytics/api-analytics-architecture.md
+tags:
+  - api-manager
+  - analytics
+  - observability
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # API Analytics Architecture
 
 The following diagram illustrates the basic architecture of the Analytics solution.

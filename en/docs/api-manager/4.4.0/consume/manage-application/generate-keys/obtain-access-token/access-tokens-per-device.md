@@ -1,3 +1,17 @@
+---
+title: "Generate Access Tokens Per Device"
+description: "Use device-prefixed OAuth2 scopes (device_) to obtain unique JWT access tokens per device for the same application, user, and scope combination instead of revoking the previous token."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-application/generate-keys/obtain-access-token/access-tokens-per-device/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-application/generate-keys/obtain-access-token/access-tokens-per-device.md
+tags:
+  - api-manager
+  - oauth2
+  - access-tokens
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Access Tokens Per Device
 
 In WSO2 API Manager, the behavior for generating JWT tokens with the same application keys and scopes is different to the previous approach with Opaque tokens. For JWT tokens, WSO2 API Manager no longer returns the same existing valid JWT token for each token request if the associated application, user and requested scopes are the same. Additionally, if a valid token already exists for the requesting application, user and requested scopes, generating a new token will result in the revocation of the previous token associated with that application and user.

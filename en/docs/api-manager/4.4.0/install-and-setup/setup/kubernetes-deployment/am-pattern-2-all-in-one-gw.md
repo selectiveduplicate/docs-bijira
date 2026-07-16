@@ -1,3 +1,17 @@
+---
+title: "Kubernetes Deployment Pattern 2: Simple Scalable Setup with Gateway Separation"
+description: "Deploy WSO2 API Manager 4.4.0 on Kubernetes using the simple scalable pattern, with a single all-in-one API Control Plane and separate Universal Gateway instances, including Helm chart setup, Docker image creation, database configuration, and ingress setup."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-2-all-in-one-gw/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/kubernetes-deployment/am-pattern-2-all-in-one-gw.md
+tags:
+  - api-manager
+  - kubernetes
+  - gateway-scaling
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # API-M Deployment with Simple Scalable Setup
 
 This is the standard distributed deployment for API Manager. The default configuration consists of a single API Control Plane and two Universal Gateways for better scalability and performance.

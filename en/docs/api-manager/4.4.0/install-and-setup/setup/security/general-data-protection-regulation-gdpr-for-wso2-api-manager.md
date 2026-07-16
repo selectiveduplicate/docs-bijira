@@ -1,3 +1,17 @@
+---
+title: "GDPR Compliance with the Forget-Me Tool"
+description: "Use the Forget-Me Tool (Identity Anonymization Tool) to obfuscate deleted external users' identities in WSO2 API Manager databases and log files to meet GDPR requirements."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/general-data-protection-regulation-gdpr-for-wso2-api-manager/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/security/general-data-protection-regulation-gdpr-for-wso2-api-manager.md
+tags:
+  - api-manager
+  - security
+  - compliance
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # General Data Protection Regulation (GDPR) for WSO2 API Manager
 
 The Forget-Me Tool, also known as the Identity Anonymization Tool, can be used to obfuscate the identities of an **external user** who was deleted based on the request of the system administrator. This tool removes the user identities stored in the database and in log files in order to meet the GDPR requirements.

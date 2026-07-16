@@ -1,3 +1,17 @@
+---
+title: "Create an API Product"
+description: "Step-by-step guide to creating an API Product in API Manager by combining resources from multiple APIs, then deploying and publishing it for consumption."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api-product/create-api-product/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api-product/create-api-product.md
+tags:
+  - api-manager
+  - api-products
+  - publisher-portal
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Create an API Product
 
 Let's create an API Product named customer leasing that includes resources from the Customer Info API & Leasing API, as discussed in the [previous example](../../design/create-api-product/api-product-overview.md#how-it-works).

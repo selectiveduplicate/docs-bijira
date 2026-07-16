@@ -1,3 +1,17 @@
+---
+title: "Running the WSO2 API Manager Product Profiles"
+description: "Reference for the API-M product profiles (Gateway, Control Plane, Traffic Manager, Key Manager) used in a distributed deployment, including startup commands and the two methods for optimizing a profile before or while starting the server."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/product-profiles/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/distributed-deployment/product-profiles.md
+tags:
+  - api-manager
+  - distributed-deployment
+  - product-profiles
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Running the API-M Profiles
 
 When the API-M server is started, all components, features, and related artifacts bundled with it are started. Multi-profile support allows you to run the product on a selected profile so that only the features specific to that profile along with common features startup with the server.

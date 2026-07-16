@@ -1,3 +1,17 @@
+---
+title: "Format apictl get Command Output"
+description: "Use Go Templates to format the output of apictl get envs, get apis, get api-products, and get apps commands as tables, JSON, or transformed strings."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/advanced-topics/formatting-the-output-of-get-command/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/advanced-topics/formatting-the-output-of-get-command.md
+tags:
+  - api-manager
+  - api-controller
+  - cli
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 ## Formatting get Command Outputs
 
 Output of `get envs`, `get apis`, `get api-products` and `get apps` can be formatted with Go Templates. 

@@ -1,3 +1,17 @@
+---
+title: "Add an API Subscription Approval Workflow"
+description: "Attach an approval workflow to the API subscription operation in API Manager so subscriptions stay in an On Hold state until an admin or API publisher approves or rejects them."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-subscription/advanced-topics/adding-an-api-subscription-workflow/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/consume/manage-subscription/advanced-topics/adding-an-api-subscription-workflow.md
+tags:
+  - api-manager
+  - subscriptions
+  - workflows
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Adding an API Subscription Workflow
 
 This section explains how to attach a simple approval workflow to the API subscription operation in the API Manager.

@@ -1,3 +1,17 @@
+---
+title: "Accessing API Manager from Multiple Devices Simultaneously"
+description: "Recommended approach for client applications to handle OAuth2 access tokens when the same user logs in to API Manager from multiple devices, using refresh tokens to avoid token revocation conflicts."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/guides/accessing-api-manager-by-multiple-devices-simultaneously/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/reference/guides/accessing-api-manager-by-multiple-devices-simultaneously.md
+tags:
+  - api-manager
+  - oauth2
+  - access-tokens
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "concept"
+---
+
 # Accessing API Manager by Multiple Devices Simultaneously
 
 When there are many users who use production deployment setups, accessing API Manager by multiple devices is more important. According to the architecture, if we logged out from one device and revoke the access token, then all the calls made with that token thereafter will get authentication failures. In this case Applications should be smart enough to detect that authentication failure and should request  for a new access token.

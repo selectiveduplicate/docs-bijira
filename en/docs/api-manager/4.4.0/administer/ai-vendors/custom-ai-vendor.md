@@ -1,3 +1,17 @@
+---
+title: "Configure a Custom AI Vendor"
+description: "Add and configure a custom AI vendor in the WSO2 API Manager admin portal: provide vendor details, map AI model and token-usage fields from the payload, header, or query parameter, upload its OpenAPI definition, and set the connector type."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/ai-vendors/custom-ai-vendor/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/administer/ai-vendors/custom-ai-vendor.md
+tags:
+  - api-manager
+  - ai-apis
+  - ai-vendor-management
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Configure a Custom AI Vendor
 
 You can integrate **WSO2 API Manager** with custom AI vendors to consume their services via AI APIs. This guide walks you through configuring a custom AI vendor to manage and track AI model interactions efficiently.

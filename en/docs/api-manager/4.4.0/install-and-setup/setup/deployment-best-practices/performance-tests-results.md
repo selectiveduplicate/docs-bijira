@@ -1,3 +1,17 @@
+---
+title: "API Manager Performance Test Results"
+description: "Throughput, response time, and GC throughput benchmarks for WSO2 API Manager measured across concurrent users and payload sizes using Echo and Mediation APIs."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/deployment-best-practices/performance-tests-results/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/deployment-best-practices/performance-tests-results.md
+tags:
+  - api-manager
+  - performance
+  - deployment-best-practices
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "reference"
+---
+
 # Performance Test Results
 
 The performance of WSO2 API Manager was measured using the following APIs, which invoke a simple “Netty HTTP Echo Service.” As the name suggests, the Netty service echoes back any request posted to the service.

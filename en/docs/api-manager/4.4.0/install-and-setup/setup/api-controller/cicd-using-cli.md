@@ -1,3 +1,17 @@
+---
+title: "CI/CD for APIs Using the apictl CLI"
+description: "Build a CI/CD pipeline for WSO2 API Manager using apictl: initialize API projects from OpenAPI specs, export/import APIs and API Products across environments, and automate promotion with vcs deploy."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/cicd-using-cli/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/install-and-setup/setup/api-controller/cicd-using-cli.md
+tags:
+  - api-manager
+  - api-controller
+  - ci-cd
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # CI/CD for APIs - Using the CLI
 
 When you implement CI/CD for your APIs, there are two approaches you can use.

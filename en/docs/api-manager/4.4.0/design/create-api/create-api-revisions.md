@@ -1,3 +1,17 @@
+---
+title: "Create and Manage API Revisions"
+description: "Decouple API publishing from Gateway deployment using API revisions: create, deploy, undeploy, delete, and restore revisions of an API or API Product."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-api-revisions/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-api-revisions.md
+tags:
+  - api-manager
+  - api-lifecycle
+  - deployment
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # API Revisions
 
 [Publishing](../../deploy-and-publish/publish-on-dev-portal/publish-an-api.md) displays the 

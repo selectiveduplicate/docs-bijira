@@ -1,3 +1,17 @@
+---
+title: "API Manager Quick Start Guide"
+description: "Download and run WSO2 API Manager, then create, publish, subscribe to, and invoke a REST API through the Publisher and Developer Portals."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/get-started/api-manager-quick-start-guide/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/get-started/api-manager-quick-start-guide.md
+tags:
+  - api-manager
+  - quickstart
+  - developer-portal
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "quickstart"
+---
+
 # Quick Start Guide
 
 New to WSO2 API Manager? No worries; we'll guide you through the basics!

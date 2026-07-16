@@ -1,3 +1,17 @@
+---
+title: "Generate a REST API from a SOAP Backend"
+description: "Import a WSDL 1.1 URL from a legacy SOAP backend in the Publisher Portal to auto-generate a REST API definition, including supported/unsupported XML schema constructs and the generated in-sequence payload mapping."
+canonical_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-rest-api/generate-rest-api-from-soap-backend/
+md_url: https://wso2.com/api-platform/docs/api-manager/4.4.0/design/create-api/create-rest-api/generate-rest-api-from-soap-backend.md
+tags:
+  - api-manager
+  - soap
+  - rest-api
+author: WSO2 API Platform Documentation Team
+last_updated: 2026-07-15
+content_type: "how-to"
+---
+
 # Generate REST API from SOAP Backend
 
 !!! Warning "Limitations"
