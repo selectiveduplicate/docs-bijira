@@ -126,7 +126,7 @@ template: templates/no-navbars.html
             </br>
             <h2>Download</h2>
             <a href="https://wso2.com/api-manager/#">
-                <img src="assets/img/get_started/download-apim.png" title="Download WSO2 API Manager" width="35%" alt="Download WSO2 API Manager"/>
+                <img class="off-glb" src="assets/img/get_started/download-apim.png" title="Download WSO2 API Manager" width="35%" alt="Download WSO2 API Manager"/>
             </a>
         </div>
         <div class="md-main .md-content " style="float:right; width: 55%; align:right;  flex-shrink: 0;min-width: 40%; max-height: 100%; max-width:50%; margin-left:10px; margin-top:20px">

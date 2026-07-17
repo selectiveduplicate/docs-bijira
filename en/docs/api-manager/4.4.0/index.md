@@ -69,7 +69,7 @@ content_type: "overview"
             </p>
             <h3>Download</h3>
             <a href="https://wso2.com/api-manager/#">
-                <img src="assets/img/get_started/download-apim.png" title="Download WSO2 API Manager" width="35%" alt="Download WSO2 API Manager"/>
+                <img class="off-glb" src="assets/img/get_started/download-apim.png" title="Download WSO2 API Manager" width="35%" alt="Download WSO2 API Manager"/>
             </a>
             </br>
             <h3>Quick Start Guide</h3>
