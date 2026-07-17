@@ -62,7 +62,7 @@ Restart the gateway after changing the setting. When it is turned off, the gatew
 
 When you create or update an artifact on the gateway:
 
-```
+```text
 Create on the gateway ─┬─▶ takes effect immediately (starts serving traffic)
                        └─▶ synced to the AI Workspace ─▶ appears as a read-only copy
 ```
@@ -114,7 +114,7 @@ This walkthrough builds a complete **LLM Proxy** together with the artifacts it 
 
 Create them in dependency order so each reference resolves:
 
-```
+```text
 LlmProviderTemplate ──(spec.template)──▶ LlmProvider ──(spec.provider.id)──▶ LlmProxy
 ```
 
