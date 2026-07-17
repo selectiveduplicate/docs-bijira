@@ -59,6 +59,7 @@ template: templates/no-navbars.html
         padding: 70px 60px;
         display: flex;
         flex-direction: column;
+        background: #EBEBEB;
     }
 
     .section03 h3 {
@@ -69,6 +70,7 @@ template: templates/no-navbars.html
         text-decoration: underline;
         text-decoration-style: wavy;
         text-decoration-color: #3f51b5;
+        animation: wavy-slide 3s linear infinite;
     }
 
     .section03 .linkSet2 p {
@@ -78,6 +80,25 @@ template: templates/no-navbars.html
     .section04 {
         margin: 0;
         padding: 20px 0 10px 0;
+    }
+
+    .section05 {
+        margin: 0 -75px;
+        padding: 45px 60px;
+        background: #EBEBEB;
+    }
+
+    .homePage h3 {
+        color: #333;
+    }
+
+    [data-md-color-scheme="slate"] .section03,
+    [data-md-color-scheme="slate"] .section05 {
+        background: #232327;
+    }
+
+    [data-md-color-scheme="slate"] .homePage h3 {
+        color: #d5ac8d;
     }
 
     @media screen and (min-width: 767px) {
