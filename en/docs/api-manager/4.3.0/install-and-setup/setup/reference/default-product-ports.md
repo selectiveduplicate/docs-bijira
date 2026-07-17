@@ -3,14 +3,14 @@
 This page describes the default ports used by each runtime of WSO2 API Manager.
 
 !!! Note
-    If you [change the default runtime ports]({{base_path}}/install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset), most of the runtime ports change automatically based on the offset.
+    If you [change the default runtime ports](../../../install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset.md), most of the runtime ports change automatically based on the offset.
 
 ## API-M ports
 
-Listed below are the ports used by the API-M runtime when the [port offset]({{base_path}}/install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset/#configuring-the-port-offset) is 0.
+Listed below are the ports used by the API-M runtime when the [port offset](../../../install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset.md#configuring-the-port-offset) is 0.
 
 !!! Info
-    See the instructions on [changing the default API-I ports]({{base_path}}/install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset/#changing-the-default-api-m-ports).
+    See the instructions on [changing the default API-I ports](../../../install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset.md#changing-the-default-api-m-ports).
 
 <table>
     <tr>
@@ -140,7 +140,7 @@ Listed below are the ports used by the API-M runtime when the [port offset]({{ba
 Listed below are the default ports used by the Streaming Integrator runtime and the Streaming Integrator Tooling runtime. The default port offset in these runtimes are `0` and `3` respectively.
 
 !!! Info
-    See the instructions on [changing the default SI ports]({{base_path}}/install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset/#changing-the-default-si-ports).
+    See the instructions on [changing the default SI ports](../../../install-and-setup/setup/deployment-best-practices/changing-the-default-ports-with-offset.md#changing-the-default-si-ports).
 
 -  Thrift and Binary ports:
 

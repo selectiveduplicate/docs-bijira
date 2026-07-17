@@ -1,13 +1,13 @@
 # Marketplace Assistant Getting Started Guide
 
-The Marketplace Assistant is a powerful tool provided by API Manager, utilizing AI to chat with your APIs and offer recommendations, moving beyond traditional keyword searches. Using this you can access public APIs defined according to the [developer portal visibility]({{base_path}}/design/advanced-topics/control-api-visibility-and-subscription-availability-in-developer-portal/#control-api-visibility-in-the-developer-portal).
+The Marketplace Assistant is a powerful tool provided by API Manager, utilizing AI to chat with your APIs and offer recommendations, moving beyond traditional keyword searches. Using this you can access public APIs defined according to the [developer portal visibility](../../design/advanced-topics/control-api-visibility-and-subscription-availability-in-developer-portal.md#control-api-visibility-in-the-developer-portal).
 
-[![Marketplace Assistant Landing Page]({{base_path}}/assets/img/get_started/marketplace-assistant.png)]({{base_path}}/assets/img/get_started/marketplace-assistant.png)
+[![Marketplace Assistant Landing Page](../../assets/img/get_started/marketplace-assistant.png)](../../assets/img/get_started/marketplace-assistant.png)
 
 Follow the steps below to get started with the Marketplace Assistant:
 
 !!! tip
-    If you've previously registered your environment for the [API Chat]({{base_path}}/consume/invoke-apis/invoke-apis-using-tools/test-apis-with-apichat), you can skip Step 1 by utilizing the same credentials for the Marketplace Assistant. Otherwise, complete Step 1 to register your on-premise environment.
+    If you've previously registered your environment for the [API Chat](../../consume/invoke-apis/invoke-apis-using-tools/test-apis-with-apichat.md), you can skip Step 1 by utilizing the same credentials for the Marketplace Assistant. Otherwise, complete Step 1 to register your on-premise environment.
 
 ## Step 1 - Sign in to Choreo
 
@@ -15,7 +15,7 @@ Follow the steps below to get started with the Marketplace Assistant:
 
 2. Sign-in to Choreo.
 
-   [![Choreo sign-in options]({{base_path}}/assets/img/observe/sign-in-choreo.png)]({{base_path}}/assets/img/observe/sign-in-choreo.png)
+   [![Choreo sign-in options](../../assets/img/observe/sign-in-choreo.png)](../../assets/img/observe/sign-in-choreo.png)
 
 ## Step 2 - Register your environment
 
@@ -23,13 +23,13 @@ Follow the instructions below to register your on-premise environment:
 
 1. Click the **Settings** on the bottom left corner.
 
-      [![Settings Menu]({{base_path}}/assets/img/observe/settings-menu.png)]({{base_path}}/assets/img/observe/settings-menu.png)
+      [![Settings Menu](../../assets/img/observe/settings-menu.png)](../../assets/img/observe/settings-menu.png)
 
 2. If you are a member of multiple organizations, select the appropriate organization from the top left-hand corner.
 
 3. Select the **On-prem Keys** tab and click **Generate Key**.
 
-      [![On-prem Key]({{base_path}}/assets/img/observe/on-prem-key.png)]({{base_path}}/assets/img/observe/on-prem-key.png)
+      [![On-prem Key](../../assets/img/observe/on-prem-key.png)](../../assets/img/observe/on-prem-key.png)
 
 4. Enter a suitable name for your environment (e.g., dev).
 
@@ -57,7 +57,7 @@ To enable the Marketplace Assistant and populate the vector database, the API Ma
 
 To ensure that the Marketplace Assistant is aware of all published APIs and to update the vector database with the current APIs, you have to upload all APIs and API Products.
 
-For more information, see [AI Related Operations with apictl]({{base_path}}/install-and-setup/setup/api-controller/ai-related-operations-with-apictl/)
+For more information, see [AI Related Operations with apictl](../../install-and-setup/setup/api-controller/ai-related-operations-with-apictl.md)
 
 ## Step 4 - Engage with the Marketplace Assistant
 

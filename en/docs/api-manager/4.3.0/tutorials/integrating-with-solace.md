@@ -11,7 +11,7 @@ WSO2 API Manager now supports integrating external third party Gateways and Brok
 1. Go to the [Solace PubHub+](https://solace.com/products/event-broker/) portal.
     
 2. Create a new account and configure a Solace Broker.
-   </br><a href="{{base_path}}/assets/img/tutorials/solace/create-new-account.png"><img src="{{base_path}}/assets/img/tutorials/solace/create-new-account.png" alt="Create new account" name="Create new account" width="600"></a>
+   </br><a href="../../assets/img/tutorials/solace/create-new-account.png"><img src="../../assets/img/tutorials/solace/create-new-account.png" alt="Create new account" name="Create new account" width="600"></a>
     
     !!! tip
         See the [Getting Started Guide](https://github.com/solace-iot-team/platform-api/wiki/WSO2-API-Manager-Quickstart) for info on how to setup an account with Solace PubHub+.
@@ -41,7 +41,7 @@ WSO2 API Manager now supports integrating external third party Gateways and Brok
     Note that only all these properties are **mandatory**, except `show_as_token_endpoint_url`.
 
 5. The Solace broker gateway is now available in the API Publisher.
-    <a href="{{base_path}}/assets/img/tutorials/solace/view-solace-broker.png"><img src="{{base_path}}/assets/img/tutorials/solace/view-solace-broker.png" alt="View Solace Broker" name="View Solace Broker"></a>
+    <a href="../../assets/img/tutorials/solace/view-solace-broker.png"><img src="../../assets/img/tutorials/solace/view-solace-broker.png" alt="View Solace Broker" name="View Solace Broker"></a>
 
 ## Creating and deploying an API
 
@@ -53,7 +53,7 @@ Before you begin: Make sure that you have integrated the Solace event broker wit
 
 1. Login to the API Publisher via **https://&lt;hostname>:9443/publisher**
 2. Click **CREATE API** and then click **Import AsyncAPI Definition**
-    <a href="{{base_path}}/assets/img/tutorials/solace/import-asyncapi.png"><img src="{{base_path}}/assets/img/tutorials/solace/import-asyncapi.png" alt="Import AsyncAPI Definition" name="Import AsyncAPI Definition"></a>
+    <a href="../../assets/img/tutorials/solace/import-asyncapi.png"><img src="../../assets/img/tutorials/solace/import-asyncapi.png" alt="Import AsyncAPI Definition" name="Import AsyncAPI Definition"></a>
 
 3. The following two options to import the AsynAPI definition appear.
     1. AsyncAPI URL - If you select this option, you need to provide a URL of a Solace API Specification.
@@ -71,14 +71,14 @@ Before you begin: Make sure that you have integrated the Solace event broker wit
 ### Step 2 - Configuring Topics
 
 1. Click **Topics** to navigate to the topics page.
-    <a href="{{base_path}}/assets/img/tutorials/solace/topics.png"><img src="{{base_path}}/assets/img/tutorials/solace/topics.png" alt="navigate to Topics" name="navigate to Topics"></a>
+    <a href="../../assets/img/tutorials/solace/topics.png"><img src="../../assets/img/tutorials/solace/topics.png" alt="navigate to Topics" name="navigate to Topics"></a>
 
 The topics will be created automatically from the Solace AsyncAPI definition provided in the previous step.
 
 ### Step 3 - Viewing the Async API definition
 
 1. Go to **API Configurations** and click **AsyncAPI Definition** to see the definition of the API you created in the previous step. 
-    <a href="{{base_path}}/assets/img/tutorials/solace/asyncapi-definition.png"><img src="{{base_path}}/assets/img/tutorials/solace/asyncapi-definition.png" alt="AsyncAPI Definition" name="AsyncAPI Definition"></a>
+    <a href="../../assets/img/tutorials/solace/asyncapi-definition.png"><img src="../../assets/img/tutorials/solace/asyncapi-definition.png" alt="AsyncAPI Definition" name="AsyncAPI Definition"></a>
   
     !!! warn
         The current version of WSO2 API Manager **only** supports AsyncUnlimited Protocol as the API level subscription policy for Solace APIs. Once a subscription is made, that policy will be added automatically.
@@ -87,16 +87,16 @@ The topics will be created automatically from the Solace AsyncAPI definition pro
 ### Step 4 - Deploying the API to the Solace broker
 
 1. Navigate to the **Deploy** section and go to **Deployments**.  
-    <a href="{{base_path}}/assets/img/tutorials/solace/deployments.png"><img src="{{base_path}}/assets/img/tutorials/solace/deployments.png" alt="Deployments" name="Deployments"></a>
+    <a href="../../assets/img/tutorials/solace/deployments.png"><img src="../../assets/img/tutorials/solace/deployments.png" alt="Deployments" name="Deployments"></a>
 
 2. Select the Deployment environment and click **Deploy**.
 3. The API revision will be created. Select the API revision and click **Deploy**.
 4. The Solace API will be deployed to the Solace Broker environment that is user-provided.
-    <a href="{{base_path}}/assets/img/tutorials/solace/view-deployments.png"><img src="{{base_path}}/assets/img/tutorials/solace/view-deployments.png" alt="View Deployments" name="View Deployments"></a>
+    <a href="../../assets/img/tutorials/solace/view-deployments.png"><img src="../../assets/img/tutorials/solace/view-deployments.png" alt="View Deployments" name="View Deployments"></a>
 
 ### Step 5 - Publishing the API
 
-See [Publish an API]({{base_path}}/deploy-and-publish/publish-on-dev-portal/publish-an-api) for instructions on publishing the API created in the previous steps.
+See [Publish an API](../deploy-and-publish/publish-on-dev-portal/publish-an-api.md) for instructions on publishing the API created in the previous steps.
 
 ## Subscribing to an API
 
@@ -106,8 +106,8 @@ When the Application is attached with a Solace API Subscription, the solace brok
 
 The following are the two methods available in the Developer Portal to subscribe an API to an application.
 
-- **Subscribe to an existing application** - You can subscribe to a current API by [selecting an existing application]({{base_path}}/consume/manage-subscription/subscribe-to-an-api/#subscribe-to-an-existing-application).
-- **Subscribe to an API using Key Generation Wizard** - You can use the **[SUBSCRIPTION & KEY GENERATION WIZARD]({{base_path}}/consume/manage-subscription/subscribe-to-an-api/#subscribe-to-an-api-using-key-generation-wizard)** option to start the subscription process from scratch. 
+- **Subscribe to an existing application** - You can subscribe to a current API by [selecting an existing application](../consume/manage-subscription/subscribe-to-an-api.md#subscribe-to-an-existing-application).
+- **Subscribe to an API using Key Generation Wizard** - You can use the **[SUBSCRIPTION & KEY GENERATION WIZARD](../consume/manage-subscription/subscribe-to-an-api.md#subscribe-to-an-api-using-key-generation-wizard)** option to start the subscription process from scratch. 
 
 Note that the artifacts are deployed in the Solace broker, therefore API level and application-level throttling will not be supported for the Solace API subscriptions.
     
@@ -132,17 +132,17 @@ In this section, you will subscribe to the AsyncAPI through the Developer Portal
 ### Step 2 - Generating keys
 
 1. In the sample application, click **Production Keys** and navigate to **OAuth2 Tokens**.
-    <a href="{{base_path}}/assets/img/tutorials/solace/add-oauth-token.png"><img src="{{base_path}}/assets/img/tutorials/solace/add-oauth-token.png" alt="Oauth Tokens" name="Oauth Tokens"></a>
+    <a href="../../assets/img/tutorials/solace/add-oauth-token.png"><img src="../../assets/img/tutorials/solace/add-oauth-token.png" alt="Oauth Tokens" name="Oauth Tokens"></a>
 
 2. Select the required grant types and other options and click **GENERATE KEYS**. Copy the generated access token.
-    <a href="{{base_path}}/assets/img/tutorials/solace/generate-keys.png"><img src="{{base_path}}/assets/img/tutorials/solace/generate-keys.png" alt="Generate Keys" name="Generate Keys"></a>
+    <a href="../../assets/img/tutorials/solace/generate-keys.png"><img src="../../assets/img/tutorials/solace/generate-keys.png" alt="Generate Keys" name="Generate Keys"></a>
 
 For instructions on generating keys see, Application Keys.
 
 ### Step 3 - Selecting the Async Protocol and Topic
 
 1. Select the Solace API and click on the **Solace Info** section in the left menu. This will render an information page like the following.
-    <a href="{{base_path}}/assets/img/tutorials/solace/solace-info.png"><img src="{{base_path}}/assets/img/tutorials/solace/solace-info.png" alt="View Solace Info" name="View Solace Info"></a>
+    <a href="../../assets/img/tutorials/solace/solace-info.png"><img src="../../assets/img/tutorials/solace/solace-info.png" alt="View Solace Info" name="View Solace Info"></a>
 
 2. Select the **Application**, **Environment**, and **Protocol** from the dropdowns of the info page.
     1. **Application** - Select the required application of the subscribed Application of the Solace API.
@@ -152,10 +152,10 @@ For instructions on generating keys see, Application Keys.
     The topics supported for the selected Application, Environment and Protocol will be rendered.
 
 3. Copy the **endpoint URL** of the protocol of the selected environment. 
-    <a href="{{base_path}}/assets/img/tutorials/solace/add-endpoint.png"><img src="{{base_path}}/assets/img/tutorials/solace/add-endpoint.png" alt="Add endpoint URL" name="Add endpoint URL"></a>
+    <a href="../../assets/img/tutorials/solace/add-endpoint.png"><img src="../../assets/img/tutorials/solace/add-endpoint.png" alt="Add endpoint URL" name="Add endpoint URL"></a>
 
 4. Copy the topic that needs to be consumed. Click on the **Copy** icon in front of the topic.
-    <a href="{{base_path}}/assets/img/tutorials/solace/consume-topic.png"><img src="{{base_path}}/assets/img/tutorials/solace/consume-topic.png" alt="Consume Topic" name="Consume Topic"></a>
+    <a href="../../assets/img/tutorials/solace/consume-topic.png"><img src="../../assets/img/tutorials/solace/consume-topic.png" alt="Consume Topic" name="Consume Topic"></a>
 
 5. Use this information to create a request on the desired protocol to invoke the topic and consume the topic.
 
@@ -163,4 +163,4 @@ For instructions on generating keys see, Application Keys.
 
 If you have successfully created a subscription for the API, you can navigate to the Solace info page to view it. A successful subscription means subscribing from an application with production keys generated. If the subscription is unsuccessful, the subscriptions and topic info of the Solace API will not be viewable.
 
- <a href="{{base_path}}/assets/img/tutorials/solace/solace-info-error.png"><img src="{{base_path}}/assets/img/tutorials/solace/solace-info-error.png" alt="View Solace Info" name="Consume Topic"></a>
+ <a href="../../assets/img/tutorials/solace/solace-info-error.png"><img src="../../assets/img/tutorials/solace/solace-info-error.png" alt="View Solace Info" name="Consume Topic"></a>

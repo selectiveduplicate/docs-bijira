@@ -8,7 +8,7 @@ Testing APIs is an essential step in the API development lifecycle. API Manager 
 Follow the steps below to test your API with API Chat:
 
 !!! tip
-    If you've previously registered your environment for the [Marketplace Assistant]({{base_path}}/consume/discover-apis/marketplace-assistant), you can skip Step 1 by utilizing the same credentials for the API Chat. Otherwise, complete Step 1 to register your on-premise environment.
+    If you've previously registered your environment for the [Marketplace Assistant](../../../consume/discover-apis/marketplace-assistant.md), you can skip Step 1 by utilizing the same credentials for the API Chat. Otherwise, complete Step 1 to register your on-premise environment.
 
 ## Step 1 - Sign in to Choreo
 
@@ -16,7 +16,7 @@ Follow the steps below to test your API with API Chat:
 
 2. Sign in to Choreo.
 
-   [![Choreo sign-in options]({{base_path}}/assets/img/observe/sign-in-choreo.png)]({{base_path}}/assets/img/observe/sign-in-choreo.png)
+   [![Choreo sign-in options](../../../assets/img/observe/sign-in-choreo.png)](../../../assets/img/observe/sign-in-choreo.png)
 
 ## Step 2 - Register your environment
 
@@ -24,13 +24,13 @@ Follow the instructions below to register your on-premise environment:
 
 1. Click the **Settings** on the bottom left corner.
 
-      [![Settings Menu]({{base_path}}/assets/img/observe/settings-menu.png)]({{base_path}}/assets/img/observe/settings-menu.png)
+      [![Settings Menu](../../../assets/img/observe/settings-menu.png)](../../../assets/img/observe/settings-menu.png)
 
 2. If you are a member of multiple organizations, select the appropriate organization from the top left-hand corner.
 
 3. Select the **On-prem Keys** tab and click **Generate Key**.
 
-      [![On-prem Key]({{base_path}}/assets/img/observe/on-prem-key.png)]({{base_path}}/assets/img/observe/on-prem-key.png)
+      [![On-prem Key](../../../assets/img/observe/on-prem-key.png)](../../../assets/img/observe/on-prem-key.png)
 
 4. Enter a suitable name for your environment (e.g., dev).
 
@@ -52,27 +52,27 @@ Follow the instructions below to register your on-premise environment:
 
 ## Step 4 - Test your APIs
 
-Now we can begin testing APIs. Note that this guide covers the API Chat capabilties using the `PizzaShack` REST API, which was created in [Create a REST API]({{base_path}}/design/create-api/create-rest-api/create-a-rest-api/).
+Now we can begin testing APIs. Note that this guide covers the API Chat capabilties using the `PizzaShack` REST API, which was created in [Create a REST API](../../../design/create-api/create-rest-api/create-a-rest-api.md).
 
 1.  Sign in to the WSO2 Developer Portal (`https://<hostname>:9443/devportal`) and click on the API that you need to test (e.g., `PizzaShack`).
 
 2.  Subscribe to the API (e.g., `PizzaShackAPI` 1.0.0) using an application and an available throttling policy.
 
-    [![Subscribe to an API]({{base_path}}/assets/img/learn/subscribe-to-api.png)]({{base_path}}/assets/img/learn/subscribe-to-api.png)
+    [![Subscribe to an API](../../../assets/img/learn/subscribe-to-api.png)](../../../assets/img/learn/subscribe-to-api.png)
 
 3. Next, generate either a production key or a sandbox key using one of the following actions. You have to scroll down and click **Generate Keys**.
 
-    [![Generate production keys]({{base_path}}/assets/img/learn/generate-application-keys.png)]({{base_path}}/assets/img/learn/generate-application-keys.png)
+    [![Generate production keys](../../../assets/img/learn/generate-application-keys.png)](../../../assets/img/learn/generate-application-keys.png)
 
 4. Optionally, click on **Generate Access Token** and copy the generated token.
 
 5.  Now visit the **API Chat** tab under the **Try Out** section. Since the API Chat will test your API based on your natural language query, it needs access to the API. As per the warning shown below, we need to provide an API access token. Either click on the link given in the banner or click **CONFIGURE KEY** to generate one.
 
-    [![API Chat Landing Page]({{base_path}}/assets/img/get_started/api-chat.png)]({{base_path}}/assets/img/get_started/api-chat.png)
+    [![API Chat Landing Page](../../../assets/img/get_started/api-chat.png)](../../../assets/img/get_started/api-chat.png)
 
 6.  Enter the copied access token in the **Authorization** field or click on **GET TEST KEY**.
 
-    [![Add Access Token]({{base_path}}/assets/img/get_started/api-chat-access-token.png)]({{base_path}}/assets/img/get_started/api-chat-access-token.png)
+    [![Add Access Token](../../../assets/img/get_started/api-chat-access-token.png)](../../../assets/img/get_started/api-chat-access-token.png)
 
     !!! tip
 
@@ -90,7 +90,7 @@ Now we can begin testing APIs. Note that this guide covers the API Chat capabilt
    
     Let's provide our own query for this guide: _First get me the menu. Then, create a new Order with customerName 'John Smith', pizzaType 'Pepperoni', and quantity 2. Then update the same Order and change the pizzaType to 'Margherita'._
 
-    [![API Chat Query]({{base_path}}/assets/img/get_started/api-chat-query.png)]({{base_path}}/assets/img/get_started/api-chat-query.png)
+    [![API Chat Query](../../../assets/img/get_started/api-chat-query.png)](../../../assets/img/get_started/api-chat-query.png)
 
 8. Let's analyse the result from API Chat. As shown below, 3 resources were invoked sequentially. Namely:
 
@@ -100,4 +100,4 @@ Now we can begin testing APIs. Note that this guide covers the API Chat capabilt
 
     PUT &rarr; Updating the order
 
-    [![API Chat Response]({{base_path}}/assets/img/get_started/api-chat-response.png)]({{base_path}}/assets/img/get_started/api-chat-response.png)
+    [![API Chat Response](../../../assets/img/get_started/api-chat-response.png)](../../../assets/img/get_started/api-chat-response.png)

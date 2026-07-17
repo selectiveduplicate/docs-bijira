@@ -42,7 +42,7 @@ Two key performance metrics were used to measure the performance of each test.
 
 Given below are the details of the deployment that was used for the performance test that is recorded in this documentation.
 
-[![MI performance test all-in-one deployment]({{base_path}}/assets/img/setup-and-install/performance-test-results/mi_performance_test_all_in_one_deployment.png)]({{base_path}}/assets/img/setup-and-install/performance-test-results/mi_performance_test_all_in_one_deployment.png)
+[![MI performance test all-in-one deployment](../../../assets/img/setup-and-install/performance-test-results/mi_performance_test_all_in_one_deployment.png)](../../../assets/img/setup-and-install/performance-test-results/mi_performance_test_all_in_one_deployment.png)
 
 <table>
 <thead>
@@ -105,9 +105,9 @@ The complete results can be found [here](https://github.com/wso2/micro-integrato
 #### Throughput (requests/sec) vs. concurrent users
 The following results compare the throughput against the number of concurrent users for different message sizes.
 
-<a href="{{base_path}}/assets/img/setup-and-install/performance-test-results/mi/catplot-throughput-2G-0ms.png"><img src="{{base_path}}/assets/img/setup-and-install/performance-test-results/mi/catplot-throughput-2G-0ms.png" alt="Throughput" title="Throughput" width="90%" /></a>
+<a href="../../../../assets/img/setup-and-install/performance-test-results/mi/catplot-throughput-2G-0ms.png"><img src="../../../../assets/img/setup-and-install/performance-test-results/mi/catplot-throughput-2G-0ms.png" alt="Throughput" title="Throughput" width="90%" /></a>
 
 #### Average response time (ms) vs. concurrent users
 The following results compare the average response time of the Micro Integrator server against the number of users for different message sizes.
 
-<a href="{{base_path}}/assets/img/setup-and-install/performance-test-results/mi/catplot-average-response-time-2G-0ms.png"><img src="{{base_path}}/assets/img/setup-and-install/performance-test-results/mi/catplot-average-response-time-2G-0ms.png" alt="Response Time" title="Response time" width="90%" /></a>
+<a href="../../../../assets/img/setup-and-install/performance-test-results/mi/catplot-average-response-time-2G-0ms.png"><img src="../../../../assets/img/setup-and-install/performance-test-results/mi/catplot-average-response-time-2G-0ms.png" alt="Response Time" title="Response time" width="90%" /></a>

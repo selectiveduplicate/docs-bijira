@@ -12,9 +12,9 @@ Setting up involves doing the required configurations for the API Manager and it
     
     For instructions to set up databases for each component, see the following topics:
     
-    - [Setting up Databases for the API Manager]({{base_path}}/install-and-setup/setup/setting-up-databases/overview)
+    - [Setting up Databases for the API Manager](../../install-and-setup/setup/setting-up-databases/overview.md)
     - [Setting up Databases for the Micro Integrator](https://mi.docs.wso2.com/en/latest/install-and-setup/setup/databases/setting-up-mysql/)
-    - [Setting up Databases for the Streaming Integrator]({{base_path}}/install-and-setup/setup/si-setup/configuring-data-sources)
+    - [Setting up Databases for the Streaming Integrator](../../install-and-setup/setup/si-setup/configuring-data-sources.md)
     
 - **Configuring primary user stores**
 
@@ -22,7 +22,7 @@ Setting up involves doing the required configurations for the API Manager and it
     
     For instructions to set up primary user stores for each component, see the following topics:
     
-    - [Configuring Primary User Stores for the API Manager]({{base_path}}/administer/managing-users-and-roles/managing-user-stores/introduction-to-userstores)
+    - [Configuring Primary User Stores for the API Manager](../../administer/managing-users-and-roles/managing-user-stores/introduction-to-userstores.md)
     - [Configuring Primary User Stores for the Micro Integrator](https://mi.docs.wso2.com/en/latest/install-and-setup/setup/user-stores/setting-up-a-userstore/)
     
 - **Configuring security**
@@ -31,9 +31,9 @@ Setting up involves doing the required configurations for the API Manager and it
     
     For instructions to configure security for each component, see the following topics:
     
-    - [Configuring Security for the API Manager]({{base_path}}/install-and-setup/setup/security/logins-and-passwords/maintaining-logins-and-passwords)
-    - [Configuring Security for the Micro Integrator]({{base_path}}/install-and-setup/setup/mi-setup/security/creating_keystore)
-    - [Configuring Security for the Streaming Integrator]({{base_path}}/install-and-setup/setup/si-setup/general-data-protection-regulations)
+    - [Configuring Security for the API Manager](../../install-and-setup/setup/security/logins-and-passwords/maintaining-logins-and-passwords.md)
+    - [Configuring Security for the Micro Integrator](../../install-and-setup/setup/mi-setup/security/creating_keystore.md)
+    - [Configuring Security for the Streaming Integrator](../../install-and-setup/setup/si-setup/general-data-protection-regulations.md)
 
     
 - **Configuring transport**
@@ -43,7 +43,7 @@ Setting up involves doing the required configurations for the API Manager and it
     For instructions to configure transports for each component, see the following topics:
     
     - [Configuring Transports for the Micro Integrator](https://mi.docs.wso2.com/en/latest/install-and-setup/setup/transport-configurations/configuring-transports/)
-    - [Configuring Transports for the Streaming Integrator]({{base_path}}/install-and-setup/setup/si-setup/supporting-different-transports)
+    - [Configuring Transports for the Streaming Integrator](../../install-and-setup/setup/si-setup/supporting-different-transports.md)
     
 - **Performance Tuning**
 
@@ -51,8 +51,8 @@ Setting up involves doing the required configurations for the API Manager and it
     
     For instructions to tune the performance for each component, see the following topics:
     
-    - [Tuning Performance for the API Manager]({{base_path}}/install-and-setup/setup/deployment-best-practices/tuning-performance)
-    - [Tuning Performance for the Micro Integrator]({{base_path}}/install-and-setup/setup/mi-setup/performance_tuning/tuning_jvm_performance)
+    - [Tuning Performance for the API Manager](../../install-and-setup/setup/deployment-best-practices/tuning-performance.md)
+    - [Tuning Performance for the Micro Integrator](../../install-and-setup/setup/mi-setup/performance_tuning/tuning_jvm_performance.md)
     
 The above activities need to be carried out separately for each runtime. The procedures to execute them are similar, but there can be slight differences between one component to another.
 
@@ -60,22 +60,22 @@ In addition, the component-specific setup tasks are as follows:
 
 - **API Manager**
 
-    - [**Setting up key managers**]({{base_path}}/install-and-setup/setup/distributed-deployment/configure-a-third-party-key-manager)
+    - [**Setting up key managers**](../../install-and-setup/setup/distributed-deployment/configure-a-third-party-key-manager.md)
     
         This involves downloading a third party key manager application and setting it up so that WSO2 API Manager could communicate with it.
         
         !!! note
-            Once a key manager is set up, you need to configure it to work with the API Manager in the Admin Portal. This is explained in the [Multiple Key Manager Support in WSO2 API Manager]({{base_path}}/administer/key-managers/overview)
+            Once a key manager is set up, you need to configure it to work with the API Manager in the Admin Portal. This is explained in the [Multiple Key Manager Support in WSO2 API Manager](../../administer/key-managers/overview.md)
         
-    - [**Setting up Proxy Server and Load Balancer**]({{base_path}}/install-and-setup/setup/setting-up-proxy-server-and-the-load-balancer/configuring-the-proxy-server-and-the-load-balancer)
+    - [**Setting up Proxy Server and Load Balancer**](../../install-and-setup/setup/setting-up-proxy-server-and-the-load-balancer/configuring-the-proxy-server-and-the-load-balancer.md)
     
         A load balancer or reverse proxy is required to map external traffic with ports and URLs that WSO2 API Manager uses internally. This section explains how to configure such a load balancer.
         
-    - [**Configuring caching**]({{base_path}}/install-and-setup/setup/advance-configurations/configuring-caching)
+    - [**Configuring caching**](../../install-and-setup/setup/advance-configurations/configuring-caching.md)
     
         This involves enabling caching in the API Gateway and Key Manger servers to optimize the efficiency with which the verification process for calls from the API Manager is carried out.
     
-    - [**Customizing the Management Console**]({{base_path}}/install-and-setup/setup/advance-configurations/customizing-the-management-console)
+    - [**Customizing the Management Console**](../../install-and-setup/setup/advance-configurations/customizing-the-management-console.md)
 
         This explains how you can customize the WSO2 API-M Management Console by setting up the development environment, applying new styles, etc.
         
@@ -109,23 +109,23 @@ In addition, the component-specific setup tasks are as follows:
 
 - **Streaming Integrator**
 
-    - [**Configuring business rules deployment**]({{base_path}}/install-and-setup/setup/si-setup/configuring-business-rules-deployment)
+    - [**Configuring business rules deployment**](../../install-and-setup/setup/si-setup/configuring-business-rules-deployment.md)
     
         The Streaming Integrator component allows common Siddhi queries to be templated as business rules. Business users can use these rules when they need to write similar queries instead of writing the queries from scratch. This section explains how to configure a Streaming Integrator node to use a specified business rule template.
     
-    - [**Configuring state persistence**]({{base_path}}/install-and-setup/setup/si-setup/configuring-database-and-file-system-state-persistence)
+    - [**Configuring state persistence**](../../install-and-setup/setup/si-setup/configuring-database-and-file-system-state-persistence.md)
     
         This section explains how to prevent the loss of data that can result from a system failure by persisting the state of Streaming Integrator component periodically either into a database system or into the file system.
         
-    - [**Configuring cluster coordination**]({{base_path}}/install-and-setup/setup/si-setup/configuring-cluster-coordination)
+    - [**Configuring cluster coordination**](../../install-and-setup/setup/si-setup/configuring-cluster-coordination.md)
     
         This section explains how to configure a cluster coordination strategy that determines how the Streaming Integrator nodes in a cluster coordinate with each other.
         
-    - [**Adding third party non-OSGi libraries**]({{base_path}}/install-and-setup/setup/si-setup/adding-third-party-non-osgi-libraries)
+    - [**Adding third party non-OSGi libraries**](../../install-and-setup/setup/si-setup/adding-third-party-non-osgi-libraries.md)
     
         The Streaming Integrator component is OSGi-based. Therefore, when you are adding non-OSGi libraries to the Streaming Integrator pack, you need to first convert them into OSGi bundles. This section provides instructions to do this.
     
-    - [**Enabling logs for received event count**]({{base_path}}/install-and-setup/setup/si-setup/monitoring-received-events-count-via-logs)
+    - [**Enabling logs for received event count**](../../install-and-setup/setup/si-setup/monitoring-received-events-count-via-logs.md)
     
         This section provides instructions to enable a log that  monitors the total number of event received by the Streaming Integrator component via its sources per given time interval. 
 

@@ -1,6 +1,6 @@
 # Configuring a Distributed API-M Deployment with Traffic Manager Separated from the Control Plane
 
-The WSO2 API-M server can be deployed as an [all-in-one deployment]({{base_path}}/install-and-setup/setup/single-node/all-in-one-deployment-overview) or as a distributed deployment. In the distributed setup, the [API-M server profiles]({{base_path}}/install-and-setup/setup/distributed-deployment/product-profiles) are deployed as separate API-M nodes. 
+The WSO2 API-M server can be deployed as an [all-in-one deployment](../../../install-and-setup/setup/single-node/all-in-one-deployment-overview.md) or as a distributed deployment. In the distributed setup, the [API-M server profiles](../../../install-and-setup/setup/distributed-deployment/product-profiles.md) are deployed as separate API-M nodes. 
 
 Given below are the API-M nodes you can have in a distributed deployment.
 
@@ -42,8 +42,8 @@ Given below are the API-M nodes you can have in a distributed deployment.
     </tr>
 </table>
 
-<a href="{{base_path}}/assets/img/setup-and-install/deployment-tm.png"><img src="{{base_path}}/assets/img/setup-and-install/deployment-tm.png" width="100%"></a>
+<a href="../../../../assets/img/setup-and-install/deployment-tm.png"><img src="../../../../assets/img/setup-and-install/deployment-tm.png" width="100%"></a>
 
 {!includes/deploy/steps-to-deploy-apim-in-a-distributed-setup-with-tm-separation.md!}
 
-For more information on starting API-M profiles, see [API-M Profiles]({{base_path}}/install-and-setup/setup/distributed-deployment/product-profiles).
+For more information on starting API-M profiles, see [API-M Profiles](../../../install-and-setup/setup/distributed-deployment/product-profiles.md).

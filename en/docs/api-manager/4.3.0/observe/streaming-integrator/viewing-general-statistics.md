@@ -1,8 +1,8 @@
 # Viewing General SI Statistics
 
 !!! note "Before you begin:"
-    - Follow the instructions in the [getting started guide]({{base_path}}/observe/streaming-integrator/setting-up-si-statistics-dashboards) to enable the WSO2 Streaming Integrator to publish statistics in the Grafana dashboard.
-    - [Organize the dashboards in folders]({{base_path}}/observe/streaming-integrator/managing-dashboards).
+    - Follow the instructions in the [getting started guide](../../observe/streaming-integrator/setting-up-si-statistics-dashboards.md) to enable the WSO2 Streaming Integrator to publish statistics in the Grafana dashboard.
+    - [Organize the dashboards in folders](../../observe/streaming-integrator/managing-dashboards.md).
 
 ## General Statistics dashboard
 
@@ -151,7 +151,7 @@ The following information is displayed in the Siddhi Overall Statistics dashboar
  
 ### Servers Up/Down
  
- [![Servers up/down]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/active_servers_graph.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/active_servers_graph.png)
+ [![Servers up/down](../../assets/img/streaming/streaming-integrator-grafana-dashboard/active_servers_graph.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/active_servers_graph.png)
  
  This indicates the number of active servers against time. When a new server is started, it is indicated by a vertical line. You can move the cursor over this vertical line to check the host and port at which the new active server is running.
  
@@ -172,7 +172,7 @@ The following information is displayed in the Siddhi Overall Statistics dashboar
  
 ### Siddhi App Count
  
- ![Siddhi app count]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/siddhi_app_count.png)
+ ![Siddhi app count](../../assets/img/streaming/streaming-integrator-grafana-dashboard/siddhi_app_count.png)
  
  This indicates the total number of Siddhi applications deployed in the currently active servers.
  
@@ -194,7 +194,7 @@ This allows you to get an overall understanding of the level of activity carried
  
 ### Server Statistics Summary Table
  
- ![Server statistics summary]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/server_statistics_summary.png)
+ ![Server statistics summary](../../assets/img/streaming/streaming-integrator-grafana-dashboard/server_statistics_summary.png)
  
  This lists the currently active Streaming Integrator servers and displays the following for each server:
 
@@ -214,7 +214,7 @@ To evaluate the performance of each server as follows:
  
 ### Overall Throughput
  
- [![Overall throughput]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/overall_throughput_graph.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/overall_throughput_graph.png)
+ [![Overall throughput](../../assets/img/streaming/streaming-integrator-grafana-dashboard/overall_throughput_graph.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/overall_throughput_graph.png)
  
  This shows the overall throughput of your current Streaming Integrator deployment. 
  
@@ -227,7 +227,7 @@ To monitor the overall throughput and evaluate it against other statistics such 
  
 ### System Load Average
  
- [![System load average]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/system_load_average_graph.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/system_load_average_graph.png)
+ [![System load average](../../assets/img/streaming/streaming-integrator-grafana-dashboard/system_load_average_graph.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/system_load_average_graph.png)
  
  This shows the average system load of your current Streaming Integrator deployment.
  
@@ -240,7 +240,7 @@ To monitor the system load average and compare it with other statistics such as 
  
 ### CPU Usage
  
- [![CPU usage]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/cpu_usage_graph.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/cpu_usage_graph.png)
+ [![CPU usage](../../assets/img/streaming/streaming-integrator-grafana-dashboard/cpu_usage_graph.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/cpu_usage_graph.png)
  
   This shows the CPU usage of your current Streaming Integrator deployment.
   
@@ -253,7 +253,7 @@ To monitor the CPU usage of your current Streaming Integrator deployment and to 
  
 ### Memory Usage
  
- [![Memory usage]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/memory_usage_graph.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/memory_usage_graph.png)
+ [![Memory usage](../../assets/img/streaming/streaming-integrator-grafana-dashboard/memory_usage_graph.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/memory_usage_graph.png)
  
  This shows the memory usage of your current Streaming Integrator deployment and to identify scenarios where you may need to make changes to the memory allocation.
   
@@ -266,7 +266,7 @@ To monitor the memory usage of your Streaming Integrator deployment and allocate
  
 ### Thread Count
 
-[![Thread Count]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/thread-count.png){: style="width:45%"}]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/thread-count.png)
+[![Thread Count](../../assets/img/streaming/streaming-integrator-grafana-dashboard/thread-count.png){: style="width:45%"}](../../assets/img/streaming/streaming-integrator-grafana-dashboard/thread-count.png)
 
 This shows the number of JVM (Java Virtual Machine) threads that are currently active.
 
@@ -276,7 +276,7 @@ You can use these statistics to profile your JVM.
 
 ### Threads Blocked
 
-[![Threads Blocked]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/blocked-threads.png){: style="width:45%"}]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/blocked-threads.png)
+[![Threads Blocked](../../assets/img/streaming/streaming-integrator-grafana-dashboard/blocked-threads.png){: style="width:45%"}](../../assets/img/streaming/streaming-integrator-grafana-dashboard/blocked-threads.png)
 
 This shows the number of JVM threads that are currently blocked.
 
@@ -286,7 +286,7 @@ You can use these statistics to profile your JVM.
 
 ### Memory Heap Used
 
-[![Memory Heap Used]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/memory-heap-used.png){: style="width:45%"}]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/memory-heap-used.png)
+[![Memory Heap Used](../../assets/img/streaming/streaming-integrator-grafana-dashboard/memory-heap-used.png){: style="width:45%"}](../../assets/img/streaming/streaming-integrator-grafana-dashboard/memory-heap-used.png)
 
 This shows the JVM memory heap that is currently consumed by your Streaming Integrator deployment.
 
@@ -299,11 +299,11 @@ You can evaluate the performance of your Streaming Integrator servers based on t
 
 The number of JVM file descriptors that are currently open.
 
-[![File Descriptors Open]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/file-descriptors.png){: style="width:45%"}]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/file-descriptors.png)
+[![File Descriptors Open](../../assets/img/streaming/streaming-integrator-grafana-dashboard/file-descriptors.png){: style="width:45%"}](../../assets/img/streaming/streaming-integrator-grafana-dashboard/file-descriptors.png)
 
 ### Stream Statistics
 
-[![Stream Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/stream-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/stream-statistics.png)
+[![Stream Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/stream-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/stream-statistics.png)
 
 This indicates the following:
 
@@ -324,7 +324,7 @@ This allows you to monitor each stream in your Streaming Integrator deployment a
 
 ### Query Statistics
 
-[![Query Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/query-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/query-statistics.png)
+[![Query Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/query-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/query-statistics.png)
 
 This indicates the following:
 
@@ -345,7 +345,7 @@ This allows you to monitor each query in your WSO2 Streaming Integrator deployme
 
 ### Source and Source Mapper Statistics
 
-[![Source and Source Mapper Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/source-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/source-statistics.png)
+[![Source and Source Mapper Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/source-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/source-statistics.png)
 
 This indicates the following:
 
@@ -367,7 +367,7 @@ To observe the performance of each source in terms of throughput and latency, an
 
 ### Sink Statistics
 
-[![Sink Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/sink-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/sink-statistics.png)
+[![Sink Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/sink-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/sink-statistics.png)
 
 This indicates the following:
 
@@ -389,7 +389,7 @@ To monitor the amount of data published by your WSO2 Streaming Integrator deploy
 
 ### Table Statistics
 
-[![Table Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/table-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/table-statistics.png)
+[![Table Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/table-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/table-statistics.png)
 
 This indicates the following:
 
@@ -411,7 +411,7 @@ To monitor the tables defined in your WSO2 Streaming Integrator deployment and a
 
 ### Window Statistics
 
-[![Window Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/window-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/window-statistics.png)
+[![Window Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/window-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/window-statistics.png)
 
 This indicates the following:
 
@@ -430,7 +430,7 @@ To monitor the windows defined in your WSO2 Streaming Integrator deployment and 
 
 ### Aggregation Statistics
 
-[![Aggregation Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/aggregation-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/aggregation-statistics.png)
+[![Aggregation Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/aggregation-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/aggregation-statistics.png)
 
 This indicates the following:
 
@@ -449,7 +449,7 @@ To monitor the aggregations defined in your WSO2 Streaming Integrator deployment
 
 ### Trigger Statistics
 
-[![Trigger Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/trigger-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/trigger-statistics.png)
+[![Trigger Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/trigger-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/trigger-statistics.png)
 
 This indicates the following:
 
@@ -468,7 +468,7 @@ To monitor the triggers defined in your WSO2 Streaming Integrator deployment and
 
 ### On Demand Query Statistics
 
-[![On Demand Query Statistics]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/on-demand-query-statistics.png)]({{base_path}}/assets/img/streaming/streaming-integrator-grafana-dashboard/on-demand-query-statistics.png)
+[![On Demand Query Statistics](../../assets/img/streaming/streaming-integrator-grafana-dashboard/on-demand-query-statistics.png)](../../assets/img/streaming/streaming-integrator-grafana-dashboard/on-demand-query-statistics.png)
 
 This indicates the following:
 
