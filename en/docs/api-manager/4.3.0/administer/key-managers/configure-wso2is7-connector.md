@@ -3,7 +3,7 @@
 WSO2 API Manager supports multiple Key Managers. As a result, WSO2 API Manager is prepacked with an inbuilt resident Key Manager, and it has the inbuilt capability of configuring **WSO2 Identity Server 7.x** (WSO2 IS 7.x) as a Key Manager.
 
 !!! info
-    This document provides instructions on configuring **WSO2 Identity Server 7.x** as a Key Manager. If you are using an older version of WSO2 Identity Server, see [Configure WSO2 IS as a Key Manager]({{base_path}}/administer/key-managers/configure-wso2is-connector).
+    This document provides instructions on configuring **WSO2 Identity Server 7.x** as a Key Manager. If you are using an older version of WSO2 Identity Server, see [Configure WSO2 IS as a Key Manager](../../administer/key-managers/configure-wso2is-connector.md).
 
 !!! Note
     **Role Based Authorization** based on the [WSO2 Identity Server 7 Role Based Authorization model](https://is.docs.wso2.com/en/7.0.0/guides/authorization/api-authorization/api-authorization/) is supported from following U2 update levels onwards:
@@ -17,7 +17,7 @@ WSO2 API Manager supports multiple Key Managers. As a result, WSO2 API Manager i
 Data models of WSO2 API Manager 4.3.0 and WSO2 Identity Server 7.x are different. Therefore, when using WSO2 API Manager 4.3.0 with WSO2 Identity Server 7.x as the key manager,
 
 - **Tenancy** is **not** supported.
-- WSO2 IS 7.x **cannot** be set up as a [**Resident Key Manager**]({{base_path}}/install-and-setup/setup/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager). It can only be set up as a [**Third-party Key Manager**]({{base_path}}/install-and-setup/setup/distributed-deployment/configure-a-third-party-key-manager).
+- WSO2 IS 7.x **cannot** be set up as a [**Resident Key Manager**](../../install-and-setup/setup/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager.md). It can only be set up as a [**Third-party Key Manager**](../../install-and-setup/setup/distributed-deployment/configure-a-third-party-key-manager.md).
 
 
 Follow the steps given below to configure WSO2 IS 7.x as a Key Manager component.
@@ -64,9 +64,9 @@ Follow the steps given below to configure WSO2 IS 7.x as a Key Manager component
     !!! Note
         **Before you begin:**
 
-        You need to import the public certificate of the WSO2 Identity Server 7.x to the truststore of the WSO2 API Manager, and vice-versa. For information on importing the certificates, see the [Importing certificates to the truststore]({{base_path}}/install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores/#step-3-importing-certificates-to-the-truststore) guide.
+        You need to import the public certificate of the WSO2 Identity Server 7.x to the truststore of the WSO2 API Manager, and vice-versa. For information on importing the certificates, see the [Importing certificates to the truststore](../../install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores.md#step-3-importing-certificates-to-the-truststore) guide.
 
-3. Download [notification.event.handlers-2.0.2.jar]({{base_path}}/assets/attachments/administer/wso2is.notification.event.handlers-2.0.2.4.jar) and add it to `<IS_HOME>/repository/components/dropins`.
+3. Download [notification.event.handlers-2.0.2.jar](../../assets/attachments/administer/wso2is.notification.event.handlers-2.0.2.4.jar) and add it to `<IS_HOME>/repository/components/dropins`.
 
 4. Start WSO2 Identity Server 7.x with a port offset.
    portOffset is required only if you are running both API-M and IS 7.x in the same JVM.

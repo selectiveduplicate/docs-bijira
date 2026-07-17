@@ -4,7 +4,7 @@ The API Governance CLI Tool is designed to validate API(s) against a set of rule
 
 ## Download the Tool
 
-You can download the tool for apim 4.3.0 from [here]({{base_path}}/assets/attachments/governance/cli.4.3.0.zip).
+You can download the tool for apim 4.3.0 from [here](../../assets/attachments/governance/cli.4.3.0.zip).
 
 ## Configuration
 

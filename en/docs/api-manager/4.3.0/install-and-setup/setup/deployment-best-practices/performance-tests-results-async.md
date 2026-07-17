@@ -9,7 +9,7 @@ The performance tests were conducted for streaming APIs of WSO2 API Manager. Tes
  
 ## Deployment used for the test
 
-[![API-M performance test all-in-one deployment]({{base_path}}/assets/img/setup-and-install/performance-test-results/apim_performance_test_all_in_one_deployment.png)]({{base_path}}/assets/img/setup-and-install/performance-test-results/apim_performance_test_all_in_one_deployment.png)
+[![API-M performance test all-in-one deployment](../../../assets/img/setup-and-install/performance-test-results/apim_performance_test_all_in_one_deployment.png)](../../../assets/img/setup-and-install/performance-test-results/apim_performance_test_all_in_one_deployment.png)
 
 <table>
 <thead>
@@ -80,7 +80,7 @@ consumed.
 
 The following graph depicts the variation of Error, CPU and Memory % with concurrent users.
 
-[![WebSub Test Results]({{base_path}}/assets/img/setup-and-install/performance-test-results/websub_sse_perf_test_results.png)]({{base_path}}/assets/img/setup-and-install/performance-test-results/websub_sse_perf_test_results.png)
+[![WebSub Test Results](../../../assets/img/setup-and-install/performance-test-results/websub_sse_perf_test_results.png)](../../../assets/img/setup-and-install/performance-test-results/websub_sse_perf_test_results.png)
 
 **Key observations:**
 
@@ -132,7 +132,7 @@ The following table shows the number of concurrent connections with error rate. 
 
 The following graphs depict the variation of CPU and Memory % with concurrent connections.
 
-<img src="{{base_path}}/assets/img/setup-and-install/performance-test-results/websocket-cpu-mem-graphs/cpu_usage_430.png" alt="CPU Usage" width="900"/>
+<img src="../../../../assets/img/setup-and-install/performance-test-results/websocket-cpu-mem-graphs/cpu_usage_430.png" alt="CPU Usage" width="900"/>
 
-<img src="{{base_path}}/assets/img/setup-and-install/performance-test-results/websocket-cpu-mem-graphs/mem_usage_430.png" alt="Memory Usage" width="900"/>
+<img src="../../../../assets/img/setup-and-install/performance-test-results/websocket-cpu-mem-graphs/mem_usage_430.png" alt="Memory Usage" width="900"/>
 

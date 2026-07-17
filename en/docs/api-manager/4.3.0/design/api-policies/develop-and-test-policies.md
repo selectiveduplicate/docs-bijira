@@ -8,7 +8,7 @@ Before you start developing custom policies, ensure you have the following prere
 
 - Visual Studio Code installed on your machine
 - Basic understanding of WSO2 Synapse mediators and XML configuration
-- Familiarity with [policy creation concepts]({{base_path}}/design/api-policies/create-policy/)
+- Familiarity with [policy creation concepts](../../design/api-policies/create-policy.md)
 
 ## Set up your development environment
 
@@ -73,7 +73,7 @@ Custom policies for API Manager are XML-based configurations that use WSO2 Synap
     - Start with a root mediator element or child elements directly.
     - Use valid Synapse mediator syntax.
 
-2. Review the [list of unsupported mediators]({{base_path}}/design/api-policies/create-policy/) to ensure your policy doesn't use restricted mediators:
+2. Review the [list of unsupported mediators](../../design/api-policies/create-policy.md) to ensure your policy doesn't use restricted mediators:
 
     - `Call` mediator in non-blocking mode
     - `Send` mediator
@@ -260,6 +260,6 @@ Use these solutions to resolve common problems when developing policies.
 
 ## See also
 
-- [Create a policy]({{base_path}}/design/api-policies/create-policy/)
-- [Attach a policy]({{base_path}}/design/api-policies/attach-policy/)
-- [API policies overview]({{base_path}}/design/api-policies/overview/)
+- [Create a policy](../../design/api-policies/create-policy.md)
+- [Attach a policy](../../design/api-policies/attach-policy.md)
+- [API policies overview](../../design/api-policies/overview.md)

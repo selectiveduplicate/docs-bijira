@@ -14,11 +14,11 @@ You can add advanced rate limiting policies to both APIs and resources.
 2.  Click **Advanced Throttling** under the **Rate Limiting Policies** section to see the set of existing rate limiting tiers.
 3.  To add a new tier, click **Add New Policy**.
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/add-advanced-throttling-tier.png)]({{base_path}}/assets/img/learn/add-advanced-throttling-tier.png)
+    [![Add advanced policy page](../../assets/img/learn/add-advanced-throttling-tier.png)](../../assets/img/learn/add-advanced-throttling-tier.png)
     
 4.  Fill in the required details and click **Add**.
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/save-advanced-policy.png)]({{base_path}}/assets/img/learn/save-advanced-policy.png)
+    [![Add advanced policy page](../../assets/img/learn/save-advanced-policy.png)](../../assets/img/learn/save-advanced-policy.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -28,7 +28,7 @@ You can add advanced rate limiting policies to both APIs and resources.
     </p>
     </div>
    
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/add-request-bandwith-advanced-policy.png)]({{base_path}}/assets/img/learn/add-request-bandwith-advanced-policy.png)
+    [![Add advanced policy page](../../assets/img/learn/add-request-bandwith-advanced-policy.png)](../../assets/img/learn/add-request-bandwith-advanced-policy.png)
 
 
 5.  To add rate limiting limits with different parameters to the conditions below, click **Add Conditional Group**.
@@ -55,7 +55,7 @@ You can add advanced rate limiting policies to both APIs and resources.
 
      You can add a description about the condition group by click **Description** under **Condition Group**.
     
-     [![Add advanced policy page]({{base_path}}/assets/img/learn/new-conditional-groups.png)]({{base_path}}/assets/img/learn/new-conditional-groups.png)
+     [![Add advanced policy page](../../assets/img/learn/new-conditional-groups.png)](../../assets/img/learn/new-conditional-groups.png)
 
      | Condition    | Description value |
      |---------------|-------------------|
@@ -80,9 +80,9 @@ You can add advanced rate limiting policies to both APIs and resources.
 7.  Header condition and JWT claim condition values allow regex patterns to be defined.
     You can configure it to make either an exact match or a pattern match for the value using the regex values. For example:
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/new-header-condition-regex.png){:style="width:45%"}]({{base_path}}/assets/img/learn/new-header-condition-regex.png)
+    [![Add advanced policy page](../../assets/img/learn/new-header-condition-regex.png){:style="width:45%"}](../../assets/img/learn/new-header-condition-regex.png)
 
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/new-jwt-condition-regex.png){:style="width:45%"}]({{base_path}}/assets/img/learn/anew-jwt-condition-regex.png)
+    [![Add advanced policy page](../../assets/img/learn/new-jwt-condition-regex.png){:style="width:45%"}](../../assets/img/learn/anew-jwt-condition-regex.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -108,7 +108,7 @@ You can add advanced rate limiting policies to both APIs and resources.
 
 8.  Once done, click **Add**.
 
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/add-condition-group.png)]({{base_path}}/assets/img/learn/add-condition-group.png)
+    [![Add advanced policy page](../../assets/img/learn/add-condition-group.png)](../../assets/img/learn/add-condition-group.png)
 
 You have added a new advanced rate limiting policy. You can now apply it to an API or a resource.
 
@@ -128,11 +128,11 @@ Application-level rate limiting policies are applicable per access token generat
 2.  Click **Application Policies** under the **Rate Limiting Policies** section to see the set of existing rate limiting tiers.
 3.  To add a new tier, click **Add Policy**.
 
-    [![Add application policy page]({{base_path}}/assets/img/learn/add-new-application-policy.png)]({{base_path}}/assets/img/learn/add-new-application-policy.png)
+    [![Add application policy page](../../assets/img/learn/add-new-application-policy.png)](../../assets/img/learn/add-new-application-policy.png)
 
 4.  Fill in the required details and click **Save**.
 
-    [![Add application policy page]({{base_path}}/assets/img/learn/save-new-application-policy.png){:style="width:45%"}]({{base_path}}/assets/img/learn/save-new-application-policy.png)
+    [![Add application policy page](../../assets/img/learn/save-new-application-policy.png){:style="width:45%"}](../../assets/img/learn/save-new-application-policy.png)
 
 You have added a new application-level rate limiting policy.
 
@@ -142,7 +142,7 @@ You have added a new application-level rate limiting policy.
 2.  Click **Subscription Policies** under the **Rate Limiting Policies** section. The existing set of rate limiting tiers are displayed.
 3.  To add a new tier, click **Add Policy**.
 
-    [![Add subscription policy page]({{base_path}}/assets/img/design/rate-limiting/add-subscription-policy.png)]({{base_path}}/assets/img/design/rate-limiting/add-subscription-policy.png)
+    [![Add subscription policy page](../../assets/img/design/rate-limiting/add-subscription-policy.png)](../../assets/img/design/rate-limiting/add-subscription-policy.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -153,15 +153,15 @@ You have added a new application-level rate limiting policy.
 
 4.  Fill in the details required by this form and click **Save** once you are done.
 
-     [![Add subscription policy page]({{base_path}}/assets/img/design/rate-limiting/save-new-subscription-policy.png)]({{base_path}}/assets/img/design/rate-limiting/save-new-subscription-policy.png)
+     [![Add subscription policy page](../../assets/img/design/rate-limiting/save-new-subscription-policy.png)](../../assets/img/design/rate-limiting/save-new-subscription-policy.png)
 
      **Request bandwidth based quota limits**
 
-     <a href="{{base_path}}/assets/img/design/rate-limiting/request-bandwith-based-quota-limits.png"><img src="{{base_path}}/assets/img/design/rate-limiting/request-bandwith-based-quota-limits.png" width="70%" alt="Request bandwidth based quota limits"></a>
+     <a href="../../../assets/img/design/rate-limiting/request-bandwith-based-quota-limits.png"><img src="../../../assets/img/design/rate-limiting/request-bandwith-based-quota-limits.png" width="70%" alt="Request bandwidth based quota limits"></a>
 
      **Event Based (AsyncAPI) quota limits**
 
-     <a href="{{base_path}}/assets/img/design/rate-limiting/event-based-quota-limits.png"><img src="{{base_path}}/assets/img/design/rate-limiting/event-based-quota-limits.png" width="70%" alt="Event Based (AsyncAPI) quota limits"></a>
+     <a href="../../../assets/img/design/rate-limiting/event-based-quota-limits.png"><img src="../../../assets/img/design/rate-limiting/event-based-quota-limits.png" width="70%" alt="Event Based (AsyncAPI) quota limits"></a>
 
     !!! note
         - Event Based (Async API) - These configurations are applicable to all the Streaming APIs (WebSocket, SSE, and WebHook (WebSub) APIs).
@@ -175,11 +175,11 @@ You have added a new application-level rate limiting policy.
      | Request Count/Request Bandwidth/Event Count | The maximum number of requests/maximum bandwidth/maximum events allowed to the API within the time period given in the next field.|
      | Unit Time                       | Time within which the number of requests given in the previous field is allowed to the API. This can be defined in minutes, hours, days, weeks, months or years.                   |
      | Burst Control (Rate Limiting)   | You can define the request count/bandwidth per unit time on an addition layer by using rate limiting. This is usually a smaller number of requests/bandwidth for a shorter time span than what is enforced in the above fields. For instance, if there's a subscription level policy enforced over a long period, you may not want users to consume the entire quota within a short time span. Enforcing a rate limit protects the backend from sudden request bursts and controls the usage at a subscription and API level. |
-     | GraphQL                         | Provide the [maximum complexity]({{base_path}}/design/rate-limiting/graphql-api/query-complexity-limitation/) and [maximum depth values]({{base_path}}/design/rate-limiting/graphql-api/query-depth-limitation/) for GraphQL APIs using this policy.|
+     | GraphQL                         | Provide the [maximum complexity](../../design/rate-limiting/graphql-api/query-complexity-limitation.md) and [maximum depth values](../../design/rate-limiting/graphql-api/query-depth-limitation.md) for GraphQL APIs using this policy.|
      | WebHooks                        | Maximum number of WebHooks allowed for a WebHooks API using this policy. |
      | Stop On Quota Reach             | This indicates the action to be taken when a user goes beyond the allocated quota. If the check box is selected, the user's requests are dropped and an error response (HTTP Status code 429) is given. If the check box is cleared, the requests are allowed to pass through.             |
      | Billing Plan                    | This field only makes sense if you have API Monetization enabled. The available **billing plans** are **Free, Commercial, and Freemium**. An API is tagged/labelled as Free, Paid, or Freemium depending on its subscription tiers(e.g., Unlimited, Gold, etc.), which are the tiers selected when creating an API. |
-     | Custom Attributes               | You can choose to display additional information about tiers using custom attributes during custom implementations. The main objective of these fields are to provide more information regarding the tier to Application Developers at the time of API subscription. An example usage of custom attributes is API Monetization. See [Enabling Monetization of APIs-]({{base_path}}/design/api-monetization/monetizing-an-api/) for more information on practical usage of custom attributes in the subscription tier.      |
+     | Custom Attributes               | You can choose to display additional information about tiers using custom attributes during custom implementations. The main objective of these fields are to provide more information regarding the tier to Application Developers at the time of API subscription. An example usage of custom attributes is API Monetization. See [Enabling Monetization of APIs-](../../design/api-monetization/monetizing-an-api.md) for more information on practical usage of custom attributes in the subscription tier.      |
      | Permissions                     | You can allow or deny permission for specific roles. Once permission is denied to a role, the new subscription tier that you add here will not be available to that role in the Developer Portal.          |
     
     <div class="admonition info">
@@ -188,5 +188,5 @@ You have added a new application-level rate limiting policy.
     <ul>
      <li><b>Free</b> - If all subscription tiers are defined as Free, the API uses the **Free billing plan** and the API is labeled as Free in the Developer Portal.              **Paid** - If all subscription tiers are defined as Paid, the API uses the **Commercial billing plan** and the API is labeled as Paid in the Developer Portal.</li>
      <li><b>Freemium</b> - If the API has a combination of Free and Paid subscription tiers, the API uses the **Freemium billing plan** and the API is labeled as Freemium in the Developer Portal.</li></ul>
-     <p>This labeling happens on the Developer Portal only if monetization has been enabled. For information on how to enable monetization and how to tag subscription tiers, see [Configuring API Monetization Category Labels]({{base_path}}/design/api-monetization/configuring-api-monetization-category-labels/).</p></div>You have now successfully added a new subscription-level rate limiting policy.
+     <p>This labeling happens on the Developer Portal only if monetization has been enabled. For information on how to enable monetization and how to tag subscription tiers, see [Configuring API Monetization Category Labels](../../design/api-monetization/configuring-api-monetization-category-labels.md).</p></div>You have now successfully added a new subscription-level rate limiting policy.
     

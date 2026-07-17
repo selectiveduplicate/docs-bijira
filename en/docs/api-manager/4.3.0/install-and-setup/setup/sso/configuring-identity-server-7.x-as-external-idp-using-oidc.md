@@ -51,7 +51,7 @@ WSO2 API Manager uses the OIDC Single Sign-On feature by default. This document 
 
 2.  Create a Standard-Based application by navigating to the **Applications** section from the left panel.
 
-    [![]({{base_path}}/assets/img/setup-and-install/create-standard-app-in-is7.png)]({{base_path}}/assets/img/setup-and-install/create-standard-app-in-is7.png)
+    [![](../../../assets/img/setup-and-install/create-standard-app-in-is7.png)](../../../assets/img/setup-and-install/create-standard-app-in-is7.png)
 
 3.  Edit the created Application:
 
@@ -66,25 +66,25 @@ WSO2 API Manager uses the OIDC Single Sign-On feature by default. This document 
 
         - Select Groups and Profile as requested attributes and Update.
 
-        [![]({{base_path}}/assets/img/setup-and-install/set-user-attributes-to-ass-in-is7.png)]({{base_path}}/assets/img/setup-and-install/set-user-attributes-to-ass-in-is7.png)
+        [![](../../../assets/img/setup-and-install/set-user-attributes-to-ass-in-is7.png)](../../../assets/img/setup-and-install/set-user-attributes-to-ass-in-is7.png)
 
         - Enable 'Assign alternatice subject identifier', select the Username as Subject attribute and Update.
 
-        [![]({{base_path}}/assets/img/setup-and-install/set-subject-attributes-to-ass-in-is7.png)]({{base_path}}/assets/img/setup-and-install/set-subject-attributes-to-ass-in-is7.png)
+        [![](../../../assets/img/setup-and-install/set-subject-attributes-to-ass-in-is7.png)](../../../assets/img/setup-and-install/set-subject-attributes-to-ass-in-is7.png)
 
 ### Step - 2 Create groups and users
 
 1. Navigate to User Management → Groups → New Group and create a new group `publisher_group` without assigning users.
 
-    [![Create User Group]({{base_path}}/assets/img/setup-and-install/create-group-in-is7.png)]({{base_path}}/assets/img/setup-and-install/create-group-in-is7.png)
+    [![Create User Group](../../../assets/img/setup-and-install/create-group-in-is7.png)](../../../assets/img/setup-and-install/create-group-in-is7.png)
 
 2. Navigate to User Management → Users → Add User and create a user `new_publisher` providing required details.
 
-    [![Create User]({{base_path}}/assets/img/setup-and-install/create-user-in-is7.png)]({{base_path}}/assets/img/setup-and-install/create-user-in-is7.png)
+    [![Create User](../../../assets/img/setup-and-install/create-user-in-is7.png)](../../../assets/img/setup-and-install/create-user-in-is7.png)
 
 3. Assign `publisher_group` group to the `new_publisher`.
 
-    [![Assign Group to User]({{base_path}}/assets/img/setup-and-install/assign-group-to-user-in-is7.png)]({{base_path}}/assets/img/setup-and-install/assign-group-to-user-in-is7.png)
+    [![Assign Group to User](../../../assets/img/setup-and-install/assign-group-to-user-in-is7.png)](../../../assets/img/setup-and-install/assign-group-to-user-in-is7.png)
 
 Repeat the same steps to create a group for Api Users and assign users to it.
 Now the following users are created in Identity Server with the given groups.
@@ -162,11 +162,11 @@ Now the following users are created in Identity Server with the given groups.
 
         The following image shows the sample values for OAuth2/OpenIDConnect Configurations:
 
-        [![sp]({{base_path}}/assets/img/setup-and-install/identity-provider-configuration-for-sso.png)]({{base_path}}/assets/img/setup-and-install/identity-provider-configuration-for-sso.png)
+        [![sp](../../../assets/img/setup-and-install/identity-provider-configuration-for-sso.png)](../../../assets/img/setup-and-install/identity-provider-configuration-for-sso.png)
 
     2.  Enable Just-in-Time Provisioning to provision the users in API Manager:
 
-        [![]({{base_path}}/assets/img/setup-and-install/jit-provisioning-for-sso.png)]({{base_path}}/assets/img/setup-and-install/jit-provisioning-for-sso.png)
+        [![](../../../assets/img/setup-and-install/jit-provisioning-for-sso.png)](../../../assets/img/setup-and-install/jit-provisioning-for-sso.png)
 
     3.  Add the following role mapping under the **Role Configuration** section:
     
@@ -189,7 +189,7 @@ Now the following users are created in Identity Server with the given groups.
         </tbody>
         </table>
 
-        [![]({{base_path}}/assets/img/setup-and-install/role-mapping-for-sso-is7.png)]({{base_path}}/assets/img/setup-and-install/role-mapping-for-sso-is7.png)
+        [![](../../../assets/img/setup-and-install/role-mapping-for-sso-is7.png)](../../../assets/img/setup-and-install/role-mapping-for-sso-is7.png)
 
         !!! Tip
             Instead of using the default internal roles, you can also create new roles in API Manager and map it to the provisioned users. 
@@ -212,7 +212,7 @@ Now the following users are created in Identity Server with the given groups.
     
         Also select **groups** as the **Role Claim URI**.
 
-    [![Claim mapping for sso]({{base_path}}/assets/img/setup-and-install/claim-mapping-for-sso.png)]({{base_path}}/assets/img/setup-and-install/claim-mapping-for-sso.png)
+    [![Claim mapping for sso](../../../assets/img/setup-and-install/claim-mapping-for-sso.png)](../../../assets/img/setup-and-install/claim-mapping-for-sso.png)
 
 ### Step - 2 Configure the Service Provider
 
@@ -223,7 +223,7 @@ Now the following users are created in Identity Server with the given groups.
 
 2.  Expand the **Local & Outbound Authentication Configuration** section and select **Federated Authentication** as Authentication Type and select the name of the Identity Provider you created in previous step and update.
 
-    [![]({{base_path}}/assets/img/setup-and-install/local-and-outbound-authentication-configuration-for-sso.png)]({{base_path}}/assets/img/setup-and-install/local-and-outbound-authentication-configuration-for-sso.png)
+    [![](../../../assets/img/setup-and-install/local-and-outbound-authentication-configuration-for-sso.png)](../../../assets/img/setup-and-install/local-and-outbound-authentication-configuration-for-sso.png)
 
 3.  Repeat the same step for `apim_devportal` Service Provider as well.
 

@@ -63,9 +63,9 @@ To start the Prometheus server, navigate to the `PROMETHEUS_HOME` and execute th
 
 Once the above steps are completed you would be able to observe the above targets through the Prometheus console (http://localhost:9090/targets) as follows and the /metrics endpoint (http://localhost:1234/metrics) will also be accessible.
 
-[![Prometheus Targets]({{base_path}}/assets/img/observe/prometheus-targets.png)]({{base_path}}/assets/img/observe/prometheus-targets.png)
+[![Prometheus Targets](../../../assets/img/observe/prometheus-targets.png)](../../../assets/img/observe/prometheus-targets.png)
 
-[![Prometheus Metrics]({{base_path}}/assets/img/observe/prometheus-metrics.png)]({{base_path}}/assets/img/observe/prometheus-metrics.png)
+[![Prometheus Metrics](../../../assets/img/observe/prometheus-metrics.png)](../../../assets/img/observe/prometheus-metrics.png)
 
 ## Viewing statistics
 
@@ -75,5 +75,5 @@ You may also visit the following url in Prometheus server to plot the graphs.
 http://localhost:9090/graph
 ```
 
-[![Prometheus Graph1]({{base_path}}/assets/img/observe/prometheus-graph1.png)]({{base_path}}/assets/img/observe/prometheus-graph1.png)
-[![Prometheus Graph2]({{base_path}}/assets/img/observe/prometheus-graph2.png)]({{base_path}}/assets/img/observe/prometheus-graph2.png)
+[![Prometheus Graph1](../../../assets/img/observe/prometheus-graph1.png)](../../../assets/img/observe/prometheus-graph1.png)
+[![Prometheus Graph2](../../../assets/img/observe/prometheus-graph2.png)](../../../assets/img/observe/prometheus-graph2.png)
