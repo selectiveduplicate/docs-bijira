@@ -7093,6 +7093,8 @@ extra:
         - "4.5.0"
         - "4.4.0"
         - "4.3.0"
+        - "4.2.0"
+        - "3.2.0"
     API Gateway:
       slug: api-gateway
       default: "1.1.0"
