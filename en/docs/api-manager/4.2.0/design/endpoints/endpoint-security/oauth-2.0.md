@@ -24,7 +24,11 @@ Follow the instructions below to use OAuth 2.0 as the endpoint authorization typ
 
 2. Click the Endpoint Security symbol that corresponds to the endpoint that you want to secure with OAuth 2.0.
 
+<<<<<<< HEAD
       [![Endpoint security symbol](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)](../../../assets/img/learn/endpoint-security-symbol.png)
+=======
+      [![Endpoint security symbol](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)
+>>>>>>> upstream/doc-migration
 
 3. Click on OAuth 2.0 from the drop-down menu.
 

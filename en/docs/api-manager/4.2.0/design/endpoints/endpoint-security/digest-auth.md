@@ -21,7 +21,11 @@ Follow the instructions below to use Digest Auth as the endpoint authentication 
 
 2. Click the Endpoint Security symbol of the endpoint you want to secure with Digest Auth.
 
+<<<<<<< HEAD
       [![Endpoint security symbol](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)](../../../assets/img/learn/endpoint-security-symbol.png)
+=======
+      [![Endpoint security symbol](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)](../../../assets/img/design/endpoints/endpoint-security/endpoint-security-symbol.png)
+>>>>>>> upstream/doc-migration
 
 3. Select **Digest Auth** as the endpoint authentication type from the drop-down menu.
 
