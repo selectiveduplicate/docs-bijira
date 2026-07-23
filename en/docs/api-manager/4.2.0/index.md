@@ -43,6 +43,8 @@ template: templates/no-navbars.html
             padding-top: 1.5rem;
         }
     }
+<<<<<<< HEAD
+=======
 
     /* This page has one more homePage section than other versions
        (intro / quick-start / overview-grid / scenarios-grid), so section02-04
@@ -110,6 +112,7 @@ template: templates/no-navbars.html
             flex-direction: row;
         }
     }
+>>>>>>> upstream/doc-migration
 </style>
 
 <div class="homePage">
