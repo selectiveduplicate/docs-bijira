@@ -11,7 +11,7 @@ Let's see how to use the GraphQL Console in the Developer Portal to invoke a Gra
 !!! Note
     You can only try out HTTPS based APIs via the GraphQL Console because the API Store runs on HTTPS.
 
-The examples here use the `StarWarsAPI` GraphQL API, which was created in [Create a GraphQL API]({{base_path}}/learn/design-api/create-api/create-a-graphql-api/).
+The examples here use the `StarWarsAPI` GraphQL API, which was created in [Create a GraphQL API](../../../../learn/design-api/create-api/create-a-graphql-api/).
 
 1. Sign in to the WSO2 Developer Portal and click on an API (e.g., `StarWarsAPI`).
 
@@ -19,17 +19,17 @@ The examples here use the `StarWarsAPI` GraphQL API, which was created in [Creat
 
 2. Subscribe to the GraphQL API (e.g., `StarWarsAPI` 1.0.0) using an application and an available throttling policy.
 
-     [![Subscribe to the GraphQL API]({{base_path}}/assets/img/learn/subscribe-to-graphql-api.png)]({{base_path}}/assets/img/learn/subscribe-to-graphql-api.png)
+     [![Subscribe to the GraphQL API](../../../../assets/img/learn/subscribe-to-graphql-api.png)](../../../../assets/img/learn/subscribe-to-graphql-api.png)
 
 3. Click **Applications** and open the application that you used to subscribe to the API.
 
 4. Click **Production Keys** and click **Generate keys** to generate a production key.
 
-     [![Generate production key]({{base_path}}/assets/img/learn/graphql-generate-keys-production.png)]({{base_path}}/assets/img/learn/graphql-generate-keys-production.png)
+     [![Generate production key](../../../../assets/img/learn/graphql-generate-keys-production.png)](../../../../assets/img/learn/graphql-generate-keys-production.png)
 
     !!! tip "Production and Sandbox Tokens"
 
-        To generate keys for the Sandbox endpoint, go to the **Sandbox Keys** tab. For more details, see [Maintaining Separate Production and Sandbox Gateways]({{base_path}}/learn/api-gateway/maintaining-separate-production-and-sandbox-gateways/#multiple-gateways-to-handle-production-and-sandbox-requests-separately).
+        To generate keys for the Sandbox endpoint, go to the **Sandbox Keys** tab. For more details, see [Maintaining Separate Production and Sandbox Gateways](../../../../learn/api-gateway/maintaining-separate-production-and-sandbox-gateways/#multiple-gateways-to-handle-production-and-sandbox-requests-separately).
 
     !!! tip "JWT vs OAuth tokens"
 
@@ -39,13 +39,13 @@ The examples here use the `StarWarsAPI` GraphQL API, which was created in [Creat
 
 6. Click **Test** under the **operations** section.
 
-    [![Test GraphQL API]({{base_path}}/assets/img/learn/graphql-console-test-button.png)]({{base_path}}/assets/img/learn/graphql-console-test-button.png)
+    [![Test GraphQL API](../../../../assets/img/learn/graphql-console-test-button.png)](../../../../assets/img/learn/graphql-console-test-button.png)
 
     This opens the GraphiQL UI (GraphQL Console) to test the StarWarsAPI.
 
 7. Copy the generated access token to the Authorization field as shown below.
 
-    [![Copy Access Token for tryout GraphQL API]({{base_path}}/assets/img/learn/graphql-api-copy-access-token.png)]({{base_path}}/assets/img/learn/graphql-api-copy-access-token.png)
+    [![Copy Access Token for tryout GraphQL API](../../../../assets/img/learn/graphql-api-copy-access-token.png)](../../../../assets/img/learn/graphql-api-copy-access-token.png)
 
 8. Invoke the GraphQL API using the [GraphiQL console](#using-the-graphiql-console).
 
@@ -78,7 +78,7 @@ Follow the instructios below to invoke a **GraphQL Query operation** using the G
  
 2. Click **Execute**.
 
-     [![Execute GraphQL Query]({{base_path}}/assets/img/learn/graphql-console-execute-query.png)]({{base_path}}/assets/img/learn/graphql-console-execute-query.png)
+     [![Execute GraphQL Query](../../../../assets/img/learn/graphql-console-execute-query.png)](../../../../assets/img/learn/graphql-console-execute-query.png)
 
     !!! info "Troubleshooting"
         If you **cannot invoke the API's HTTPS endpoint** (this causes the **SSLPeerUnverified exception**), it could be because the security certificate issued by the server is not trusted by your browser. 
@@ -89,7 +89,7 @@ Follow the instructios below to invoke a **GraphQL Query operation** using the G
 
      Note the successful response for the API invocation. 
 
-     [![Response of GraphQL Query]({{base_path}}/assets/img/learn/graphql-response-query.png)]({{base_path}}/assets/img/learn/graphql-response-query.png)
+     [![Response of GraphQL Query](../../../../assets/img/learn/graphql-response-query.png)](../../../../assets/img/learn/graphql-response-query.png)
 
 You have now successfully invoked a GraphQL API using the GraphQL API Console.
 
@@ -118,7 +118,7 @@ Follow the instructios below to invoke a **GraphQL Subscription operation** usin
    
      If you inspect the network calls from your browser developer tools, you can see the messages passed between the GraphiQL client and the backend.
 
-     [![Response of GraphQL Subscription]({{base_path}}/assets/img/learn/graphql-sub-init-response.png)]({{base_path}}/assets/img/learn/graphql-sub-init-response.png)
+     [![Response of GraphQL Subscription](../../../../assets/img/learn/graphql-sub-init-response.png)](../../../../assets/img/learn/graphql-sub-init-response.png)
 
      Now a successful WebSocket connection is established between the client and backend via WSO2 API Gateway.
 
@@ -153,7 +153,7 @@ Follow the instructios below to invoke a **GraphQL Subscription operation** usin
 
      You will notice that you have received a subscription event response corresponding to the mutation operation that you carried out in <a href="#step3">Step 3</a>.
 
-     [![Response Event of GraphQL Subscription]({{base_path}}/assets/img/learn/try-out-sub-event.png)]({{base_path}}/assets/img/learn/try-out-sub-event.png)
+     [![Response Event of GraphQL Subscription](../../../../assets/img/learn/try-out-sub-event.png)](../../../../assets/img/learn/try-out-sub-event.png)
 
      You have now successfully invoked a GraphQL API using the GraphQL API Console.
 

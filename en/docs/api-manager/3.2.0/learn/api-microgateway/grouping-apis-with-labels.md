@@ -23,7 +23,7 @@ If required, you can create a [WSO2 API Microgateway](https://wso2.com/api-manag
 
      1. Click **Gateways**, and then click **Add Gateway Label**.
 
-         [![Menu to add Microgateway label]({{base_path}}/assets/img/learn/add-microgateway-label-menu.png)]({{base_path}}/assets/img/learn/add-microgateway-label-menu.png)
+         [![Menu to add Microgateway label](../../assets/img/learn/add-microgateway-label-menu.png)](../../assets/img/learn/add-microgateway-label-menu.png)
 
      2. Enter a name, which will be used as the Microgateway label and a host.
 
@@ -47,7 +47,7 @@ If required, you can create a [WSO2 API Microgateway](https://wso2.com/api-manag
 
      4. Click **Save**.
 
-         [![Add a Microgateway label]({{base_path}}/assets/img/learn/add-microgateway-label.png)]({{base_path}}/assets/img/learn/add-microgateway-label.png)
+         [![Add a Microgateway label](../../assets/img/learn/add-microgateway-label.png)](../../assets/img/learn/add-microgateway-label.png)
 
 ## Step 2 - Assign the Microgateway label to an API
 
@@ -70,13 +70,13 @@ If required, you can create a [WSO2 API Microgateway](https://wso2.com/api-manag
 
 3.  Click on the API to edit its configurations.
 
-     [![Edit the API]({{base_path}}/assets/img/learn/select-api.png)]({{base_path}}/assets/img/learn/select-api.png)
+     [![Edit the API](../../assets/img/learn/select-api.png)](../../assets/img/learn/select-api.png)
 
 4.  Click **Environments**.
 
 5.  Select the newly created Microgateway label.
 
-     [![Microgateway label in the Publisher]({{base_path}}/assets/img/learn/microgateway-label-publisher.png)]({{base_path}}/assets/img/learn/microgateway-label-publisher.png)
+     [![Microgateway label in the Publisher](../../assets/img/learn/microgateway-label-publisher.png)](../../assets/img/learn/microgateway-label-publisher.png)
 
 6. Click **Save** to attach it to the Pizzashack API.
    
@@ -96,4 +96,4 @@ If required, you can create a [WSO2 API Microgateway](https://wso2.com/api-manag
 
      The Microgateways, which are attached to the API, appear.
 
-     [![Microgateway label in the Developer Portal]({{base_path}}/assets/img/learn/microgateway-label-devportal.png)]({{base_path}}/assets/img/learn/microgateway-label-devportal.png)
+     [![Microgateway label in the Developer Portal](../../assets/img/learn/microgateway-label-devportal.png)](../../assets/img/learn/microgateway-label-devportal.png)

@@ -235,7 +235,7 @@ Follow the instructions below to create a custom widget named `APIMApiTraffic` t
 
 9. Select the Date time Range.
     
-    [![APIMApiTraffic configurations]({{base_path}}/assets/img/learn/apim-apitraffic-configurations.png)]({{base_path}}/assets/img/learn/apim-apitraffic-configurations.png)
+    [![APIMApiTraffic configurations](../../assets/img/learn/apim-apitraffic-configurations.png)](../../assets/img/learn/apim-apitraffic-configurations.png)
     
 ## Step 2 - Define the database configurations for the widget
 

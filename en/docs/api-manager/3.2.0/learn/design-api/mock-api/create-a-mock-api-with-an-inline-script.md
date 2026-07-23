@@ -10,15 +10,15 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
 
 1. Click **CREATE NEW API**, and click **I Have an Existing REST API**.
 
-     [![Create API options]({{base_path}}/assets/img/learn/create-api-existing-rest-api-link.png)]({{base_path}}/assets/img/learn/create-api-existing-rest-api-link.png)
+     [![Create API options](../../../assets/img/learn/create-api-existing-rest-api-link.png)](../../../assets/img/learn/create-api-existing-rest-api-link.png)
 
 2. Upload the OpenAPI URL or OpenAPI File and click **NEXT**.
 
-     [![Filled create api form for existing]({{base_path}}/assets/img/learn/create-api-using-openapi-url-filled.png)]({{base_path}}/assets/img/learn/create-api-using-openapi-url-filled.png)
+     [![Filled create api form for existing](../../../assets/img/learn/create-api-using-openapi-url-filled.png)](../../../assets/img/learn/create-api-using-openapi-url-filled.png)
     
 3. Provide the API name, context, and version. Thereafter, click **CREATE**.
 
-     [![Filled create api form]({{base_path}}/assets/img/learn/create-api-form-swagger-petstore-filled.png)]({{base_path}}/assets/img/learn/create-api-form-swagger-petstore-filled.png)
+     [![Filled create api form](../../../assets/img/learn/create-api-form-swagger-petstore-filled.png)](../../../assets/img/learn/create-api-form-swagger-petstore-filled.png)
          
       Now you will be directed to the API overview page.
 
@@ -26,15 +26,15 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
 
 5. Select **Prototype Implementation** as the endpoint type, and click **Proceed**.
 
-     [![Selecting Prototype Implementation to add]({{base_path}}/assets/img/learn/create-api-prototype-endpoint-add-swagger-petstore.png)]({{base_path}}/assets/img/learn/create-api-prototype-endpoint-add-swagger-petstore.png)
+     [![Selecting Prototype Implementation to add](../../../assets/img/learn/create-api-prototype-endpoint-add-swagger-petstore.png)](../../../assets/img/learn/create-api-prototype-endpoint-add-swagger-petstore.png)
 
      The Endpoints page appears.
     
-     [![List of endpoints in Inline script page]({{base_path}}/assets/img/learn/create-api-prototype-endpoint-page-swagger-petstore.png)]({{base_path}}/assets/img/learn/create-api-prototype-endpoint-page-swagger-petstore.png)
+     [![List of endpoints in Inline script page](../../../assets/img/learn/create-api-prototype-endpoint-page-swagger-petstore.png)](../../../assets/img/learn/create-api-prototype-endpoint-page-swagger-petstore.png)
 
 6. Click and expand any of the methods that contain a sample/mock payload to view the inline script that has been generated.
 
-     [![Generated inline script]({{base_path}}/assets/img/learn/create-api-prototype-generated-script.png)]({{base_path}}/assets/img/learn/create-api-prototype-generated-script.png)
+     [![Generated inline script](../../../assets/img/learn/create-api-prototype-generated-script.png)](../../../assets/img/learn/create-api-prototype-generated-script.png)
 
      The example response defined in the OpenAPI definition is set as the mock response payload. You can modify the generated inline scripts as required. 
     
@@ -47,7 +47,7 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
         The **RESET** button appears after a change is made to the script. When pressed, the script will revert back to the originally generated script.
         
 
-     [![Modified inline script]({{base_path}}/assets/img/learn/create-api-prototype-generated-script-modified.png)]({{base_path}}/assets/img/learn/create-api-prototype-generated-script-modified.png)
+     [![Modified inline script](../../../assets/img/learn/create-api-prototype-generated-script-modified.png)](../../../assets/img/learn/create-api-prototype-generated-script-modified.png)
    
    
 
@@ -129,7 +129,7 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
       
   8. Click **SAVE** to save the API.
 
-    [![Save button Inline scripts page]({{base_path}}/assets/img/learn/create-api-prototype-click-save.png)]({{base_path}}/assets/img/learn/create-api-prototype-click-save.png)
+    [![Save button Inline scripts page](../../../assets/img/learn/create-api-prototype-click-save.png)](../../../assets/img/learn/create-api-prototype-click-save.png)
 
 ## Step 2 - Deploy the API as a prototype
 
@@ -137,7 +137,7 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
 
   2. Click **DEPLOY AS A PROTOTYPE** to deploy the API as a prototype.
 
-      [![Lifecycle page]({{base_path}}/assets/img/learn/create-api-prototype-lc-page-petstore.png)]({{base_path}}/assets/img/learn/create-api-prototype-lc-page-petstore.png)
+      [![Lifecycle page](../../../assets/img/learn/create-api-prototype-lc-page-petstore.png)](../../../assets/img/learn/create-api-prototype-lc-page-petstore.png)
 
 ## Step 3 - Invoke the API
 
@@ -145,11 +145,11 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
 
 2. Click **Try Out** to navigate to the API Console.
 
-     [![Devportal overview]({{base_path}}/assets/img/learn/create-api-prototype-dev-portal-overview-petstore.png)]({{base_path}}/assets/img/learn/create-api-prototype-dev-portal-overview-petstore.png)
+     [![Devportal overview](../../../assets/img/learn/create-api-prototype-dev-portal-overview-petstore.png)](../../../assets/img/learn/create-api-prototype-dev-portal-overview-petstore.png)
 
 3. Expand any method and click **Try it out**.
 
-     [![Tryout click]({{base_path}}/assets/img/learn/create-api-prototype-tryout-click.png)]({{base_path}}/assets/img/learn/create-api-prototype-tryout-click.png)
+     [![Tryout click](../../../assets/img/learn/create-api-prototype-tryout-click.png)](../../../assets/img/learn/create-api-prototype-tryout-click.png)
 
 4. Enter the value for the parameter and click **Execute** to invoke the API.
 
@@ -158,7 +158,7 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
 
     1. For `petId : " 0 " `
 
-         [![Tryout for petid0]({{base_path}}/assets/img/learn/create-api-prototype-tryout-execute-petid0.png)]({{base_path}}/assets/img/learn/create-api-prototype-tryout-execute-petid0.png)
+         [![Tryout for petid0](../../../assets/img/learn/create-api-prototype-tryout-execute-petid0.png)](../../../assets/img/learn/create-api-prototype-tryout-execute-petid0.png)
         
         Sample cURL command to invoke the API
         ```
@@ -167,11 +167,11 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
         
         The response payload that is defined in the generated script is returned.
    
-        [![Response for petid0]({{base_path}}/assets/img/learn/create-api-prototype-execute-response-petid0.png)]({{base_path}}/assets/img/learn/create-api-prototype-execute-response-petid0.png)
+        [![Response for petid0](../../../assets/img/learn/create-api-prototype-execute-response-petid0.png)](../../../assets/img/learn/create-api-prototype-execute-response-petid0.png)
 
     2. For `petId : " 1 " `
 
-        [![Tryout for petid1]({{base_path}}/assets/img/learn/create-api-prototype-tryout-execute-petid1.png)]({{base_path}}/assets/img/learn/create-api-prototype-tryout-execute-petid1.png)
+        [![Tryout for petid1](../../../assets/img/learn/create-api-prototype-tryout-execute-petid1.png)](../../../assets/img/learn/create-api-prototype-tryout-execute-petid1.png)
 
         Sample cURL command to invoke the API
         ```
@@ -180,14 +180,14 @@ For this let's use the following OpenAPI URL: `https://petstore3.swagger.io/api/
         
         The response payload defined in the manually modified script is returned.
 
-        [![Response for petid1]({{base_path}}/assets/img/learn/create-api-prototype-execute-response-petid1.png)]({{base_path}}/assets/img/learn/create-api-prototype-execute-response-petid1.png)
+        [![Response for petid1](../../../assets/img/learn/create-api-prototype-execute-response-petid1.png)](../../../assets/img/learn/create-api-prototype-execute-response-petid1.png)
    
    
 You have successfully created an API with an inline script, deployed it as a prototype, and invoked it via the integrated API Console.
 
 An API can also be prototyped by moving the API to the `PROTOTYPED` state by changing the API lifecycle state and providing the prototype endpoints.
 
-For more information, see the [Deploy and Test Prototype APIs]({{base_path}}/learn/design-api/mock-api/deploy-and-test-mock-apis) tutorial.
+For more information, see the [Deploy and Test Prototype APIs](../../../learn/design-api/mock-api/deploy-and-test-mock-apis) tutorial.
 
 <div class="admonition info">
 <p class="admonition-title">Related Guides</p>
@@ -196,15 +196,15 @@ For more information, see the [Deploy and Test Prototype APIs]({{base_path}}/lea
     <ul>
     <li>Create and Publish an API
 <ul>
-          <li> <a href="{{base_path}}/learn/design-api/publish-api/publish-an-api">Create and Publish an API</a></li>
+          <li> <a href="../../../learn/design-api/publish-api/publish-an-api">Create and Publish an API</a></li>
 
-          <li> <a href="{{base_path}}/learn/design-api/create-api/create-a-rest-api">Create and Publish an API</a> </li>
+          <li> <a href="../../../learn/design-api/create-api/create-a-rest-api">Create and Publish an API</a> </li>
     </ul>
     <li>
-    <a href="{{base_path}}/learn/design-api/create-api/create-a-websocket-api">Create a WebSocket API </a>
+    <a href="../../../learn/design-api/create-api/create-a-websocket-api">Create a WebSocket API </a>
 </li>
 <li>
-    <a href="{{base_path}}/learn/design-api/create-api/create-a-rest-api-from-a-swagger-definition">Create an API from an OpenAPI definition</a></li>
+    <a href="../../../learn/design-api/create-api/create-a-rest-api-from-a-swagger-definition">Create an API from an OpenAPI definition</a></li>
   </p>
   </div>
 

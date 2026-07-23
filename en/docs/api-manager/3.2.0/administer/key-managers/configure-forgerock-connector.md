@@ -10,7 +10,7 @@ Follow the instructions given below to configure ForgeRock as a third-party Key 
 
 - [Install ForgeRock](https://backstage.forgerock.com/downloads/) - ForgeRock 6.5.3 is recommended.
 
-- [Download and install WSO2 API Manager 3.2.0]({{base_path}}/install-and-setup/install/installing-the-product/installing-the-product/).
+- [Download and install WSO2 API Manager 3.2.0](../../install-and-setup/install/installing-the-product/installing-the-product/).
 
 ## Step 1 - Configure ForgeRock
 
@@ -25,7 +25,7 @@ Follow the instructions given below to configure the Fogerock Authorization Serv
     !!! note
         The examples and configurations in this guide are based on the root realm named **Top level realm**, which exists by default.
    
-    [![ForgeRock realms]({{base_path}}/assets/img/administer/forgerock-realms.png)]({{base_path}}/assets/img/administer/forgerock-realms.png)
+    [![ForgeRock realms](../../assets/img/administer/forgerock-realms.png)](../../assets/img/administer/forgerock-realms.png)
 
 3. Navigate to **Root Realm** -> **Dashboard** -> **Configure OAuth Provider** -> **Configure OAuth 2.0** section.
 
@@ -70,7 +70,7 @@ Follow the instructions given below to configure the Fogerock Authorization Serv
      </table>
   
    
-    [![ForgeRock create OAuth Provider]({{base_path}}/assets/img/administer/forgerock-createOauthProvider.png)]({{base_path}}/assets/img/administer/forgerock-createOauthProvider.png)
+    [![ForgeRock create OAuth Provider](../../assets/img/administer/forgerock-createOauthProvider.png)](../../assets/img/administer/forgerock-createOauthProvider.png)
 
 5. Navigate to **Root Realm** -> **Service Provider** -> **OAuth2 Provider** and click on the **Advanced** tab.
 
@@ -98,7 +98,7 @@ Follow the instructions given below to configure the Fogerock Authorization Serv
      </tr>
      </table>
    
-    [![ForgeRock provider advance config]({{base_path}}/assets/img/administer/forgerock-provider-advance-config.png)]({{base_path}}/assets/img/administer/forgerock-provider-advance-config.png)
+    [![ForgeRock provider advance config](../../assets/img/administer/forgerock-provider-advance-config.png)](../../assets/img/administer/forgerock-provider-advance-config.png)
 
 7. Navigate to the **Dynamic client registration** tab and configure it to allow dynamic client registration using the following values.
 
@@ -130,7 +130,7 @@ Follow the instructions given below to configure the Fogerock Authorization Serv
      </table>
 
    
-    [![ForgeRock configure dcr]({{base_path}}/assets/img/administer/forgerock-configure-dcr.png)]({{base_path}}/assets/img/administer/forgerock-configure-dcr.png)
+    [![ForgeRock configure dcr](../../assets/img/administer/forgerock-configure-dcr.png)](../../assets/img/administer/forgerock-configure-dcr.png)
    
 You can configure the other properties of the OAuth2 provider based on your requirements.
 
@@ -162,7 +162,7 @@ Create a static OAuth client as follows so that you can use the OAuth client key
 
      </table>
    
-     [![ForgeRock add client]({{base_path}}/assets/img/administer/forgerock-add-client.png)]({{base_path}}/assets/img/administer/forgerock-add-client.png)
+     [![ForgeRock add client](../../assets/img/administer/forgerock-add-client.png)](../../assets/img/administer/forgerock-add-client.png)
 
 2. Navigate to the above created client under **Applications** -> **Client ID of the App** -> **Core** -> **Access Token LifeTime**.
 
@@ -172,7 +172,7 @@ Create a static OAuth client as follows so that you can use the OAuth client key
     
 4. Navigate to the **Advanced** tab and configure the `client_credential` grant type that you need to use to obtain the access token.
    
-      [![ForgeRock client grant]({{base_path}}/assets/img/administer/forgerock-client-grant.png)]({{base_path}}/assets/img/administer/forgerock-client-grant.png)
+      [![ForgeRock client grant](../../assets/img/administer/forgerock-client-grant.png)](../../assets/img/administer/forgerock-client-grant.png)
 
 If you want to work with scopes, then you need to assign the relevant scopes to the relevant OAuth clients beforehand.    
 
@@ -180,7 +180,7 @@ If you want to work with scopes, then you need to assign the relevant scopes to 
 
 Follow the instructions given below to configure WSO2 API Manager to work with the Fogerock Authorization Server.
 
-1. [Start WSO2 API Manager]({{base_path}}/install-and-setup/install/running-the-product/#starting-the-server).
+1. [Start WSO2 API Manager](../../install-and-setup/install/running-the-product/#starting-the-server).
 
      `<API-M_HOME>` refers to the root folder of the extracted WSO2 API-M distribution.
 
@@ -192,17 +192,17 @@ Follow the instructions given below to configure WSO2 API Manager to work with t
 
     2. Click Key Manager and then click **Add Key Manager**.
 
-         [![Add Key Manger]({{base_path}}/assets/img/administer/add-key-manager.png)]({{base_path}}/assets/img/administer/add-key-manager.png)
+         [![Add Key Manger](../../assets/img/administer/add-key-manager.png)](../../assets/img/administer/add-key-manager.png)
 
     3. Add the following configuration to add a new Key Manager.
 
-         [![Add ForgeRock configurations]({{base_path}}/assets/img/administer/forgerock-add-km-1.png)]({{base_path}}/assets/img/administer/forgerock-add-km-1.png)
+         [![Add ForgeRock configurations](../../assets/img/administer/forgerock-add-km-1.png)](../../assets/img/administer/forgerock-add-km-1.png)
 
-         [![Add ForgeRock configurations]({{base_path}}/assets/img/administer/forgerock-add-km-2.png)]({{base_path}}/assets/img/administer/forgerock-add-km-2.png)
+         [![Add ForgeRock configurations](../../assets/img/administer/forgerock-add-km-2.png)](../../assets/img/administer/forgerock-add-km-2.png)
 
-         [![Add ForgeRock configurations]({{base_path}}/assets/img/administer/forgerock-add-km-3.png)]({{base_path}}/assets/img/administer/forgerock-add-km-3.png)
+         [![Add ForgeRock configurations](../../assets/img/administer/forgerock-add-km-3.png)](../../assets/img/administer/forgerock-add-km-3.png)
 
-         [![Add ForgeRock configurations]({{base_path}}/assets/img/administer/forgerock-add-km-4.png)]({{base_path}}/assets/img/administer/forgerock-add-km-4.png)
+         [![Add ForgeRock configurations](../../assets/img/administer/forgerock-add-km-4.png)](../../assets/img/administer/forgerock-add-km-4.png)
 
          The following table provides definitions for each of the configurations.
 
@@ -424,6 +424,6 @@ Follow the instructions given below to configure WSO2 API Manager to work with t
 3. Create a new application or use the default application.
 4. Click **Production Keys**.
 
-     [![ForgeRock Developer Portal generate keys]({{base_path}}/assets/img/administer/forgerock-devportal-genkeys.png)]({{base_path}}/assets/img/administer/forgerock-devportal-genkeys.png)
+     [![ForgeRock Developer Portal generate keys](../../assets/img/administer/forgerock-devportal-genkeys.png)](../../assets/img/administer/forgerock-devportal-genkeys.png)
 
 5. Click **Generate Keys**.

@@ -56,7 +56,7 @@ Follow the instructions below to create a REST API using an Open API definition 
 
 4.  Select **OpenAPI URL** and provide `http://petstore.swagger.io/v2/swagger.json` as the URL. Click **NEXT**.
 
-     [![Create a REST API using swagger definition]({{base_path}}/assets/img/learn/create-rest-api-using-swagger-def-form1.jpg)]({{base_path}}/assets/img/learn/create-rest-api-using-swagger-def-form1.jpg)
+     [![Create a REST API using swagger definition](../../../assets/img/learn/create-rest-api-using-swagger-def-form1.jpg)](../../../assets/img/learn/create-rest-api-using-swagger-def-form1.jpg)
 
 5.  Edit the information as given below and click **CREATE**.
 
@@ -66,23 +66,23 @@ Follow the instructions below to create a REST API using an Open API definition 
      | Context | /v2          |
      | Version | 1.0.5        |
  
-     [![Create a REST API using swagger definition]({{base_path}}/assets/img/learn/create-rest-api-using-swagger-def-form2.png)]({{base_path}}/assets/img/learn/create-rest-api-using-swagger-def-form2.png)
+     [![Create a REST API using swagger definition](../../../assets/img/learn/create-rest-api-using-swagger-def-form2.png)](../../../assets/img/learn/create-rest-api-using-swagger-def-form2.png)
 
      The Petstore API overview page appears.
 
-     [![]({{base_path}}/assets/img/learn/overviewpage-rest-api-creating-by-swagger-def.png)]({{base_path}}/assets/img/learn/overviewpage-rest-api-creating-by-swagger-def.png)
+     [![](../../../assets/img/learn/overviewpage-rest-api-creating-by-swagger-def.png)](../../../assets/img/learn/overviewpage-rest-api-creating-by-swagger-def.png)
 
 ### Resources
    
 Click **Resources** to navigate to the resources page. 
 
 <html>
-<img src="{{base_path}}/assets/img/learn/resources-menu.png" width="200">
+<img src="../../../../assets/img/learn/resources-menu.png" width="200">
 </html>
 
 You will notice that all the API resources are created automatically when the OpenAPI URL is specified.
    
-[![]({{base_path}}/assets/img/learn/resource-of-pet-store-api.png)]({{base_path}}/assets/img/learn/resource-of-pet-store-api.png)
+[![](../../../assets/img/learn/resource-of-pet-store-api.png)](../../../assets/img/learn/resource-of-pet-store-api.png)
 
 ### API Definition
 
@@ -90,7 +90,7 @@ You will notice that all the API resources are created automatically when the Op
 
      This is required to invoke the API in the Developer Portal using the OpenAPI UI.
     
-     [![]({{base_path}}/assets/img/learn/edit-api-definition-pet-store.png)]({{base_path}}/assets/img/learn/edit-api-definition-pet-store.png)
+     [![](../../../assets/img/learn/edit-api-definition-pet-store.png)](../../../assets/img/learn/edit-api-definition-pet-store.png)
 
 
 2. Remove the `petstore_auth` tag related configuration that appears under the `security` tag from the `/pet` POST resource given below. 
@@ -121,7 +121,7 @@ You will notice that all the API resources are created automatically when the Op
     ```
 4.  After removing the security tags, click **Update Contents** to save the changes.
      
-     [![]({{base_path}}/assets/img/learn/update-content-pet-store.png)]({{base_path}}/assets/img/learn/update-content-pet-store.png)
+     [![](../../../assets/img/learn/update-content-pet-store.png)](../../../assets/img/learn/update-content-pet-store.png)
 
 ### Enpoints
 
@@ -136,12 +136,12 @@ You will notice that all the API resources are created automatically when the Op
      | Sandbox endpoint    | Let's only work with the production endpoint for this sample. Therefore, uncheck the sandbox endpoint option. |
 
      <html>
-     <img src="{{base_path}}/assets/img/learn/endpoint-menu.png" width="200">
+     <img src="../../../../assets/img/learn/endpoint-menu.png" width="200">
      </html>
 
 3. Click **SAVE**.
 
-     [![]({{base_path}}/assets/img/learn/add-endpoint-configuration-for-pet-store-api.png)]({{base_path}}/assets/img/learn/add-endpoint-configuration-for-pet-store-api.png)
+     [![](../../../assets/img/learn/add-endpoint-configuration-for-pet-store-api.png)](../../../assets/img/learn/add-endpoint-configuration-for-pet-store-api.png)
 
 ### Runtime Configuration
 
@@ -150,11 +150,11 @@ Click **Runtime Configuration** to navigate to the runtime configurations that c
 The Transport Level Security defines the transport protocol on which the API is exposed.
      
 <html>
-<img src="{{base_path}}/assets/img/learn/runtime-config-menu.png" width="200">
+<img src="../../../../assets/img/learn/runtime-config-menu.png" width="200">
 </html>
 
 <html>
-    <img src="{{base_path}}/assets/img/learn/transport-level-security-pet-store.png" height="400" width="700">
+    <img src="../../../../assets/img/learn/transport-level-security-pet-store.png" height="400" width="700">
     </html>
 
 <html><div class="admonition note">
@@ -179,7 +179,7 @@ The Transport Level Security defines the transport protocol on which the API is 
 1. Click **Subscriptions**.
 
      <html>
-     <img src="{{base_path}}/assets/img/learn/subscriptions-menu.png" width="200">
+     <img src="../../../../assets/img/learn/subscriptions-menu.png" width="200">
      </html>
 
 2. Select **Gold** and **Silver** as the Bussiness plans.
@@ -192,9 +192,9 @@ The Transport Level Security defines the transport protocol on which the API is 
 
 3. Click **SAVE**
 
-    [![]({{base_path}}/assets/img/learn/add-bussiness-plans-for-pet-store-api.png)]({{base_path}}/assets/img/learn/add-bussiness-plans-for-pet-store-api.png)
+    [![](../../../assets/img/learn/add-bussiness-plans-for-pet-store-api.png)](../../../assets/img/learn/add-bussiness-plans-for-pet-store-api.png)
 
 
 Now, a REST API from an Open API Definition has been created and configured successfully. 
 
-Next, publish the API, for more information, see [Publish an API]({{base_path}}/learn/design-api/publish-api/publish-an-api).
+Next, publish the API, for more information, see [Publish an API](../../../learn/design-api/publish-api/publish-an-api).

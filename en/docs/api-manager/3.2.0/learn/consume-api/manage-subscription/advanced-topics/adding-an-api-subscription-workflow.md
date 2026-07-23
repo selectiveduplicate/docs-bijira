@@ -11,7 +11,7 @@ First, enable the API subscription workflow for **Approval Workflow Executor.**
 
 1.  Sign in to API Manager Management Console ( `https://<Server Host>:9443/carbon` ) and select **Browse** under **Resources** .
 
-    ![]({{base_path}}/assets/img/learn/wf-extensions-browse.png)
+    ![](../../../../assets/img/learn/wf-extensions-browse.png)
 
 2.  Go to the `/_system/governance/apimgt/applicationdata/workflow-extensions.xml` resource, disable the Simple Workflow Executor and enable WS Workflow Executor. Also specify the service endpoint where the workflow engine is hosted and the credentials required to access the said service via basic authentication (i.e., username/password based authentication).
 
@@ -29,16 +29,16 @@ First, enable the API subscription workflow for **Approval Workflow Executor.**
 
 3.  Go to the API Devportal credentials page and subscribe to an API. If the approval workflow is enabled then after subscribing you will see the subscription status as **ON_HOLD**.
 
-     ![]({{base_path}}/assets/img/learn/subscription-creation-onhold.png)
+     ![](../../../../assets/img/learn/subscription-creation-onhold.png)
 
 4.  Sign in to the Admin Portal ( `https://<Server Host>:9443/admin` ), list all the tasks for API subscription from **Tasks** --> **Subscription Creation** and click on  approve or reject to approve or reject workflow pending request.
 
-    ![]({{base_path}}/assets/img/learn/subscription-creation-pending-list.png)
+    ![](../../../../assets/img/learn/subscription-creation-pending-list.png)
 
     After approving go back to the API Devportal credentials page, the application status will be **UNBLOCKED**.
      
-    ![]({{base_path}}/assets/img/learn/subscription-creation-unblocked.png)
+    ![](../../../../assets/img/learn/subscription-creation-unblocked.png)
 
 5.  Go back to the API Devportal and see that the user is now subscribed to the API.
 
-For instructions on how to customize workflow extensions, see [Customizing a Workflow Extension]({{base_path}}/develop/extending-api-manager/extending-workflows/customizing-a-workflow-extension/)
+For instructions on how to customize workflow extensions, see [Customizing a Workflow Extension](../../../../develop/extending-api-manager/extending-workflows/customizing-a-workflow-extension/)

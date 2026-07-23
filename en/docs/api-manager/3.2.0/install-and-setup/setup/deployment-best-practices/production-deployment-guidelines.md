@@ -3,7 +3,7 @@
 The requirements for deploying WSO2 products can change based on the deployment scenario and pattern. The 
 recommendations in this topic are for general production use, assuming moderate load conditions. For situations where
  a high volume of traffic is expected and if there are large deployments, these guidelines may not be sufficient. See
-  [Troubleshooting in Production Environments]({{base_path}}/troubleshooting/admin-troubleshooting-in-production-environments) for
+  [Troubleshooting in Production Environments](../../../troubleshooting/admin-troubleshooting-in-production-environments) for
   information on how to obtain and analyze information to solve production issues. The following are the topics addressed in this section. The 
   following are the topics addressed in this section.
 ------------------------------------------------------------------------
@@ -132,7 +132,7 @@ If you need to set additional system properties when the server starts, you can 
         Be sure to set the system property `httpclient.hostnameVerifier`
          in the the product's startup script file to as follows. This setting will enable hostname verification of 
          HTTP requests and responses in the Carbon server, and thereby avoid security issues in production environments. 
-         For more information, see [Enabling HostName Verification]({{base_path}}/administer/product-security/enabling-hostname-verification/).
+         For more information, see [Enabling HostName Verification](../../../administer/product-security/enabling-hostname-verification/).
 
 ```  
     -Dhttpclient.hostnameVerifier=Strict \
@@ -247,7 +247,7 @@ These configurations has to be set properly for the management console to be acc
 When a WSO2 product starts, it starts all components, features and related artifacts bundled with it. Multi-profile 
 support allows you to run the product on a selected profile so that only the features specific to that profile along 
 with common features start up with the server. For more on product-profiles please refer 
-[Product Profiles]({{base_path}}/install-and-setup/deploying-wso2-api-manager/distributed-deployment/product-profiles
+[Product Profiles](../../../install-and-setup/deploying-wso2-api-manager/distributed-deployment/product-profiles
 /#product-profiles).
 
 ### Stopping the Server
@@ -324,10 +324,10 @@ hostname = "test.wso2.com"
 <li>See the topics on changing hostnames shown below:
 <ul>
 <li>
-<a href="{{base_path}}/install-and-setup/deploying-wso2-api-manager/changing-the-default-ports-with-offset">Setting up hostnames and ports</a>
+<a href="../../../install-and-setup/deploying-wso2-api-manager/changing-the-default-ports-with-offset">Setting up hostnames and ports</a>
 </li>
 <li>
-<a href="{{base_path}}/install-and-setup/deploying-wso2-api-manager/changing-the-hostname">Changing the hostname</li>
+<a href="../../../install-and-setup/deploying-wso2-api-manager/changing-the-hostname">Changing the hostname</li>
 </ul></li>
 <li>See <a href="https://docs.wso2.com/display/ADMIN44x/Working+with+Transports">Working with Transports</a> for information on transports in WSO2 products.</li>
 </ul>
@@ -370,9 +370,9 @@ hostname = "test.wso2.com"
 </div>
 <div class="panelContent">
 
-<p>See <a href="{{base_path}}/administer/product-administration/managing-users-and-roles
+<p>See <a href="../../../administer/product-administration/managing-users-and-roles
 /managing-user-stores/configure-primary-user-store/configuring-the-primary-user-store/">Configuring Primary User 
-Store</a> and <a href="{{base_path}}/administer/product-administration/managing-users-and-roles/managing-user-stores
+Store</a> and <a href="../../../administer/product-administration/managing-users-and-roles/managing-user-stores
 /configuring-secondary-user-stores/">Configuring Secondary User Stores</a> for more information on user stores, how 
 they work, and how to configure them.</p>
 </div>
@@ -395,7 +395,7 @@ by adding the JMX port parameter in the <code> &lt;PRODUCT_HOME&gt;/repository/c
 <strong>Related links</strong>
 </div>
 <div class="panelContent">
-<p>Please refer <a href="{{base_path}}/administer/product-administration/monitoring/jmx-based-monitoring/#configuring-jmx-in-a-wso2-product">JMX-Based Monitoring</a> for 
+<p>Please refer <a href="../../../administer/product-administration/monitoring/jmx-based-monitoring/#configuring-jmx-in-a-wso2-product">JMX-Based Monitoring</a> for 
 information on monitoring WSO2 products using JMX.</p>
 </div>
 </div>
@@ -412,7 +412,7 @@ information on monitoring WSO2 products using JMX.</p>
 <div class="panelContent">
 <div>
 <ul>
-<li>See <a href="{{base_path}}/install-and-setup/performance-tuning-and-test-results/tuning-performance">Performance 
+<li>See <a href="../../../install-and-setup/performance-tuning-and-test-results/tuning-performance">Performance 
 Tuning</a> for the WSO2 API Manager related guidelines.</li>
 <li>For performance tuning guidelines that are specific to each product, go to the product documentation for each 
 product listed below and search for performance tuning guidelines.<br />
@@ -471,7 +471,7 @@ are reflected in the below mentioned config files, according to the new configur
 <strong>Related links</strong>
 </div>
 <div class="panelContent">
-<p>See <a href="{{base_path}}/administer/product-configurations/default-product-ports/">Default Product Ports</a> for
+<p>See <a href="../../../administer/product-configurations/default-product-ports/">Default Product Ports</a> for
  a list of common and product-specific ports used by WSO2 products.</p>
 </div>
 <div class="panelHeader" style="border-bottom-width: 1px;">
@@ -539,7 +539,7 @@ None of the WSO2 products persist data in the file systems or retain or generate
 ### Backup recommendations
 
 We recommend that you use a proper artifact management system such as **[Puppet](https://puppet.com/)** to back up and manage your artifacts before deploying them in the WSO2 Carbon runtime. Also, use the **[WSO2 Update Manager (WUM)](https://docs.wso2.com/display/ADMIN44x/Updating+WSO2+Products)** tool , which is a command-line utility that allows you to get the latest updates ( bug fixes and security fixes ) of a particular product release.
-    ![managing your artifacts using a configuration management system]({{base_path}}/assets/img/administer/configuration-mgmt-system.png)
+    ![managing your artifacts using a configuration management system](../../../assets/img/administer/configuration-mgmt-system.png)
 **Diagram** : managing your artifacts using a configuration management system
      
 ### Recovery Recommendations

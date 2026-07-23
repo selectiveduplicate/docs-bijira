@@ -33,7 +33,7 @@ Follow the instructions below to enable email notifications for bot detection:
 
 1. Enable WSO2 API Manager Analytics.
 
-    Follow steps 1, 2, and 3 of the quick setup in [Configuring API Manager Analytics]({{base_path}}/learn/analytics/configuring-apim-analytics/).
+    Follow steps 1, 2, and 3 of the quick setup in [Configuring API Manager Analytics](../../../learn/analytics/configuring-apim-analytics/).
     
 2. Share your API-M database (`AM_DB`).
 
@@ -64,7 +64,7 @@ Follow the instructions below to enable email notifications for bot detection:
 
      ```
 
-3. [Enable Alerts]({{base_path}}/learn/analytics/configuring-alerts/#enable-alerts).
+3. [Enable Alerts](../../../learn/analytics/configuring-alerts/#enable-alerts).
 
 4. Follow the instructions below to configure an email address to send email alerts to subscribers.
 
@@ -115,14 +115,14 @@ Follow the instructions below to enable email notifications for bot detection:
 
 8. Click **Configure Emails** under **Bot Detection** category and Click **Add Email**.
   
-    ![Add email Menu]({{base_path}}/assets/img/learn/bot-email-notification-menu.png)
+    ![Add email Menu](../../../assets/img/learn/bot-email-notification-menu.png)
 
 9. Enter recipient email address and click **Save**.
-    ![Add email Recipient]({{base_path}}/assets/img/learn/bot-email-notification-recipient-adding.png)
+    ![Add email Recipient](../../../assets/img/learn/bot-email-notification-recipient-adding.png)
 
     If a hacker (e.g., bot attacker) tries to invoke an open service API, WSO2 API Manager will send emails to the email alert recipients. The following is a sample email notification.
 
-    ![Sample email notification for unauthorized API call]({{base_path}}/assets/img/learn/sample-alert-email.png)
+    ![Sample email notification for unauthorized API call](../../../assets/img/learn/sample-alert-email.png)
  
 ## Viewing bot detection data via the Admin Portal
 
@@ -137,7 +137,7 @@ Follow the instructions below to view the bot detection data for the unauthorize
 
 1. Enable WSO2 API Manager Analytics.
 
-    Follow steps 1, 2, and 3 of the quick setup in [Configuring API Manager Analytics]({{base_path}}/learn/analytics/configuring-apim-analytics/).
+    Follow steps 1, 2, and 3 of the quick setup in [Configuring API Manager Analytics](../../../learn/analytics/configuring-apim-analytics/).
     
 2. Share your API-M database (`AM_DB`). 
 
@@ -165,7 +165,7 @@ Follow the instructions below to view the bot detection data for the unauthorize
         ...
      ```
 
-3. [Enable Alerts]({{base_path}}/learn/analytics/managing-alerts-with-real-time-analytics/configuring-alerts/#enable-alerts).
+3. [Enable Alerts](../../../learn/analytics/managing-alerts-with-real-time-analytics/configuring-alerts/#enable-alerts).
 
 4. Follow the instructions below to configure an email address to send email alerts to subscribers.
 
@@ -216,6 +216,6 @@ Follow the instructions below to view the bot detection data for the unauthorize
 
 8. Click **Bot Detection Data**.
 
-     ![Bot detection data details for unauthorized API calls]({{base_path}}/assets/img/learn/bot-data.png)
+     ![Bot detection data details for unauthorized API calls](../../../assets/img/learn/bot-data.png)
 
     If a hacker (e.g., bot attacker) tries to invoke an open service API, the Bot detection data details will appear in the `<API-M_HOME>/repository/logs/wso2-BotDetectedData.log` file.

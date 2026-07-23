@@ -12,7 +12,7 @@ Explained below are the default databases which will be used within API Manager.
 
 The following image shows the default databases and the data that are stored in each database.
 
-<a href="{{base_path}}/assets/img/setup-and-install/working-with-dbs-overview.png" ><img src="{{base_path}}/assets/img/setup-and-install/working-with-dbs-overview.png" alt="Data bases" title="Data bases" width="100%" /></a>
+<a href="../../../../assets/img/setup-and-install/working-with-dbs-overview.png" ><img src="../../../../assets/img/setup-and-install/working-with-dbs-overview.png" alt="Data bases" title="Data bases" width="100%" /></a>
 
 ## Changing the default databases
 
@@ -22,13 +22,13 @@ WSO2 products are shipped with scripts for creating the required tables in all t
 
 **Changing the default database:** You simply have to set up new physical databases, point the product server to the new databases by updating the relevant configuration files, and create the required tables using the scripts provided in the product pack. See the following topics for instructions:
 
--   [Changing to MySQL]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-mysql)
--   [Changing to Oracle]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-oracle)
--   [Changing to MSSQL]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-mssql)
--   [Changing to Oracle RAC]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-oracle-rac)
--   [Changing to PostgreSQL]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-postgresql)
--   [Changing to IBM DB2]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-ibm-db2)
--   [Changing to MariaDB]({{base_path}}/install-and-setup/setting-up-databases/changing-default-databases/changing-to-mariadb)
+-   [Changing to MySQL](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-mysql)
+-   [Changing to Oracle](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-oracle)
+-   [Changing to MSSQL](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-mssql)
+-   [Changing to Oracle RAC](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-oracle-rac)
+-   [Changing to PostgreSQL](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-postgresql)
+-   [Changing to IBM DB2](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-ibm-db2)
+-   [Changing to MariaDB](../../../install-and-setup/setting-up-databases/changing-default-databases/changing-to-mariadb)
 
 
 !!! Note

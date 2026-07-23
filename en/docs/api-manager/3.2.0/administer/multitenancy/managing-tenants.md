@@ -5,7 +5,7 @@
 You can add a new tenant in the management console and then view it by following the procedure below. In order to add a new tenant, you should be logged in as a super user.
 
 1.  Click **Add New Tenant** in the **Configure** tab of the management console.
-    ![]({{base_path}}/assets/img/administer/configure-tenants.png)
+    ![](../../assets/img/administer/configure-tenants.png)
     
 2.  Enter the tenant information in **Register A New Organization** screen as follows, and click **Save** .
 
@@ -22,7 +22,7 @@ You can add a new tenant in the management console and then view it by following
 
 3.  After saving, the newly added tenant appears in the **Tenants List** page as shown below. Click **View Tenants** in the **Configure** tab of the management console to see information of all the tenants that currently exist in the system.  Enter the domain name in the **Enter the Tenant Domain** parameter and click **Find** to find the newly added tenant in the list.
 
-    [![]({{base_path}}/assets/img/administer/tenant-list.png)]({{base_path}}/assets/img/administer/tenant-list.png)
+    [![](../../assets/img/administer/tenant-list.png)](../../assets/img/administer/tenant-list.png)
     
 ##Tenant Developer Portals
 
@@ -30,7 +30,7 @@ When you create multiple tenants in an API Manager deployment, the API developer
 
 1.  Access the API Developer Portal URL (`https://<hostname>:9443/devportal` ) using a Web browser. The Developer Portal fronts of all the registered tenant domains are listed on the landing page. For example,
 
-    [![]({{base_path}}/assets/img/administer/tenant-developer-portals.png)]({{base_path}}/assets/img/administer/tenant-developer-portals.png)
+    [![](../../assets/img/administer/tenant-developer-portals.png)](../../assets/img/administer/tenant-developer-portals.png)
     
      This is called the public developer portal. Each icon here is linked to the API developer portal of a registered tenant, including the super tenant, which is `carbon.super` . That is, the super tenant is also considered a tenant.
 
@@ -41,8 +41,8 @@ When you create multiple tenants in an API Manager deployment, the API developer
     For example, if you are a user in the `domain1.com` tenant domain,
 
     -   Click the **Go To Public Dev Portal** option available in the Navigation bar, go to the `domain1.com` developer portal, log in to it and subscribe to its APIs.
-    [![]({{base_path}}/assets/img/administer/tenant-naviagtion-bar.png)]({{base_path}}/assets/img/administer/tenant-naviagtion-bar.png)
-    -   You can also browse the other tenant developer portals listed in the public developer portal. But, within other tenant developer portals, you can only subscribe to the APIs to which your tenant domain is permitted to subscribe to. At the time an API is created, the API creator can specify which tenants are allowed to subscribe to the API. For information, see [API Subscriptions]({{base_path}}/learn/consume-api/manage-subscription/subscribe-to-an-api.md) .
+    [![](../../assets/img/administer/tenant-naviagtion-bar.png)](../../assets/img/administer/tenant-naviagtion-bar.png)
+    -   You can also browse the other tenant developer portals listed in the public developer portal. But, within other tenant developer portals, you can only subscribe to the APIs to which your tenant domain is permitted to subscribe to. At the time an API is created, the API creator can specify which tenants are allowed to subscribe to the API. For information, see [API Subscriptions](../../learn/consume-api/manage-subscription/subscribe-to-an-api.md) .
 
     !!! info
         A tenant can be deleted through the `TenantMgtAdminService`. Admin service operations can be invoked using a SOAP client such as SOAP UI. Follow the below steps to configure the `TenantMgtAdminService` using SOAP UI.

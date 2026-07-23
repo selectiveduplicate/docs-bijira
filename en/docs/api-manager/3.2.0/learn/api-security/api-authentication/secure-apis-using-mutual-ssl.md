@@ -6,11 +6,11 @@ The following section explains as to how the APIs in WSO2 API Manager can be sec
 
 ## Create an API secured with Mutual SSL
 
-1.  [Create an API]({{base_path}}/learn/design-api/create-api/create-a-rest-api).
+1.  [Create an API](../../../learn/design-api/create-api/create-a-rest-api).
 2.  Click **Runtime Configurations**.
 3.  Select **Mutual SSL**.
     
-     [![Enable mutual SSL]({{base_path}}/assets/img/learn/enable-mutual-ssl.png)]({{base_path}}/assets/img/learn/enable-mutual-ssl.png)
+     [![Enable mutual SSL](../../../assets/img/learn/enable-mutual-ssl.png)](../../../assets/img/learn/enable-mutual-ssl.png)
 
 4.  Click **Add Certificate** to upload a new client certificate.
     
@@ -22,7 +22,7 @@ The following section explains as to how the APIs in WSO2 API Manager can be sec
 
 5.  Provide an alias and public certificate. Select the tier that should be used to throttle out the calls using this particular client certificate and click **Upload**.
     
-     [![]({{base_path}}/assets/img/learn/upload-certificate.png)]({{base_path}}/assets/img/learn/upload-certificate.png)
+     [![](../../../assets/img/learn/upload-certificate.png)](../../../assets/img/learn/upload-certificate.png)
     
 6.  **Save** the API.
     
@@ -32,11 +32,11 @@ Import the certificate and private key to Postman.
 
 1. Navigate to the certificates tab in Postman settings.
     
-     [![Add the certificate to Postman]({{base_path}}/assets/img/learn/add-certificate-to-postman.png)]({{base_path}}/assets/img/learn/add-certificate-to-postman.png)
+     [![Add the certificate to Postman](../../../assets/img/learn/add-certificate-to-postman.png)](../../../assets/img/learn/add-certificate-to-postman.png)
     
 2. Add the certificate and private key.
 
-     [![Provide certificate and private key]({{base_path}}/assets/img/learn/provide-crt-and-private-key.png)]({{base_path}}/assets/img/learn/provide-crt-and-private-key.png)
+     [![Provide certificate and private key](../../../assets/img/learn/provide-crt-and-private-key.png)](../../../assets/img/learn/provide-crt-and-private-key.png)
     
 3.  Invoke the API from Postman.
 
@@ -63,7 +63,7 @@ When SSL termination of API requests takes place at the Load Balancer or Reverse
 
 The following diagram illustrates how Mutual SSL works in such an environment.
 
-[![MTLS Load Balancer]({{base_path}}/assets/img/learn/mtls-loadbalancer.png)]({{base_path}}/assets/img/learn/mtls-loadbalancer.png)
+[![MTLS Load Balancer](../../../assets/img/learn/mtls-loadbalancer.png)](../../../assets/img/learn/mtls-loadbalancer.png)
 
 ### Using MTLS Header to invoke APIs secured with Mutual SSL
 

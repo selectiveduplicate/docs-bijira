@@ -17,25 +17,25 @@ Follow the instructions below to generate/renew application keys:
             
 2.  Click **Applications** to navigate to the applications listing page and click on the respective application for which you want to generate keys.
 
-     [![Application view]({{base_path}}/assets/img/learn/application-select.png)]({{base_path}}/assets/img/learn/application-select.png)
+     [![Application view](../../../../assets/img/learn/application-select.png)](../../../../assets/img/learn/application-select.png)
  
 3.  Click **Production Keys** and click **Generate Keys** to create an application access token. 
 
      The access token will be generated along with the application consumer key and secret.
 
-     [![Generate Application Keys]({{base_path}}/assets/img/learn/application-key-generation.png)]({{base_path}}/assets/img/learn/application-key-generation.png)
+     [![Generate Application Keys](../../../../assets/img/learn/application-key-generation.png)](../../../../assets/img/learn/application-key-generation.png)
     
      - As the application type is **JWT**, a JSON Web Token (JWT) is generated. Make sure to copy the JWT access token that appears so that you can use it in the future.
 
-        <a href="{{base_path}}/assets/img/learn/jwt-access-token.png" ><img src="{{base_path}}/assets/img/learn/jwt-access-token.png" alt="JWT access token" title="JWT access token" width="60%" /></a>
+        <a href="../../../../../assets/img/learn/jwt-access-token.png" ><img src="../../../../../assets/img/learn/jwt-access-token.png" alt="JWT access token" title="JWT access token" width="60%" /></a>
      
      After the keys are generated, you can find the consumer key and consumer secret pair via the application details page.
      
-     [![Application Consumer Key Secret]({{base_path}}/assets/img/learn/application-key-secret-view.png)]({{base_path}}/assets/img/learn/application-key-secret-view.png)
+     [![Application Consumer Key Secret](../../../../assets/img/learn/application-key-secret-view.png)](../../../../assets/img/learn/application-key-secret-view.png)
      
 
 !!! tip
-    When you generate access tokens for APIs that are protected by scopes, you can select the respective [scopes]({{base_path}}/learn/api-security/oauth2/oauth2-scopes/fine-grained-access-control-with-oauth-scopes/) and thereafter, generate the token for it.
+    When you generate access tokens for APIs that are protected by scopes, you can select the respective [scopes](../../../../learn/api-security/oauth2/oauth2-scopes/fine-grained-access-control-with-oauth-scopes/) and thereafter, generate the token for it.
   
 ## Generate application keys using Okta Key Manager
 
@@ -49,7 +49,7 @@ Let's assume that you are working in a production environment.
 
 3. Click **Generate Keys** to create an application access token.
 
-     [![Generate Okta application keys]({{base_path}}/assets/img/learn/okta-application-key-generation.png)]({{base_path}}/assets/img/learn/okta-application-key-generation.png)
+     [![Generate Okta application keys](../../../../assets/img/learn/okta-application-key-generation.png)](../../../../assets/img/learn/okta-application-key-generation.png)
 
 !!! info
     For more information on the client application properties that need to be set, see the [Okta documentation](https://developer.okta.com/docs/reference/api/oauth-clients/#client-application-properties).
@@ -67,4 +67,4 @@ Follow the instructions below to generate keys using the Keycloak Key Manager:
 
 3. Click **Generate Keys** to create an application access token.
 
-     [![Generate Keycloak application keys]({{base_path}}/assets/img/learn/keycloak-generate-keys.png)]({{base_path}}/assets/img/learn/keycloak-generate-keys.png)
+     [![Generate Keycloak application keys](../../../../assets/img/learn/keycloak-generate-keys.png)](../../../../assets/img/learn/keycloak-generate-keys.png)

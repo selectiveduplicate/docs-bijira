@@ -44,7 +44,7 @@ By default, the WSDLs of admin services are hidden from consumers. Follow the in
     
      The list of admin services related to WSO2 API Manager product will appear as shown below. 
      
-     ![Discover Admin Services]({{base_path}}/assets/img/develop/discover-admin-services.png)
+     ![Discover Admin Services](../assets/img/develop/discover-admin-services.png)
     
 5.  If required, view the service contract of an admin service.
 
@@ -80,7 +80,7 @@ Follow the instructions below to invoke a service:
 
 The wsdl2java tool, which is shipped with WSO2 products by default, hides all the complexity and presents you with a proxy to the back-end service. The stub generation happens during the project build process within the Maven POM files. It uses the Apache Maven AntRun plugin to execute the wsdl2java tool.
 
-You can also use the Java client program given [here]({{base_path}}/assets/attachments/develop/remote-user-api.zip) to invoke admin services. All dependency JAR files required to run the Java client are available in the `<API-M_HOME>/lib` directory.
+You can also use the Java client program given [here](../assets/attachments/develop/remote-user-api.zip) to invoke admin services. All dependency JAR files required to run the Java client are available in the `<API-M_HOME>/lib` directory.
 
 
 ### Authenticating the user
@@ -221,4 +221,4 @@ public class AdminServiceClientManager {
 }
 ```
 
-The complete Maven project can be found at: [org.wso2.carbon.sample.admin.service.invoker.zip]({{base_path}}/assets/attachments/develop/org.wso2.carbon.sample.admin.service.invoker.zip)
+The complete Maven project can be found at: [org.wso2.carbon.sample.admin.service.invoker.zip](../assets/attachments/develop/org.wso2.carbon.sample.admin.service.invoker.zip)

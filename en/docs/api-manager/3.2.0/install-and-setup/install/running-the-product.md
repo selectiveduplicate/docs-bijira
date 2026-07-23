@@ -89,7 +89,7 @@ WSO2 API Manager has several web portals such as the Management Console, the API
 !!! info
     Web portals are based on the HTTPS protocol, which is a combination of HTTP and SSL protocols. This protocol is generally used to encrypt the traffic from the client to server for security reasons. The certificate it works with is used for encryption only, and does not prove the server identity. Therefore, when you try to access these portals, a warning of untrusted connection is usually displayed. To continue working with this certificate, some steps should be taken to "accept" the certificate before access to the site is permitted. If you are using the Mozilla Firefox browser, this usually occurs only on the first access to the server, after which the certificate is stored in the browser database and marked as trusted. With other browsers, the insecure connection warning might be displayed every time you access the server.
 
- This scenario is suitable for testing purposes or for running the program on the company's internal networks. If you want to make the above portals available to external users, your organization should obtain a certificate signed by a well-known certificate authority, which verifies that the server actually has the name it is accessed by and that this server actually belongs to the given organization. Refer [Creating new keystores]({{base_path}}/install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores) to learn more about the information on configuring the keystores using certificates.
+ This scenario is suitable for testing purposes or for running the program on the company's internal networks. If you want to make the above portals available to external users, your organization should obtain a certificate signed by a well-known certificate authority, which verifies that the server actually has the name it is accessed by and that this server actually belongs to the given organization. Refer [Creating new keystores](../../install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores) to learn more about the information on configuring the keystores using certificates.
 
 ### Accessing the Management Console
 
@@ -104,7 +104,7 @@ Once the server has started, you can run the Management Console by typing its UR
 
 The URL appears next to `Mgt Console URL` in the start script log that is displayed in the command window. For example:
 
-![]({{base_path}}/assets/img/setup-and-install/running-product-mgt-console-url.png)
+![](../../assets/img/setup-and-install/running-product-mgt-console-url.png)
 
 The URL should be in the following format: `https://<Server Host>:9443/carbon`
 
@@ -159,7 +159,7 @@ Once the server has started, you can run the API Publisher by typing its URL in 
 
 The URL appears next to `API Publisher Default Context` in the start script log that is displayed in the command window. For example:
 
-![]({{base_path}}/assets/img/setup-and-install/running-product-publisher-url.png)
+![](../../assets/img/setup-and-install/running-product-publisher-url.png)
 
 The URL should be in the following format: `https://<Server Host>:9443/publisher        `
 
@@ -180,7 +180,7 @@ Once the server has started, you can run the Developer Portal by typing its URL 
 
 The URL appears next to `Developer Portal Default Context` in the start script log that is displayed in the command window. For example:
 
-![]({{base_path}}/assets/img/setup-and-install/running-product-dev-portal-url.png)
+![](../../assets/img/setup-and-install/running-product-dev-portal-url.png)
 
 The URL should be in the following format: `https://<Server Host>:9443/devportal        `
 
@@ -231,6 +231,6 @@ You can restrict access to the management console of your product by binding the
 
 **Related Topics**
 
--   [Installing as a Windows Service]({{base_path}}/install-and-setup/installation-guide/installing-the-product/installing-the-binary/installing-as-a-windows-service/)
--   [Installing as a Linux Service]({{base_path}}/install-and-setup/installation-guide/installing-the-product/installing-the-binary/installing-as-a-linux-service/)
+-   [Installing as a Windows Service](../../install-and-setup/installation-guide/installing-the-product/installing-the-binary/installing-as-a-windows-service/)
+-   [Installing as a Linux Service](../../install-and-setup/installation-guide/installing-the-product/installing-the-binary/installing-as-a-linux-service/)
 

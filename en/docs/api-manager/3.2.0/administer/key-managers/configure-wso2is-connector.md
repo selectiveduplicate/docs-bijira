@@ -80,9 +80,9 @@ Follow the steps given below to configure WSO2 IS as a third-party Key Manager c
 
 3. Download the WSO2 IS Connector based on the WSO2 API-M version.
 
-      - [WSO2 IS Connector for the WSO2 API-M GA release]({{base_path}}/assets/attachments/administer/wso2is-km-connector-1.0.16_ga.zip).
-      - [WSO2 IS Connector for the WSO2 API-M WUM updated version (as at 5th January 2022 (2022-01-05))]({{base_path}}/assets/attachments/administer/wso2is-km-connector-wum.zip).
-      - [WSO2 IS Connector for the WSO2 API-M U2 updated version (from update level - 3.2.0.108.full)]({{base_path}}/assets/attachments/administer/wso2is-km-connector-u2.zip).
+      - [WSO2 IS Connector for the WSO2 API-M GA release](../../assets/attachments/administer/wso2is-km-connector-1.0.16_ga.zip).
+      - [WSO2 IS Connector for the WSO2 API-M WUM updated version (as at 5th January 2022 (2022-01-05))](../../assets/attachments/administer/wso2is-km-connector-wum.zip).
+      - [WSO2 IS Connector for the WSO2 API-M U2 updated version (from update level - 3.2.0.108.full)](../../assets/attachments/administer/wso2is-km-connector-u2.zip).
 
       <div class="admonition tip">
       <p class="admonition-title">Recommendation</p>
@@ -129,7 +129,7 @@ Follow the steps given below to configure WSO2 IS as a third-party Key Manager c
 
 4. Click **Add Key Manager** to add the configuration related to a new Key Manager.
 
-      [![Add new Key Manager]({{base_path}}/assets/img/administer/add-key-manager.png)]({{base_path}}/assets/img/administer/add-key-manager.png)
+      [![Add new Key Manager](../../assets/img/administer/add-key-manager.png)](../../assets/img/administer/add-key-manager.png)
 
 5. Add the Key Manager configurations.
 
@@ -334,4 +334,4 @@ Follow the steps given below to configure WSO2 IS as a third-party Key Manager c
       </tbody>
       </table>
 
-You can also configure the WSO2 Identity Server as the identity provider. For more information on how to do this, see [Configuring WSO2 Identity Server as an Identity Provider]({{base_path}}/develop/extending-api-manager/saml2-sso/configuring-identity-server-as-idp-for-sso/#configuring-wso2-identity-server-as-a-saml-20-sso-identity-provider).
+You can also configure the WSO2 Identity Server as the identity provider. For more information on how to do this, see [Configuring WSO2 Identity Server as an Identity Provider](../../develop/extending-api-manager/saml2-sso/configuring-identity-server-as-idp-for-sso/#configuring-wso2-identity-server-as-a-saml-20-sso-identity-provider).

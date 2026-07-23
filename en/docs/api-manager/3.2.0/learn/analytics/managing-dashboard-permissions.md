@@ -113,18 +113,18 @@ Follow the instructions below to change the default permissions that are set for
 
     The **API Analytics**, **Application Analytics**, **Business Analytics**, and the **Monitoring** dashboards appear.
   
-       [![Analytics dashboard listing]({{base_path}}/assets/img/learn/analytics-dashboard-listing.png)]({{base_path}}/assets/img/learn/analytics-dashboard-listing.png)
+       [![Analytics dashboard listing](../../assets/img/learn/analytics-dashboard-listing.png)](../../assets/img/learn/analytics-dashboard-listing.png)
 
 2. Click on the more options icon with regard to the preferred dashboard card and click **Settings**.
 
-     [![Dashboard Settings]({{base_path}}/assets/img/learn/dashboard-settings.png)]({{base_path}}/assets/img/learn/dashboard-settings.png)
+     [![Dashboard Settings](../../assets/img/learn/dashboard-settings.png)](../../assets/img/learn/dashboard-settings.png)
      
     !!! Note
         The settings option is visible only if your permission level is **Owner** with regard to the selected dashboard.
       
      The Dashboard Settings page appears.
 
-     [![Dashboard settings page]({{base_path}}/assets/img/learn/dashboard-settings-application-analytics.png)]({{base_path}}/assets/img/learn/dashboard-settings-application-analytics.png)
+     [![Dashboard settings page](../../assets/img/learn/dashboard-settings-application-analytics.png)](../../assets/img/learn/dashboard-settings-application-analytics.png)
       
 3.  Assign scopes to the different permission levels as required.
       
@@ -133,7 +133,7 @@ Follow the instructions below to change the default permissions that are set for
 
 ## Permission level and user role mapping
 
-As described above the permission level of a logged-in user is decided based on the assigned scopes for that user. The logged-in user possesses a user role, and scopes are mapped to that user role. You can find the mapping between default scopes and default user roles in the [role mapping table]({{base_path}}/administer/managing-users-and-roles/managing-user-roles/#adding-role-mappings).
+As described above the permission level of a logged-in user is decided based on the assigned scopes for that user. The logged-in user possesses a user role, and scopes are mapped to that user role. You can find the mapping between default scopes and default user roles in the [role mapping table](../../administer/managing-users-and-roles/managing-user-roles/#adding-role-mappings).
 
 The following table illustrates the default mapping between the permission level for each analytics dashboard and user role. You can refer to this table when assigning a role to a user in order to provide the required permissions. 
 

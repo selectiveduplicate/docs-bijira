@@ -15,20 +15,20 @@ Follow the instructions below if you wish to set up API-M Analytics for quick de
 
      WSO2 API-M via the [WSO2 API Manager page](https://wso2.com/api-management/install/).
 
-     For more information on installing WSO2 API-M, see the [Installation Guide]({{base_path}}/install-and-setup/install/installation-prerequisites).
+     For more information on installing WSO2 API-M, see the [Installation Guide](../../install-and-setup/install/installation-prerequisites).
 
-     [![apim download page]({{base_path}}/assets/img/learn/apim-download-page.png)]({{base_path}}/assets/img/learn/apim-download-page.png)
+     [![apim download page](../../assets/img/learn/apim-download-page.png)](../../assets/img/learn/apim-download-page.png)
 
 2.  Download and install WSO2 API-M Analytics.
 
     To download WSO2 API-M Analytics go to the [WSO2 API Manager page](https://wso2.com/api-management/install/), click **DOWNLOAD** to expand the installation options. Scroll down past the installation options to navigate to the **OTHER RESOURCES** section, and click **Analytics**.
 
-    <img src="{{base_path}}/assets/img/learn/analytics-download-page.png" width="400">
+    <img src="../../../assets/img/learn/analytics-download-page.png" width="400">
 
        <html><div class="admonition warning">
        <p class="admonition-title">Note</p>
        <p>If you are following the quick setup, make sure that both the binaries (the unzipped API-M pack and the unzipped Analytics pack) are inside the same directory, because the default configurations such as database connection URLs, etc. are configured assuming that both the packs are inside the same folder.</p>
-       <img src="{{base_path}}/assets/img/learn/analytics-quick-setup.png" width="300">
+       <img src="../../../assets/img/learn/analytics-quick-setup.png" width="300">
        </div>
        </html>
 
@@ -78,7 +78,7 @@ You can now start using the WSO2 API Manager for its usual operations and the re
 
 ## Standard Setup
 
-![Analytics standard architecture diagram]({{base_path}}/assets/img/learn/analytics-standard-architecture-diagram.png)
+![Analytics standard architecture diagram](../../assets/img/learn/analytics-standard-architecture-diagram.png)
 
 Follow the instructions below if you wish to set up API-M Analytics for a production environment.
 
@@ -95,13 +95,13 @@ Follow the instructions below if you wish to set up API-M Analytics for a produc
 ### Step 1 - Download and install WSO2 API-M
 
  Download and install WSO2 API-M via the [WSO2 API Manager page](https://wso2.com/api-management/install/). Click **DOWNLOAD** and go to **INSTALLATION OPTIONS**.
- <br/>For more information on installing WSO2 API-M, see the [Installation Guide]({{base_path}}/install-and-setup/install/installation-prerequisites).
+ <br/>For more information on installing WSO2 API-M, see the [Installation Guide](../../install-and-setup/install/installation-prerequisites).
 
 ### Step 2 - Download and install WSO2 API-M Analytics
 
 To download WSO2 API-M Analytics go to the [WSO2 API Manager page](https://wso2.com/api-management/install/), click **DOWNLOAD** to expand the installation options. Scroll down past the installation options to navigate to the **OTHER RESOURCES** section, and click **Analytics**.
 
-<img src="{{base_path}}/assets/img/learn/analytics-download-page.png" width="400">
+<img src="../../../assets/img/learn/analytics-download-page.png" width="400">
 
 ### Step 3 - Configure WSO2 API Manager to publish statistics
 
@@ -270,7 +270,7 @@ Follow the instructions below to do the required configurations for WSO2 API-M t
         ALTER DATABASE <DB-NAME> COLLATE SQL_Latin1_General_CP1_CS_AS ;
         ```
 
-  - The Worker supports an [Active-Active]({{base_path}}/install-and-setup/setup/distributed-deployment/configure-apim-analytics/active-active) deployment and an [Active-Passive]({{base_path}}/install-and-setup/setup/distributed-deployment/configure-apim-analytics/active-passive) deployment.
+  - The Worker supports an [Active-Active](../../install-and-setup/setup/distributed-deployment/configure-apim-analytics/active-active) deployment and an [Active-Passive](../../install-and-setup/setup/distributed-deployment/configure-apim-analytics/active-passive) deployment.
   - As the dashboard is used only to render the data there is no active-active or active-passive concept. However, based on the High-availability (HA) requirement it can be configured as Active-Active or Active-Passive by defining the `loadbalance` configuration.
 
 #### Step 4.1 - Configure the Analytics Worker
@@ -307,10 +307,10 @@ Follow the instructions below to do the required configurations for WSO2 API-M t
     In your deployment, if the average TPS is more than 500, we recommend you to perform the following modifications in the WSO2 API Manager Analytics pack.
 
     ##### Modify Siddhi files:
-    1. Download the [APIM_ACCESS_SUMMARY.siddhi]({{base_path}}/assets/attachments/persisted-aggr-mods/APIM_ACCESS_SUMMARY.siddhi) file, and replace the existing file at `<ANALYTICS_HOME>/wso2/worker/deployment/siddhi-files/APIM_ACCESS_SUMMARY.siddhi`.
+    1. Download the [APIM_ACCESS_SUMMARY.siddhi](../../assets/attachments/persisted-aggr-mods/APIM_ACCESS_SUMMARY.siddhi) file, and replace the existing file at `<ANALYTICS_HOME>/wso2/worker/deployment/siddhi-files/APIM_ACCESS_SUMMARY.siddhi`.
 
     ##### Modify widgets:
-    1. Download the [dashboard-artifacts.zip]({{base_path}}/assets/attachments/persisted-aggr-mods/dashboard-artifacts.zip) ZIP file and extract to a preferred location (refered as `<EXTRACTED_DIR>`).
+    1. Download the [dashboard-artifacts.zip](../../assets/attachments/persisted-aggr-mods/dashboard-artifacts.zip) ZIP file and extract to a preferred location (refered as `<EXTRACTED_DIR>`).
     2. Copy each directory in `<EXTRACTED_DIR>/widgets` directory to `<ANALYTICS_HOME>/wso2/dashboard/deployment/web-ui-apps/analytics-dashboard/extensions/widgets` directory replacing the existing items.
 
     ##### Modify dashboards:
@@ -461,9 +461,9 @@ If the library is -
 In the SSL handshake between the API Manager and the API Manager Analytics servers, the client (i.e., API Manager) needs to verify the certificate presented by the server (i.e., API Manager Analytics). For this purpose, the client stores the trusted certificate of the server in the `client-truststore.jks` keystore.
 
 - If you use a custom keystore in API Manager and/or API Manager Analytics, import the public key certificate of API Manager Analytics into the `client-truststore.jks` file of the API Manager.
-- To export the public key from the server and import it into the client's trust store, follow the steps given in [Adding CA-signed certificates to keystores]({{base_path}}/install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores/#step-1-generating-a-ca-signed-certificate).
+- To export the public key from the server and import it into the client's trust store, follow the steps given in [Adding CA-signed certificates to keystores](../../install-and-setup/setup/security/configuring-keystores/keystore-basics/creating-new-keystores/#step-1-generating-a-ca-signed-certificate).
 
-For more information, see [Configuring Keystores in API-M Analytics]({{base_path}}/learn/analytics/configuring-keystores-in-apim-analytics/#configuring-keystores-in-api-m-analytics).
+For more information, see [Configuring Keystores in API-M Analytics](../../learn/analytics/configuring-keystores-in-apim-analytics/#configuring-keystores-in-api-m-analytics).
 
 ### Step 7 - Configure the User-Agent Parser
 

@@ -2,7 +2,7 @@
 
 This page walks you through how to manually configure WSO2 API Manager (WSO2 API-M) with two active nodes that each has all the components of the API-M together in one instance (all-in-one instance).
 
-[![Active active deployment]({{base_path}}/assets/img/setup-and-install/active-active-deployment.png)]({{base_path}}/assets/img/setup-and-install/active-active-deployment.png)
+[![Active active deployment](../../../assets/img/setup-and-install/active-active-deployment.png)](../../../assets/img/setup-and-install/active-active-deployment.png)
 
 Follow the instructions below to configure and deploy API-M by using an Active-Active deployment:
 
@@ -29,9 +29,9 @@ ___________________________________
     `wso2carbon.jks` is configured with private key and self signed public key pair for all purposes, such as encrypting 
     sensitive information, communicating over SSL etc. 
     
-    In a **production setup**, it is advised to set up several different keystores with separate trust chains for different use cases. For more information, see [Recommendations for setting up keystores in WSO2 products]({{base_path}}/administer/product-security/configuring-keystores/configuring-keystores-in-wso2-api-manager/#recommendations-for-setting-up-keystores).
+    In a **production setup**, it is advised to set up several different keystores with separate trust chains for different use cases. For more information, see [Recommendations for setting up keystores in WSO2 products](../../../administer/product-security/configuring-keystores/configuring-keystores-in-wso2-api-manager/#recommendations-for-setting-up-keystores).
 
-To create an all purpose keystore or multiple keystores for authentication and protection of data, follow the steps in [Creating New Keystores]({{base_path}}/administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores/). 
+To create an all purpose keystore or multiple keystores for authentication and protection of data, follow the steps in [Creating New Keystores](../../../administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores/). 
 
 !!! tip
     You should use the same keystore and trusstore for SSL in both WSO2 API-M instances.
@@ -41,7 +41,7 @@ To create an all purpose keystore or multiple keystores for authentication and p
 In order to access the WSO2 API-M Portals and Gateway, you need to front the system with a load balancer. You can use any 
 load balancer that is available to your system.
 
-Follow the steps in [Configuring the Proxy Server and the Load Balancer]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer) to configure the load balancer/reverse proxy which is fronting the API-M nodes
+Follow the steps in [Configuring the Proxy Server and the Load Balancer](../../../install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer) to configure the load balancer/reverse proxy which is fronting the API-M nodes
 in the demiliterized zone (DMZ).
 
 ??? tip
@@ -60,7 +60,7 @@ in the demiliterized zone (DMZ).
 
 The `WSO2AM_DB` and `WSO2SHARED_DB` databases need to be shared between the two API-M nodes. It is recommended to use an
 industry-standard RDBMS databases for this purpose. For more 
-information on default databases and changing them into RDBMS databases, see [Working with Databases]({{base_path}}/install-and-setup/setting-up-databases/overview/).
+information on default databases and changing them into RDBMS databases, see [Working with Databases](../../../install-and-setup/setting-up-databases/overview/).
 
 ??? tip
     If you have configured the apim and shared databases correctly, the `deployment.toml` in `<API-M_HOME>/repository/conf` 
@@ -90,7 +90,7 @@ Make a copy of the active instance configured above and use this copy as the sec
 
 !!! info
     When making a copy of the node, you need to also make a copy of the SSL certificate that you created for node 1 
-    in [step 1]({{base_path}}/administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores).
+    in [step 1](../../../administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores).
 
 
 ## Step 5 - Configure the Artifact Synchronization 
@@ -114,7 +114,7 @@ You need to mount the following folders of the two nodes to the shared file syst
 
     However, if you are unable to maintain a shared file system, you can synchronize content using rsync. For 
     information on setting up a rsync based deployment synchronization, see [Configuring rsync for Deployment 
-    Synchronization]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-rsync-for-deployment-synchronization).
+    Synchronization](../../../install-and-setup/deploying-wso2-api-manager/configuring-rsync-for-deployment-synchronization).
 
     !!! warning
         **Shared file system** is the **first preference** that WSO2 recommends to synchronize the artifacts among the nodes, 
@@ -137,7 +137,7 @@ service_url = "https://localhost:${mgt.transport.https.port}/services/"
 ??? info "If you are using RSYNC for artifact synchronization"  
 
     The API artifacts will be synchronized in one direction. The synchronization will take place from manager to the worker as explained in the [Configuring rsync for Deployment 
-    Synchronization]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-rsync-for-deployment-synchronization) section. Therefore, the API artifact should be only created on one node that acts as a manager node 
+    Synchronization](../../../install-and-setup/deploying-wso2-api-manager/configuring-rsync-for-deployment-synchronization) section. Therefore, the API artifact should be only created on one node that acts as a manager node 
     for the purpose of artifact synchronization. Follow the instructions below to configure the manager node:
 
     Let's assume that `node-1` is the manager node for artifact synchronization.
@@ -270,8 +270,8 @@ enabled = true
 If you wish to view reports, statistics, and graphs related to the APIs deployed in the WSO2 API Manager, you need to 
 configure API-M Analytics. If not, you can **skip this step**.
 
-Follow the [Configuring API-M Anlaytics - Quick Setup]({{base_path}}/learn/analytics/configuring-apim-analytics/#quick-setup) to configure API-M Analytics in a development setup and, follow 
-[Configuring API-M Analytics - Standard Setup]({{base_path}}/learn/analytics/configuring-apim-analytics/#standard-setup) 
+Follow the [Configuring API-M Anlaytics - Quick Setup](../../../learn/analytics/configuring-apim-analytics/#quick-setup) to configure API-M Analytics in a development setup and, follow 
+[Configuring API-M Analytics - Standard Setup](../../../learn/analytics/configuring-apim-analytics/#standard-setup) 
 to configure API-M Analytics in a production setup.
 
 ## Step 11 - Configure Production Hardening
@@ -280,13 +280,13 @@ In a **production setup**, ensure that you have taken into account the respectiv
 (e.g., changing and encrypting the default passwords, configuring JVM security etc.) and other production deployment 
 guidelines (e.g., tuning parameters, backup and recovery remmendations etc.) before deploying WSO2 API-M nodes. 
 
-For more information on security hardening guidelines, see [Security Guidelines for Production Deployment]({{base_path}}/install-and-setup/deploying-wso2-api-manager/security-guidelines-for-production-deployment/).
+For more information on security hardening guidelines, see [Security Guidelines for Production Deployment](../../../install-and-setup/deploying-wso2-api-manager/security-guidelines-for-production-deployment/).
 
-For more information on other production deployment guidelines, see [Production Deployment Guidelines]({{base_path}}/install-and-setup/deploying-wso2-api-manager/production-deployment-guidelines/#common-guidelines-and-checklist).
+For more information on other production deployment guidelines, see [Production Deployment Guidelines](../../../install-and-setup/deploying-wso2-api-manager/production-deployment-guidelines/#common-guidelines-and-checklist).
 
 ## Step 12 - Start the WSO2 API-M Servers
 
-Start the WSO2 API-M servers using the standard start-up script. For more information, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+Start the WSO2 API-M servers using the standard start-up script. For more information, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
 ```tab="Linux/Mac OS"
 cd <API-M_HOME>/bin/

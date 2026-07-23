@@ -76,4 +76,4 @@ In order to disable self signup for a particular tenant, follow the steps below.
     ```
 
 !!! tip
-    To engage your own signup process, see [Adding a User Signup Workflow]({{base_path}}/develop/customizations/adding-a-user-signup-workflow).
+    To engage your own signup process, see [Adding a User Signup Workflow](../../../develop/customizations/adding-a-user-signup-workflow).

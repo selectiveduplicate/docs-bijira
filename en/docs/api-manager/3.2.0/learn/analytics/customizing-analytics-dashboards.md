@@ -22,25 +22,25 @@ In order to make it possible for other users to create dashboards, you need to a
         
 1.  Click on the dashboard customization icon in the dashboard card as shown below.
 
-    [![API Manager default dashboards]({{base_path}}/assets/img/learn/apim-analytics-default-dashboards.png)]({{base_path}}/assets/img/learn/apim-analytics-default-dashboards.png)
+    [![API Manager default dashboards](../../assets/img/learn/apim-analytics-default-dashboards.png)](../../assets/img/learn/apim-analytics-default-dashboards.png)
     
 2.  Click **Duplicate**.
     
-    [![APIM Analytics dashboard dropdown]({{base_path}}/assets/img/learn/apim-analytics-dashboard-dropdown.png)]({{base_path}}/assets/img/learn/apim-analytics-dashboard-dropdown.png)
+    [![APIM Analytics dashboard dropdown](../../assets/img/learn/apim-analytics-dashboard-dropdown.png)](../../assets/img/learn/apim-analytics-dashboard-dropdown.png)
     
     A form will be displayed as shown below.
     
 3.  Enter a valid **Name** and **URL** for the dashboard based on your preference and click **OK**.
 
-    [![Dashboard duplication form]({{base_path}}/assets/img/learn/apim-analytics-dashboard-duplication-form.png)]({{base_path}}/assets/img/learn/apim-analytics-dashboard-duplication-form.png)
+    [![Dashboard duplication form](../../assets/img/learn/apim-analytics-dashboard-duplication-form.png)](../../assets/img/learn/apim-analytics-dashboard-duplication-form.png)
     
      A copy of the dashboard is created with the provided **Name** as shown below.
     
-    [![Duplicated dashboard]({{base_path}}/assets/img/learn/apim-analytics-duplicated-dashboard.png)]({{base_path}}/assets/img/learn/apim-analytics-duplicated-dashboard.png)
+    [![Duplicated dashboard](../../assets/img/learn/apim-analytics-duplicated-dashboard.png)](../../assets/img/learn/apim-analytics-duplicated-dashboard.png)
     
 4.  Click the dashboard customization icon that corresponds to the created dashboard card and click **Design** as shown below.
     
-    [![Dashboard dropdown]({{base_path}}/assets/img/learn/apim-analytics-design-dropdown.png)]({{base_path}}/assets/img/learn/apim-analytics-design-dropdown.png)
+    [![Dashboard dropdown](../../assets/img/learn/apim-analytics-design-dropdown.png)](../../assets/img/learn/apim-analytics-design-dropdown.png)
     
      Now, you will be directed to the Design Portal.
     

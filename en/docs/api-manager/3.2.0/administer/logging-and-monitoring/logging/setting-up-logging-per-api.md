@@ -42,7 +42,7 @@ A REST API secured with basic authentication is provided to enable/disable API l
 window.onload = function() {
   // Begin Swagger UI call region
   const ui = SwaggerUIBundle({
-    url: "{{base_path}}/administer/logging-and-monitoring/logging/gw-api.yaml",
+    url: "../../../administer/logging-and-monitoring/logging/gw-api.yaml",
     dom_id: '#swagger-ui',
     deepLinking: true,
     validatorUrl: null,

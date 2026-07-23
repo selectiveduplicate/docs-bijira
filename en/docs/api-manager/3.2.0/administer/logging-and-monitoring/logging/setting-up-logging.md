@@ -37,7 +37,7 @@ Following is the default configuration for carbon logs and the default values ca
      DELETE_EVENT_LOGFILE, TRANSACTION_LOGFILE
      ```
    
-   The log growth of carbon logs can be managed by the configurations discussed in [Managing log growth]({{base_path}}/administer/product-administration/monitoring/logging/managing-log-growth) guide.
+   The log growth of carbon logs can be managed by the configurations discussed in [Managing log growth](../../../administer/product-administration/monitoring/logging/managing-log-growth) guide.
 
 ###Enable Logs for a Tenant
 
@@ -96,7 +96,7 @@ Please follow below steps to enable logs for a given service component available
 ### Enable logs for a component via the UI
 
 !!! note
-    You need to get the [latest product updates for your product]({{base_path}}/administer/updating-wso2-api-manager/) to use this feature in the current version of WSO2 API-M. This feature is available as a product update in WSO2 API-M 3.2.0 from March 3, 2022 onwards.
+    You need to get the [latest product updates for your product](../../../administer/updating-wso2-api-manager/) to use this feature in the current version of WSO2 API-M. This feature is available as a product update in WSO2 API-M 3.2.0 from March 3, 2022 onwards.
 
     !!! warning
         Note that you can deploy updates in a production environment only if you have a valid subscription with WSO2. Read more about [WSO2 Updates](https://wso2.com/updates).
@@ -107,21 +107,21 @@ Follow the instructions below to enable logs for a given service component avail
 
 2. Go to **Configure** -> **Logging**
 
-    [![Logger Carbon UI]({{base_path}}/assets/img/administer/logging.png)]({{base_path}}/assets/img/administer/logging.png)
+    [![Logger Carbon UI](../../../assets/img/administer/logging.png)](../../../assets/img/administer/logging.png)
 
 3. Add a new logger specifying the logger name, logger class name, and log level that you need to enable logs as shown below and click **Update**.
 
-    [![Add Logger Carbon UI]({{base_path}}/assets/img/administer/add-logger.png)]({{base_path}}/assets/img/administer/add-logger.png)
+    [![Add Logger Carbon UI](../../../assets/img/administer/add-logger.png)](../../../assets/img/administer/add-logger.png)
 
     After you add the logger, it will be shown on the logger page as shown below.
 
-    [![List Logger Carbon UI]({{base_path}}/assets/img/administer/list-logger.png)]({{base_path}}/assets/img/administer/list-logger.png)
+    [![List Logger Carbon UI](../../../assets/img/administer/list-logger.png)](../../../assets/img/administer/list-logger.png)
 
 4. Optionally, update the log level OR disable the logs.
         
     Navigate to the specific logger and change the log level as shown below.
    
-    [![Update Logger Carbon UI]({{base_path}}/assets/img/administer/update-logger.png)]({{base_path}}/assets/img/administer/update-logger.png)
+    [![Update Logger Carbon UI](../../../assets/img/administer/update-logger.png)](../../../assets/img/administer/update-logger.png)
 
 ###Setting the Log levels
 
@@ -258,8 +258,8 @@ Following is a sample of gateway wire log for an API request.
     If synapse-wire logs are enabled during high load, outgoing traffic between the gateway and the backend will not be printed in the `wso2carbon.log` file. This happens when the backend connection is keep alive. As we are maintaining connections in a connection pool, the same connections will be reused in keep alive mode irrespective of the changes done in the `log4j2.properties` file.
 
 ##HTTP Access Logs
-HTTP requests/responses are logged in access logs to monitor the activities related to an application's usage. Please see [Monitoring HTTP Access Logs]({{base_path}}/administer/product-administration/monitoring/logging/monitoring-http-access-logs/) for instructions on how to configure and use HTTP access logs in WSO2 API Manager.
+HTTP requests/responses are logged in access logs to monitor the activities related to an application's usage. Please see [Monitoring HTTP Access Logs](../../../administer/product-administration/monitoring/logging/monitoring-http-access-logs/) for instructions on how to configure and use HTTP access logs in WSO2 API Manager.
 
 ##Audit Logs
-Audit logs are used for tracking the sequence of actions that affect a particular task carried out on the server. Please see [Monitoring Audit Logs]({{base_path}}/administer/product-administration/monitoring/logging/monitoring-audit-logs/) for instructions on how to configure and use audit logs in WSO2 API Manager.
+Audit logs are used for tracking the sequence of actions that affect a particular task carried out on the server. Please see [Monitoring Audit Logs](../../../administer/product-administration/monitoring/logging/monitoring-audit-logs/) for instructions on how to configure and use audit logs in WSO2 API Manager.
 

@@ -15,33 +15,33 @@ Follow the instructions below to deploy WSO2 API Manager's five main components 
           You can either run the profile optimizer before starting the server or while starting the server. 
           If you are running the optimizer while starting the server make sure that the optimizer is run with the ```--skipConfigOptimization``` option to preserve the manually applied configurations in the `deployment.toml` file.
     
-     For more information on using profile optimizer support, see [Product Profiles]({{base_path}}/install-and-setup/setup/distributed-deployment/product-profiles/).
+     For more information on using profile optimizer support, see [Product Profiles](../../../install-and-setup/setup/distributed-deployment/product-profiles/).
     
 4.  Replace the default certificates (where `CN=localhost`) in each of the five servers, with the new certificates generated with proper common name (CN) values. This will ensure that hostname mismatch issues in the certificates will not occur.
     
-    The same primary keystore should be used for all API Manager instances in order to decrypt the registry resources. For more information, see [Configuring the Primary Keystore]({{base_path}}/administer/product-security/configuring-keystores/configuring-keystores-in-wso2-api-manager/#configuring-the-primary-keystore).
+    The same primary keystore should be used for all API Manager instances in order to decrypt the registry resources. For more information, see [Configuring the Primary Keystore](../../../administer/product-security/configuring-keystores/configuring-keystores-in-wso2-api-manager/#configuring-the-primary-keystore).
     
     !!! Tip
         When creating the keystore, always use a longer validity period so that it will avoid the need for migration on the registry data when shifting to a new keystore.
 
 ## Step 2 - Install and configure the databases
 
-You can create the required databases for the API-M deployment in a separate server and point to the databases from the respective nodes. For information on configuring the databases, see [Installing and Configuring the Databases]({{base_path}}/install-and-setup/setting-up-databases/overview/).
+You can create the required databases for the API-M deployment in a separate server and point to the databases from the respective nodes. For information on configuring the databases, see [Installing and Configuring the Databases](../../../install-and-setup/setting-up-databases/overview/).
 
 ## Step 3 - Configure your deployment with production hardening
 
-Ensure that you have taken into account the respective security hardening factors (e.g., changing and encrypting the default passwords, configuring JVM security, etc.) before deploying WSO2 API-M. For more information, see [Production Deployment Guidelines]({{base_path}}/install-and-setup/deploying-wso2-api-manager/production-deployment-guidelines/#common-guidelines-and-checklist).
+Ensure that you have taken into account the respective security hardening factors (e.g., changing and encrypting the default passwords, configuring JVM security, etc.) before deploying WSO2 API-M. For more information, see [Production Deployment Guidelines](../../../install-and-setup/deploying-wso2-api-manager/production-deployment-guidelines/#common-guidelines-and-checklist).
 
 ## Step 4 - Create and import SSL certificates
 
-Create an SSL certificate for each of the WSO2 API-M nodes (i.e., Publisher, Developer Portal, Key Manager, Gateway, and Traffic Manager) and import them to the keyStore and the trustStore. For more information, see [Creating SSL Certificates]({{base_path}}/administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores/).
+Create an SSL certificate for each of the WSO2 API-M nodes (i.e., Publisher, Developer Portal, Key Manager, Gateway, and Traffic Manager) and import them to the keyStore and the trustStore. For more information, see [Creating SSL Certificates](../../../administer/product-security/configuring-keystores/keystore-basics/creating-new-keystores/).
 
 When maintaining high availability (HA) in the WSO2 API-M distributed set up, you need to create and import an SSL certificate for each of the WSO2 API-M HA nodes.
 
 
 ## Step 5 - Configure API-M Analytics
 
-If you wish to view reports, statistics, and graphs related to the APIs deployed in the Developer Portal, you need to configure WSO2 API-M Analytics. Follow the [standard setup]({{base_path}}/learn/analytics/configuring-apim-analytics/#standard-setup) to configure API-M Analytics in a production setup, and follow the [quick setup]({{base_path}}/learn/analytics/configuring-apim-analytics/#quick-setup) to configure API-M Analytics in a development setup.
+If you wish to view reports, statistics, and graphs related to the APIs deployed in the Developer Portal, you need to configure WSO2 API-M Analytics. Follow the [standard setup](../../../learn/analytics/configuring-apim-analytics/#standard-setup) to configure API-M Analytics in a production setup, and follow the [quick setup](../../../learn/analytics/configuring-apim-analytics/#quick-setup) to configure API-M Analytics in a development setup.
 
 ## Step 6 - Configure the connections among the components and start the servers
 
@@ -70,10 +70,10 @@ Let's configure the inter-component relationships of the distributed setup by mo
 
 This section involves setting up the Key Manager node and enabling it to work with the other components in a distributed deployment.
 
-<a href="{{base_path}}/assets/img/setup-and-install/key-manager-connections.png"><img src="{{base_path}}/assets/img/setup-and-install/key-manager-connections.png" width="600"></a>
+<a href="../../../../assets/img/setup-and-install/key-manager-connections.png"><img src="../../../../assets/img/setup-and-install/key-manager-connections.png" width="600"></a>
 
 !!! warning
-    **Skip** this step if you are using **WSO2 Identity Server as the Key Manager** and follow the instructions mentioned in [Configuring WSO2 Identity Server as a Key Manager]({{base_path}}/install-and-setup/deploying-wso2-api-manager/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager/) to configure and start the Key Manager.
+    **Skip** this step if you are using **WSO2 Identity Server as the Key Manager** and follow the instructions mentioned in [Configuring WSO2 Identity Server as a Key Manager](../../../install-and-setup/deploying-wso2-api-manager/distributed-deployment/configuring-wso2-identity-server-as-a-key-manager/) to configure and start the Key Manager.
 
 1.  Open the `<API-M_HOME>/repository/conf/deployment.toml` file in the Key Manager node and make the following changes to point to the Traffic Manager nodes.
  
@@ -124,7 +124,7 @@ This section involves setting up the Key Manager node and enabling it to work wi
      'header.X-WSO2-KEY-MANAGER' = "default"
      ```
 
-2.  If you wish to encrypt the Auth Keys (access tokens, client secrets, and authorization codes), see [Encrypting OAuth Keys]({{base_path}}/learn/api-security/oauth2/encrypting-oauth2-tokens/).
+2.  If you wish to encrypt the Auth Keys (access tokens, client secrets, and authorization codes), see [Encrypting OAuth Keys](../../../learn/api-security/oauth2/encrypting-oauth2-tokens/).
 
 
 3. Optionally, add the following configuration to enable distributed cache invalidation within the Key Manager nodes.
@@ -137,11 +137,11 @@ This section involves setting up the Key Manager node and enabling it to work wi
 
 4. If you need to configure High Availability (HA) for the Key Manager, use a copy of the active instance configured above as the second Key Manager active instance and configure a load balancer fronting the two Key Manager instances.
     
-    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/).
+    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer](../../../install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/).
 
 5. Start the WSO2 API-M Key Manager node(s). 
 
-     For more information on starting a WSO2 server, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+     For more information on starting a WSO2 server, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
     ``` java tab="Linux/Mac OS"
     cd <API-M_HOME>/bin/
@@ -225,7 +225,7 @@ This section involves setting up the Key Manager node and enabling it to work wi
 
 This section involves setting up the Traffic Manager node(s) and enabling it to work with the other components in a distributed deployment.
 
-<a href="{{base_path}}/assets/img/setup-and-install/traffic-manager-connections.png"><img src="{{base_path}}/assets/img/setup-and-install/traffic-manager-connections.png" width="500"></a>
+<a href="../../../../assets/img/setup-and-install/traffic-manager-connections.png"><img src="../../../../assets/img/setup-and-install/traffic-manager-connections.png" width="500"></a>
 
 
 1.  Open the `<API-M_HOME>/repository/conf/deployment.toml` file in the Traffic Manager node and change as following to point to Key Manager nodes.
@@ -265,7 +265,7 @@ This section involves setting up the Traffic Manager node(s) and enabling it to 
 
 3.  Start the WSO2 API-M Traffic Manager node(s) by running the following command in the command prompt. 
 
-     For more information on starting a WSO2 server, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+     For more information on starting a WSO2 server, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
     ``` java tab="Linux/Mac OS"
     cd <API-M_HOME>/bin/
@@ -331,7 +331,7 @@ This section involves setting up the Traffic Manager node(s) and enabling it to 
 
 This section involves setting up the API Publisher node and enabling it to work with the other components in the distributed deployment.
 
-[![Publisher Connections]({{base_path}}/assets/img/setup-and-install/publisher-connections.png)]({{base_path}}/assets/img/setup-and-install/publisher-connections.png)
+[![Publisher Connections](../../../assets/img/setup-and-install/publisher-connections.png)](../../../assets/img/setup-and-install/publisher-connections.png)
 
 1.  Open the `<API-M_HOME>/repository/conf/deployment.toml` file in the API Publisher node and make the following changes.
 
@@ -460,11 +460,11 @@ This section involves setting up the API Publisher node and enabling it to work 
 3.  If you need to configure High Availability (HA) for the API Publisher nodes, use a copy of the instance
  configured above as the second active Publisher instance. Thereafter, configure a load balancer fronting the two Publisher instances.
            
-    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/).
+    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer](../../../install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/).
 
 4.  Start the WSO2 API-M Publisher node(s) by running the following command in the command prompt.
     
-     For more information on starting a WSO2 server, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+     For more information on starting a WSO2 server, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
     ``` java tab="Linux/Mac OS"
     cd <API-M_HOME>/bin/
@@ -558,7 +558,7 @@ This section involves setting up the API Publisher node and enabling it to work 
 
 This section involves setting up the Developer Portal node and enabling it to work with the other components in the distributed deployment.
 
-[![Developer Portal Connections]({{base_path}}/assets/img/setup-and-install/dev-portal-connections.png)]({{base_path}}/assets/img/setup-and-install/dev-portal-connections.png)
+[![Developer Portal Connections](../../../assets/img/setup-and-install/dev-portal-connections.png)](../../../assets/img/setup-and-install/dev-portal-connections.png)
 
 1.  Open the `<API-M_HOME>/repository/conf/deployment.toml` file in the Developer Portal node and make the following changes.
 
@@ -652,11 +652,11 @@ This section involves setting up the Developer Portal node and enabling it to wo
 
 3.  If you need to configure High Availability (HA) for the Developer Portal nodes, use a copy of the active instance configured above as the second active Developer Portal instance and configure a load balancer fronting the two Developer Portal instances.
             
-    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/)
+    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer](../../../install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/)
         
 4.  Start the Developer Portal node(s) by running the following command in the command prompt. 
     
-     For more information on starting a WSO2 server, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+     For more information on starting a WSO2 server, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
     ``` java tab="Linux/Mac OS"
     cd <API-M_HOME>/bin/
@@ -747,7 +747,7 @@ This section involves setting up the Developer Portal node and enabling it to wo
 
 This section involves setting up the Gateway node and enabling it to work with the other components in the distributed deployment.
 
-<a href="{{base_path}}/assets/img/setup-and-install/gateway-connections.png"><img src="{{base_path}}/assets/img/setup-and-install/gateway-connections.png" width=600></a>
+<a href="../../../../assets/img/setup-and-install/gateway-connections.png"><img src="../../../../assets/img/setup-and-install/gateway-connections.png" width=600></a>
 
 1.  **If you need to configure High Availability (HA) for the Gateway nodes**, follow the instructions given below.
 
@@ -788,7 +788,7 @@ This section involves setting up the Gateway node and enabling it to work with t
               WSO2 recommends using a shared file system as the content synchronization mechanism to synchronize the artifacts among the WSO2 API-M Gateway nodes, because a shared file system does not require a specific node to act as a Gateway Manager, instead all the nodes have the worker manager capabilities.
               For this purpose, you can use a common shared file system such as Network File System (NFS) or any other shared file system.
               
-              For more information, see [Synchronizing Artifacts in a Gateway Cluster]({{base_path}}/install-and-setup/setup/distributed-deployment/synchronizing-artifacts-in-a-gateway-cluster/).
+              For more information, see [Synchronizing Artifacts in a Gateway Cluster](../../../install-and-setup/setup/distributed-deployment/synchronizing-artifacts-in-a-gateway-cluster/).
               
                                                                 
 2.  Modify the `<API-M_HOME>/repository/conf/deployment.toml` file in the Gateway node to configure the connection to the Key Manager component.
@@ -809,7 +809,7 @@ This section involves setting up the Gateway node and enabling it to work with t
     ```
 
 3.  If you need to enable JSON Web Token (JWT), you have to enable it in all the Gateway nodes.
-    For more information on configuring JWT, see [Generating JSON Web Token]({{base_path}}/learn/api-gateway/passing-end-user-attributes-to-the-backend/passing-enduser-attributes-to-the-backend-using-jwt/).
+    For more information on configuring JWT, see [Generating JSON Web Token](../../../learn/api-gateway/passing-end-user-attributes-to-the-backend/passing-enduser-attributes-to-the-backend-using-jwt/).
 
 4.   Modify the `<API-M_HOME>/repository/conf/deployment.toml` file in the Gateway node to communicate with the Traffic Manager node(s).
      
@@ -848,12 +848,12 @@ This section involves setting up the Gateway node and enabling it to work with t
 
 6.  If Gateways are configured for High Availability (HA), use a copy of the active instance configured above as the second active Gateway instance and configure a load balancer fronting the two Gateway instances.
                 
-    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer]({{base_path}}/install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/)
+    For information on configuring the load balancer, see [Configuring the Proxy Server and the Load Balancer](../../../install-and-setup/deploying-wso2-api-manager/configuring-the-proxy-server-and-the-load-balancer/)
         
      
 7.  Start the Gateway node(s) by running the following command in the command prompt. 
     
-     For more information on starting a WSO2 server, see [Starting the server]({{base_path}}/install-and-setup/installation-guide/running-the-product/#starting-the-server).
+     For more information on starting a WSO2 server, see [Starting the server](../../../install-and-setup/installation-guide/running-the-product/#starting-the-server).
 
     ``` java tab="Linux/Mac OS"
     cd <API-M_HOME>/bin/

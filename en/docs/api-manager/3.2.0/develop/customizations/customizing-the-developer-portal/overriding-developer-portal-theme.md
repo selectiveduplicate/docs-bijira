@@ -7,7 +7,7 @@ There are mainly 2 ways to customize and override the developer portal theme.
 
 In this section, we will cover the first method which is the easiest way to change the appearance of Developer portal.
 
-For the second method, please refer [Advanced Customization]({{base_path}}/develop/customizations/advanced-ui-customization/) section.
+For the second method, please refer [Advanced Customization](../../../develop/customizations/advanced-ui-customization/) section.
 ## Global Theming
 
 You can find the default theme in the following location `<API-M_HOME>/repository/deployment/server/jaggeryapps/devportal/source/src/defaultTheme.js`. 
@@ -68,11 +68,11 @@ The following documents describe some of the most commonly used customizations, 
 
 **If you do not have access to the file system** , you can upload/download the Devportal theme via the Admin Portal as shown below:
 
-1.  Download the sample theme here [sample-theme.zip]({{base_path}}/assets/attachments/learn/sample-theme.zip). 
+1.  Download the sample theme here [sample-theme.zip](../../../assets/attachments/learn/sample-theme.zip). 
 2.  The `sample-theme.zip` file contains the following folder structure. 
 
      You can make the changes required to `defaultTheme.json` file and archive it back. The name of the archive does not matter. But make sure that the `defaultTheme.json` file name remains the same.
-     Uses of resources in `login` folder will be discussed in [Applying thems for tenant login pages]({{base_path}}/develop/customizations/customizing-the-developer-portal/overriding-developer-portal-theme/#applying-themes-for-tenant-login-pages).
+     Uses of resources in `login` folder will be discussed in [Applying thems for tenant login pages](../../../develop/customizations/customizing-the-developer-portal/overriding-developer-portal-theme/#applying-themes-for-tenant-login-pages).
 
       ```
       └──apim
@@ -99,7 +99,7 @@ The following documents describe some of the most commonly used customizations, 
 4.  Click **Tenant Theme** under **Settings** category and click **Browse File to Upload** to upload your ZIP file.
     Alternatively, you can drag and drop your ZIP file to upload.
 
-    [![Upload tenant theme]({{base_path}}/assets/img/learn/upload-tenant-theme.png)]({{base_path}}/assets/img/learn/upload-tenant-theme.png)
+    [![Upload tenant theme](../../../assets/img/learn/upload-tenant-theme.png)](../../../assets/img/learn/upload-tenant-theme.png)
 
 5.  Access the API Developer Portal (`https://<server-host>:<server-port>/devportal`) using your tenant username and password.
 

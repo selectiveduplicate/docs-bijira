@@ -25,15 +25,15 @@ After the custom properties have been added, you can [search for APIs using cust
       
       `https://<localhost>:9443/publisher`
 
-2.  [Create a new API]({{base_path}}/design-api/create-api/create-a-rest-api/) or edit an existing API.
+2.  [Create a new API](../../../design-api/create-api/create-a-rest-api/) or edit an existing API.
 
 3.  Click **Properties** and click **ADD NEW PROPERTY**.
 
-      [![Add new property menu]({{base_path}}/assets/img/learn/properties-add-property.png)]({{base_path}}/assets/img/learn/properties-add-property.png)
+      [![Add new property menu](../../../assets/img/learn/properties-add-property.png)](../../../assets/img/learn/properties-add-property.png)
 
 4. Enter a custom property name and value (e.g., property name: environment, property value: preprod) and click **ADD** to add it.
 
-      [![Add new property]({{base_path}}/assets/img/learn/add-new-property.png)]({{base_path}}/assets/img/learn/add-new-property.png)
+      [![Add new property](../../../assets/img/learn/add-new-property.png)](../../../assets/img/learn/add-new-property.png)
 
 5.  Click **SAVE** to save the API.
 
@@ -41,7 +41,7 @@ After the custom properties have been added, you can [search for APIs using cust
 
 ### Add custom properties via the REST API
 
-Use the [existing REST API]({{base_path}}/develop/product-apis/restful-apis/) to add a new API and in order to add the API with custom properties make sure to add the following element to the request body including the relevant properties.
+Use the [existing REST API](../../../develop/product-apis/restful-apis/) to add a new API and in order to add the API with custom properties make sure to add the following element to the request body including the relevant properties.
 
 `"additionalProperties : {"environment": "preprod", "secured": "true"}`
 
@@ -50,19 +50,19 @@ Use the [existing REST API]({{base_path}}/develop/product-apis/restful-apis/) to
 ### Display custom properties on API overview page
 
 !!! warning
-    This feature is only available with the **WUM** updates and is effective from 7th December 2020 (2020-12-07). For more information on updating WSO2 API Manager, see [Updating WSO2 Products]({{base_path}}/administer/updating-wso2-api-manager/)
+    This feature is only available with the **WUM** updates and is effective from 7th December 2020 (2020-12-07). For more information on updating WSO2 API Manager, see [Updating WSO2 Products](../../../administer/updating-wso2-api-manager/)
 
 1. Click **Properties** and click **ADD NEW PROPERTY**.
 
 2. Enter the Custom Property Name and value. Set the `Visibility` and the `Show in Devportal` parameters as shown below. Click **ADD**.
 
-    [![Add new property with display suffix]({{base_path}}/assets/img/learn/set-property-visibility-to-true.png)]({{base_path}}/assets/img/learn/set-property-visibility-to-true.png)
+    [![Add new property with display suffix](../../../assets/img/learn/set-property-visibility-to-true.png)](../../../assets/img/learn/set-property-visibility-to-true.png)
 
 3. Click **SAVE** to save the API.
 
 4. From the Developer Portal's API overview page, the changes will be displayed as follows.
 
-    [![View custom properties on API overview page]({{base_path}}/assets/img/learn/view-properties-in-overview-page.png)]({{base_path}}/assets/img/learn/view-properties-in-overview-page.png)
+    [![View custom properties on API overview page](../../../assets/img/learn/view-properties-in-overview-page.png)](../../../assets/img/learn/view-properties-in-overview-page.png)
 
 
 ### Search using custom properties
@@ -73,8 +73,8 @@ You can use the following format to search for an API using the custom propertie
 
 For example, if you want to search for the **environment** property with a specific value (e.g., preprod) in the Publisher, you can search as shown below:
 
-[![Publisher search option]({{base_path}}/assets/img/learn/search-apis-with-custom-properties.png)]({{base_path}}/assets/img/learn/search-apis-with-custom-properties.png)
+[![Publisher search option](../../../assets/img/learn/search-apis-with-custom-properties.png)](../../../assets/img/learn/search-apis-with-custom-properties.png)
 
 When you click on the name of the API in the above screen, the respective API Overview page appears. Click on the **Properties** tab to list the API properties that you added.
 
-[![API Properties]({{base_path}}/assets/img/learn/view-custom-api-properties.png)]({{base_path}}/assets/img/learn/view-custom-api-properties.png)
+[![API Properties](../../../assets/img/learn/view-custom-api-properties.png)](../../../assets/img/learn/view-custom-api-properties.png)

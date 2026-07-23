@@ -24,17 +24,17 @@ Given below is how visibility levels work for users in different roles:
     
      `https://<localhost>:9443/publisher` 
 
-2.  [Create a new API]({{base_path}}/learn/design-api/create-api/create-a-rest-api/) or edit an existing API.
+2.  [Create a new API](../../../learn/design-api/create-api/create-a-rest-api/) or edit an existing API.
 3.  Click **Design Configurations**, click **Developer Portal Visibility**, and select the desired visibility option.
     
-     [![Developer Portal Visibility]({{base_path}}/assets/img/learn/api-visibility-devportal.png)]({{base_path}}/assets/img/learn/api-visibility-devportal.png)
+     [![Developer Portal Visibility](../../../assets/img/learn/api-visibility-devportal.png)](../../../assets/img/learn/api-visibility-devportal.png)
     
-     [![API visibility Developer Portal dropdown]({{base_path}}/assets/img/learn/api-visibility-devportal-dropdown.png)]({{base_path}}/assets/img/learn/api-visibility-devportal-dropdown.png)
+     [![API visibility Developer Portal dropdown](../../../assets/img/learn/api-visibility-devportal-dropdown.png)](../../../assets/img/learn/api-visibility-devportal-dropdown.png)
 
 4.  Save the API.
 
 ### Control API visibility using the REST API
-You can use the [existing REST API]({{base_path}}/develop/product-apis/restful-apis/) to control the visibility of the API. Add the following element to the request body, including the relevant visibility,
+You can use the [existing REST API](../../../develop/product-apis/restful-apis/) to control the visibility of the API. Add the following element to the request body, including the relevant visibility,
 
 `"visibility" : "PUBLIC"        `
 
@@ -73,7 +73,7 @@ Subscription availability can be one of the following options:
 - **Available to Specific Tenants:** users of the organizations/tenant domains that you specify, as well as the current tenant domain, can subscribe to the API.
 
 The diagram below depicts the relationship between the API's visibility and subscription availability:
-[![]({{base_path}}/assets/img/learn/api-visibility-relationship.png)]({{base_path}}/assets/img/learn/api-visibility-relationship.png)
+[![](../../../assets/img/learn/api-visibility-relationship.png)](../../../assets/img/learn/api-visibility-relationship.png)
 
 !!! note
      The experience of cross tenant subscriptions is different to what it was in previous versions. For example, if a tenant named "A" visits the Developer Portal of a tenant named "B", the tenant "A" user will need to generate keys again with the key manager of tenant "B". Therefore, a given application created in the Developer Portal by tenant "A" can have different consumer keys for a given key manager type as they generate keys in different tenants.
@@ -102,17 +102,17 @@ The diagram below depicts the relationship between the API's visibility and subs
 
      `https://<localhost>:9443/publisher`
 
-2.  [Create a new API]({{base_path}}/learn/design-api/create-api/create-a-rest-api/) or edit an existing API.
+2.  [Create a new API](../../../learn/design-api/create-api/create-a-rest-api/) or edit an existing API.
 
 3.  Click **Subscriptions**, click the **Subscription Availability** dropdown, and select the desired subscription availability option.
      
-     [ ![Relationship between the API's visibility and subscription availability]({{base_path}}/assets/img/learn/api-subscription-availability.png) ]({{base_path}}/assets/img/learn/api-subscription-availability.png)
+     [ ![Relationship between the API's visibility and subscription availability](../../../assets/img/learn/api-subscription-availability.png) ](../../../assets/img/learn/api-subscription-availability.png)
 
 4.  Save the API.
 
 ### Control subscription availability using the REST API
 
-You can use the [existing REST API]({{base_path}}/develop/product-apis/restful-apis/) to control the subscription availability of the API. Add the following element to the request body including the relevant subscription availability.
+You can use the [existing REST API](../../../develop/product-apis/restful-apis/) to control the subscription availability of the API. Add the following element to the request body including the relevant subscription availability.
 
 `"subscriptionAvailability" : "ALL_TENANTS"        `
 

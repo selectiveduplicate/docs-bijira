@@ -14,11 +14,11 @@ You can add advanced throttling policies to both APIs and resources.
 2.  Click **Advanced Throttling** under the **Rate Limiting Policies** section to see the set of existing throttling tiers.
 3.  To add a new tier, click **Add New Policy**.
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/new-advanced-throttling-tier.png)]({{base_path}}/assets/img/learn/new-advanced-throttling-tier.png)
+    [![Add advanced policy page](../../assets/img/learn/new-advanced-throttling-tier.png)](../../assets/img/learn/new-advanced-throttling-tier.png)
     
 4.  Fill in the required details and click **Add**.
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/save-advanced-policy.png)]({{base_path}}/assets/img/learn/save-advanced-policy.png)
+    [![Add advanced policy page](../../assets/img/learn/save-advanced-policy.png)](../../assets/img/learn/save-advanced-policy.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -29,7 +29,7 @@ You can add advanced throttling policies to both APIs and resources.
     </div>
    
 
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/add-request-bandwith-advanced-policy.png)]({{base_path}}/assets/img/learn/add-request-bandwith-advanced-policy.png)
+    [![Add advanced policy page](../../assets/img/learn/add-request-bandwith-advanced-policy.png)](../../assets/img/learn/add-request-bandwith-advanced-policy.png)
 
 
 5.  To add throttling limits with different parameters to the conditions below, click **Add Conditional Group**.
@@ -48,7 +48,7 @@ You can add advanced throttling policies to both APIs and resources.
 
      You can add Description about condition group by click **Description** under **Condition Group**.
     
-     [![Add advanced policy page]({{base_path}}/assets/img/learn/new-conditional-groups.png)]({{base_path}}/assets/img/learn/new-conditional-groups.png)
+     [![Add advanced policy page](../../assets/img/learn/new-conditional-groups.png)](../../assets/img/learn/new-conditional-groups.png)
 
      | Condition    | Description value |
      |---------------|-------------------|
@@ -73,9 +73,9 @@ You can add advanced throttling policies to both APIs and resources.
 7.  Header condition and JWT claim condition values allow regex patterns to be defined.
     You can configure it to make either an exact match or a pattern match for the value using the regex values. For example:
     
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/new-header-condition-regex.png)]({{base_path}}/assets/img/learn/new-header-condition-regex.png)
+    [![Add advanced policy page](../../assets/img/learn/new-header-condition-regex.png)](../../assets/img/learn/new-header-condition-regex.png)
 
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/new-jwt-condition-regex.png)]({{base_path}}/assets/img/learn/anew-jwt-condition-regex.png)
+    [![Add advanced policy page](../../assets/img/learn/new-jwt-condition-regex.png)](../../assets/img/learn/anew-jwt-condition-regex.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -101,7 +101,7 @@ You can add advanced throttling policies to both APIs and resources.
 
 8.  Once done, click **Add**.
 
-    [![Add advanced policy page]({{base_path}}/assets/img/learn/add-condition-group.png)]({{base_path}}/assets/img/learn/add-condition-group.png)
+    [![Add advanced policy page](../../assets/img/learn/add-condition-group.png)](../../assets/img/learn/add-condition-group.png)
 
 You have added a new advanced throttling policy. You can now apply it to an API or a resource.
 
@@ -121,11 +121,11 @@ Application-level throttling policies are applicable per access token generated 
 2.  Click **Application Policies** under the **Rate Limiting Policies** section to see the set of existing throttling tiers.
 3.  To add a new tier, click **Add Policy**.
 
-    [![Add application policy page]({{base_path}}/assets/img/learn/new-application-policy.png)]({{base_path}}/assets/img/learn/new-application-policy.png)
+    [![Add application policy page](../../assets/img/learn/new-application-policy.png)](../../assets/img/learn/new-application-policy.png)
 
 4.  Fill in the required details and click **Save**.
 
-    [![Add application policy page]({{base_path}}/assets/img/learn/save-new-application-policy.png)]({{base_path}}/assets/img/learn/save-new-application-policy.png)
+    [![Add application policy page](../../assets/img/learn/save-new-application-policy.png)](../../assets/img/learn/save-new-application-policy.png)
 
 You have added a new application-level throttling policy.
 
@@ -135,7 +135,7 @@ You have added a new application-level throttling policy.
 2.  Click **Subscription Policies** under the **Rate Limiting Policies** section. The existing set of throttling tiers are displayed.
 3.  To add a new tier, click **Add Policy**.
 
-    [![Add subscription policy page]({{base_path}}/assets/img/learn/add-subscription-policy.png)]({{base_path}}/assets/img/learn/add-subscription-policy.png)
+    [![Add subscription policy page](../../assets/img/learn/add-subscription-policy.png)](../../assets/img/learn/add-subscription-policy.png)
 
     <div class="admonition info">
     <p class="admonition-title">Note</p>
@@ -145,7 +145,7 @@ You have added a new application-level throttling policy.
     </div>    
 4.  Fill in the details required by this form and click **Save** once you are done.
 
-     [![Add subscription policy page]({{base_path}}/assets/img/learn/save-new-subscription-policy.png)]({{base_path}}/assets/img/learn/save-new-subscription-policy.png)
+     [![Add subscription policy page](../../assets/img/learn/save-new-subscription-policy.png)](../../assets/img/learn/save-new-subscription-policy.png)
 
      Given below are the descriptions of the fields you find in the form:
 
@@ -156,7 +156,7 @@ You have added a new application-level throttling policy.
      | Burst Control (Rate Limiting)   | You can define the request count/bandwidth per unit time on an addition layer by using rate limiting. This is usually a smaller number of requests/bandwidth for a shorter time span than what is enforced in the above fields. For instance, if there's a subscription level policy enforced over a long period, you may not want users to consume the entire quota within a short time span. Enforcing a rate limit protects the backend from sudden request bursts and controls the usage at a subscription and API level. |
      | Stop On Quota Reach             | This indicates the action to be taken when a user goes beyond the allocated quota. If the check box is selected, the user's requests are dropped and an error response (HTTP Status code 429) is given. If the check box is cleared, the requests are allowed to pass through.             |
      | Billing Plan                    | This field only makes sense if you have API Monetization enabled. The available **billing plans** are **Free, Commercial, and Freemium**. An API is tagged/labelled as Free, Paid, or Freemium depending on its subscription tiers(e.g., Unlimited, Gold, etc.), which are the tiers selected when creating an API. |
-     | Custom Attributes               | You can choose to display additional information about tiers using custom attributes during custom implementations. The main objective of these fields are to provide more information regarding the tier to Application Developers at the time of API subscription. An example usage of custom attributes is API Monetization. See [Enabling Monetization of APIs-]({{base_path}}/learn/api-monetization/monetizing-an-api/) for more information on practical usage of custom attributes in the subscription tier.      |
+     | Custom Attributes               | You can choose to display additional information about tiers using custom attributes during custom implementations. The main objective of these fields are to provide more information regarding the tier to Application Developers at the time of API subscription. An example usage of custom attributes is API Monetization. See [Enabling Monetization of APIs-](../../learn/api-monetization/monetizing-an-api/) for more information on practical usage of custom attributes in the subscription tier.      |
      | Permissions                     | You can allow or deny permission for specific roles. Once permission is denied to a role, the new subscription tier that you add here will not be available to that role in the Developer Portal.          |
     
     <div class="admonition info">
@@ -165,6 +165,6 @@ You have added a new application-level throttling policy.
     
      **Free** - If all subscription tiers are defined as Free, the API uses the **Free billing plan** and the API is labeled as Free in the Developer Portal.              **Paid** - If all subscription tiers are defined as Paid, the API uses the **Commercial billing plan** and the API is labeled as Paid in the Developer Portal.       
      **Freemium** - If the API has a combination of Free and Paid subscription tiers, the API uses the **Freemium billing plan** and the API is labeled as Freemium in the Developer Portal.                                                                                                                                                    <p>                                                            
-      This labeling happens on the Developer Portal only if monetization has been enabled. For information on how to enable monetization and how to tag subscription tiers, see [Configuring API Monetization Category Labels]({{base_path}}/learn/api-monetization/configuring-api-monetization-category-labels/).   </p>                                                                                     
+      This labeling happens on the Developer Portal only if monetization has been enabled. For information on how to enable monetization and how to tag subscription tiers, see [Configuring API Monetization Category Labels](../../learn/api-monetization/configuring-api-monetization-category-labels/).   </p>                                                                                     
     </div>                                                                           
     You have now successfully added a new subscription-level throttling policy.

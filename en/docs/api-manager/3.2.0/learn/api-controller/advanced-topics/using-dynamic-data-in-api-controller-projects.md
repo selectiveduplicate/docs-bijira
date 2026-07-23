@@ -65,11 +65,11 @@ Follow the instructions below to initialize an API Project with environment vari
 
 Once the project is successfully imported, sign-in to the WSO2 API Publisher and check the newly imported API with the same details specified above.
 
-[![]({{base_path}}/assets/img/learn/api-controller/advanced-topics/dynamic-data-api-config-api-import.png)]({{base_path}}/assets/img/learn/api-controller/advanced-topics/dynamic-data-api-config-api-import.png) 
+[![](../../../assets/img/learn/api-controller/advanced-topics/dynamic-data-api-config-api-import.png)](../../../assets/img/learn/api-controller/advanced-topics/dynamic-data-api-config-api-import.png) 
 
 ## Add Dynamic Data to Environment Configs
 
-To allow easily configuring environment-specific details, by default, the CTL supports an additional parameter file named `api_params.yaml`. For more information on using an environment parameter file, see [Configuring Environment Specific Parameters]({{base_path}}/learn/api-controller/advanced-topics/configuring-environment-specific-parameters). 
+To allow easily configuring environment-specific details, by default, the CTL supports an additional parameter file named `api_params.yaml`. For more information on using an environment parameter file, see [Configuring Environment Specific Parameters](../../../learn/api-controller/advanced-topics/configuring-environment-specific-parameters). 
 
 The file supports detecting environment variables during the API import process. You can use the notations `url: $DEV_URL` or `url: ${DEV_URL}` to specify environment variables to any attribute in this file. 
 
@@ -115,7 +115,7 @@ The file supports detecting environment variables during the API import process.
 
 Once the project is successfully imported, sign-in to the WSO2 API Publisher and check the Endpoints section of the imported API. The URLs specified as environment variables will appear there.
 
-[![]({{base_path}}/assets/img/learn/api-controller/advanced-topics/dynamic-data-env-config-api-endpoints.png)]({{base_path}}/assets/img/learn/api-controller/advanced-topics/dynamic-data-env-config-api-endpoints.png) 
+[![](../../../assets/img/learn/api-controller/advanced-topics/dynamic-data-env-config-api-endpoints.png)](../../../assets/img/learn/api-controller/advanced-topics/dynamic-data-env-config-api-endpoints.png) 
 
 ## Add Dynamic Data to other files in an API Project
 

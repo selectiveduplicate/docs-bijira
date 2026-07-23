@@ -88,11 +88,11 @@ When we consider a distributed deployment of WSO2 API Manager, we have the optio
 In the following diagram, the five components are set up in a distributed deployment, and the two databases are connected to the relevant components respectively. The entire setup is also fronted by a load balancer.
 
 
-[![Understanding the distributed deployment]({{base_path}}/assets/img/setup-and-install/db-connections-distributed-deployment.png)]({{base_path}}/assets/img/setup-and-install/db-connections-distributed-deployment.png)
+[![Understanding the distributed deployment](../../../assets/img/setup-and-install/db-connections-distributed-deployment.png)](../../../assets/img/setup-and-install/db-connections-distributed-deployment.png)
 
 
 ??? "Click here for more details on default communication ports among components."
-    [![Communication ports among components]({{base_path}}/assets/img/setup-and-install/communication-among-port.png)]({{base_path}}/assets/img/setup-and-install/communication-among-port.png)
+    [![Communication ports among components](../../../assets/img/setup-and-install/communication-among-port.png)](../../../assets/img/setup-and-install/communication-among-port.png)
     **Open port among profiles**
     <table>
     <thead>

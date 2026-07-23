@@ -33,7 +33,7 @@ The following sections guide you through the synchronous token persistence and h
 
 ### Synchronous token persistence
 
-[![Synchronous token persistence]({{base_path}}/assets/img/learn/synchronous-token-persistence.png)]({{base_path}}/assets/img/learn/synchronous-token-persistence.png)
+[![Synchronous token persistence](../../../assets/img/learn/synchronous-token-persistence.png)](../../../assets/img/learn/synchronous-token-persistence.png)
 
 The flow of synchronous token persistence for Opaque token is as follows:
 

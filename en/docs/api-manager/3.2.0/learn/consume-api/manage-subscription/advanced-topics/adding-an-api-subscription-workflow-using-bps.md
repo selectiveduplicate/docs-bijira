@@ -178,15 +178,15 @@ First, enable the API subscription workflow **.**
 
 3.  Go to the API Devportal credentials page and subscribe to an API. It will trigger the API subscription process and create a Human Task instance that pauses the execution of the BPEL until some action is performed on it. After subscribing you will see the subscription status as ON_HOLD
 
-     ![]({{base_path}}/assets/img/learn/workflow-subscription-onhold.png)
+     ![](../../../../assets/img/learn/workflow-subscription-onhold.png)
 
 4.  Sign in to the Admin Portal ( `https://<Server Host>:9443/admin` ), list all the tasks for API subscription and click on start to approve the task. It resumes the BPEL process and completes the subscription process.
 
-    ![]({{base_path}}/assets/img/learn/workflow-subscription-admin-entry.png)
+    ![](../../../../assets/img/learn/workflow-subscription-admin-entry.png)
 
     After approving go back to the API Devportal credentials page, the application status will be UNBLOCKED
      
-    ![]({{base_path}}/assets/img/learn/workflow-subscription-complete.png)
+    ![](../../../../assets/img/learn/workflow-subscription-complete.png)
 
 5.  Go back to the API Devportal and see that the user is now subscribed to the API.
 

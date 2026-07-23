@@ -6,9 +6,9 @@ Please refer to the [WSO2 IS documentation](https://is.docs.wso2.com/en/5.10.0/l
 
 #### Flow
 
-The client can request an access token using only its client credentials with this grant type. It is similar to the [resource owner password credentials grant]({{base_path}}/api-security/oauth2/grant-types/password-grant/) type except in this case, only the client’s credentials are used to authenticate a request for an access token.
+The client can request an access token using only its client credentials with this grant type. It is similar to the [resource owner password credentials grant](../../../../api-security/oauth2/grant-types/password-grant/) type except in this case, only the client’s credentials are used to authenticate a request for an access token.
 
-![]({{base_path}}/assets/img/learn/oauth-client-credentials-diagram.png)
+![](../../../../assets/img/learn/oauth-client-credentials-diagram.png)
 
 
 ### Invoking the Token API to generate the tokens
@@ -61,7 +61,7 @@ The client can request an access token using only its client credentials with th
 !!! note
     We use the Client Credentials grant type to generate access tokens for an application through the API Developer Portal. Therefore, you should enable this grant type to the application. To do that, go to the API Developer Portal, click the application name from under the **APPLICATIONS** tab, click the **Production Keys** tab, and select the **Client Credentials** check box under **Grant Types** in **Key Configurations**.
 
-    ![]({{base_path}}/assets/img/learn/client-credentials.png)
+    ![](../../../../assets/img/learn/client-credentials.png)
 
 !!! tip
     If you want to disable the **Client Credentials grant type** in the APIM instance, add the following entry to the `deployment.toml` file in the `<APIM_HOME>/repository/conf/` folder.

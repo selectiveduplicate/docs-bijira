@@ -6,7 +6,7 @@ The user interface of the WSO2 API-M Developer Portal, Publisher Portal and Admi
 
 First, let’s see how the portal’s source code is organized. The Source of the devportal, publisher and admin apps resides in the `<API_MANAGER_ROOT>/repository/deployment/server/jaggeryapps/` folder.  
 
- ![folder structure]({{base_path}}/assets/img/learn/ui-customize-pic0.png)
+ ![folder structure](../../assets/img/learn/ui-customize-pic0.png)
 
 The React apps sourcecode is shipped with the distribution to make customizations easier. The basic folder structure is the same for publisher, devportal and admin apps. Let’s look at how the source code is organized.
 
@@ -250,7 +250,7 @@ Following examples will let you get familiar with the codebase.
 
 Let's see how you can override and display a custom API listing page. 
 
- ![api listing page]({{base_path}}/assets/img/learn/ui-customize-pic1.png)
+ ![api listing page](../../assets/img/learn/ui-customize-pic1.png)
 
 1. Step 1 - Find the file responsible for rendering the listing view. 
     You need to find the file responsible for rendering the listing view. Using the Google Chrome browser for testing and debugging the web apps is recommended, since it provides the best toolset. 
@@ -260,7 +260,7 @@ Let's see how you can override and display a custom API listing page.
     Right-click on the Devportal page and select Inspect to open the Chrome developer tools. You can also use the shortcut `Option + ⌘ + J` (on macOS), or `Shift + CTRL + J` (on Windows/Linux).
     Click the Components tab from the developer tools panel.
 
-     ![inspect view]({{base_path}}/assets/img/learn/ui-customize-pic2.png)
+     ![inspect view](../../assets/img/learn/ui-customize-pic2.png)
 
     If you see a tree of `<Anonymous>` tags, it means that you are running a production build. It's hard to identify the relevant components with a production build. Make sure to run a development build running the following command.
 
@@ -271,14 +271,14 @@ Let's see how you can override and display a custom API listing page.
     !!! note
         You can find the available commands to run by examining the `package.json` file in the web app root folder.
 
-    ![inspect view]({{base_path}}/assets/img/learn/ui-customize-pic3.png)
-    ![inspect view]({{base_path}}/assets/img/learn/ui-customize-pic4.png)
+    ![inspect view](../../assets/img/learn/ui-customize-pic3.png)
+    ![inspect view](../../assets/img/learn/ui-customize-pic4.png)
 
     Use the inspect tool to select elements from the UI to inspect. With the development build, you can see the components responsible for displaying each section. When it comes to the API listing section you can see mainly the  "APIs", "CommonListing" and "ApiTableView" components are responsible for rendering the view. You can use the `<>` icon on the right-hand side to navigate to the source.
 
     You can set debug points to inspect the data used to render the list by clicking on the line numbers.
 
-    ![inspect view]({{base_path}}/assets/img/learn/ui-customize-pic5.png)
+    ![inspect view](../../assets/img/learn/ui-customize-pic5.png)
 
 
 2. Step 2 - Now let's override the APITableView.jsx.
@@ -302,13 +302,13 @@ Let's see how you can override and display a custom API listing page.
 
     Let's add a new `<h1>` title to the APITableView.jsx and save it.
     
-    ![modified list source]({{base_path}}/assets/img/learn/ui-customize-pic6.png)
+    ![modified list source](../../assets/img/learn/ui-customize-pic6.png)
 
     Note that this continues running npm build triggers.
 
     Refresh the "devportal" listing page and view the changes you made.
 
-    ![modified list view]({{base_path}}/assets/img/learn/ui-customize-pic7.png)
+    ![modified list view](../../assets/img/learn/ui-customize-pic7.png)
 
 4. Step 4 - Build for production
 
@@ -324,7 +324,7 @@ Let's see how you can override and display a custom API listing page.
 
     The same steps from Example 1 can be applied to locate the source files for the publisher app.
 
-    ![publisher inspect view]({{base_path}}/assets/img/learn/ui-customize-pub-pic1.png)
+    ![publisher inspect view](../../assets/img/learn/ui-customize-pub-pic1.png)
 
     Identify that the component/file required to be overriden is the `source/src/app/components/Apis/Details/index.jsx` file.
 
@@ -426,7 +426,7 @@ Let's see how you can override and display a custom API listing page.
 
 5. Step 5 - Now refresh the publisher app to see the changes in action.
 
-    ![publisher new page]({{base_path}}/assets/img/learn/ui-customize-pub-pic2.png)
+    ![publisher new page](../../assets/img/learn/ui-customize-pub-pic2.png)
 
 4. Step 6 - Build for production
 
@@ -440,7 +440,7 @@ Let's see how you can override and display a custom API listing page.
 
 Let’s assume you want to add a new input parameter to API create page. Where API developers can provide a Github repository URL as a reference for API consumers. So that API consumers or application developers who are interested in this API can explore the code in the Github repository and bootstrap their work. Let’s see how the Publisher API create page UI looks like after making the customization.
 
-![api create page]({{base_path}}/assets/img/learn/ui-customize-pub-pic3.png)
+![api create page](../../assets/img/learn/ui-customize-pub-pic3.png)
 
 
 1. Step 1 - Find the file responsible for rendering the create API view. 
@@ -448,7 +448,7 @@ Let’s assume you want to add a new input parameter to API create page. Where A
     Add the input field that is marked with the red rectangle.
     The same steps from the first example can be applied to locate the file or React component that is rendering the segment that you want to customize.
 
-    ![api create page]({{base_path}}/assets/img/learn/ui-customize-pub-pic4.png)
+    ![api create page](../../assets/img/learn/ui-customize-pub-pic4.png)
 
 
 2. Step 2 - Creating the custom React component

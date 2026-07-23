@@ -11,9 +11,9 @@ Since clients have the possibility to request very complex queries, servers must
 
 The Static Query Analyser detects complex queries based on a predefined policy and prevents them from reaching the backend. A basic outline of such a policy is shown below.
 
-   - [Query Depth Limitation]({{base_path}}/learn/api-security/graphql-query-analysis/query-depth-limitation)
+   - [Query Depth Limitation](../../../learn/api-security/graphql-query-analysis/query-depth-limitation)
     
-   - [Query Complexity Limitation]({{base_path}}/learn/api-security/graphql-query-analysis/query-complexity-limitation)
+   - [Query Complexity Limitation](../../../learn/api-security/graphql-query-analysis/query-complexity-limitation)
 
 
 To implement applicable query limits for the GraphQL APIs, two optional fields, **GraphQL Max Depth** and **GraphQL Max Complexity**, were introduced to Subscription Policies.
@@ -22,18 +22,18 @@ The **GraphQL Max Depth** and **GraphQL Max Complexity** values can be set throu
 
 Also, the policy for the custom complexity values would be as follows;
 
-   [![GraphQL Complexity Policy]({{base_path}}/assets/img/learn/graphql-complexity-policy.png)]({{base_path}}/assets/img/learn/graphql-complexity-policy.png)
+   [![GraphQL Complexity Policy](../../../assets/img/learn/graphql-complexity-policy.png)](../../../assets/img/learn/graphql-complexity-policy.png)
 
 
 The following shows how a given policy is enforced at runtime:
 
 
-  [![Model of the GraphQL Query Analysis]({{base_path}}/assets/img/learn/graphql-query-complexity-model.jpg)]({{base_path}}/assets/img/learn/graphql-query-complexity-model.jpg)
+  [![Model of the GraphQL Query Analysis](../../../assets/img/learn/graphql-query-complexity-model.jpg)](../../../assets/img/learn/graphql-query-complexity-model.jpg)
 
 
 The below figure depicts the overall request/response flow of a GraphQL API invocation
  
-  [![Flow of the GraphQL Query Analysis]({{base_path}}/assets/img/learn/graphql-query-analysis-flow.jpg)]({{base_path}}/assets/img/learn/graphql-query-analysis-flow.jpg)
+  [![Flow of the GraphQL Query Analysis](../../../assets/img/learn/graphql-query-analysis-flow.jpg)](../../../assets/img/learn/graphql-query-analysis-flow.jpg)
 
 
 

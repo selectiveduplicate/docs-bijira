@@ -9,7 +9,7 @@ The WebSocket protocol is designed to achieve the following:
 -   Be backward compatible with the pre-WebSocket world by starting up as an HTTP connection before switching to WebSocket frames.
 
 A WebSocket API allows an API creator to expose a WebSocket backend as an API to offer services via a WebSocket protocol while providing 
-[OAuth security]({{base_path}}/learn/api-security/api-authentication/secure-apis-using-oauth2-tokens), [Throttling]({{base_path}}/learn/rate-limiting/introducing-throttling-use-cases/), [Analytics]({{base_path}}/learn/analytics/overview-of-api-analytics/), etc.
+[OAuth security](../../../learn/api-security/api-authentication/secure-apis-using-oauth2-tokens), [Throttling](../../../learn/rate-limiting/introducing-throttling-use-cases/), [Analytics](../../../learn/analytics/overview-of-api-analytics/), etc.
 
 Follow the instructions below to design a WebSocket API.
 
@@ -29,7 +29,7 @@ Follow the instructions below to design a WebSocket API.
       </div>
      </html>
     
-     [![Create WebSocket API menu]({{base_path}}/assets/img/learn/create-websocket-api.jpg)]({{base_path}}/assets/img/learn/create-websocket-api.jpg)
+     [![Create WebSocket API menu](../../../assets/img/learn/create-websocket-api.jpg)](../../../assets/img/learn/create-websocket-api.jpg)
 
 3.  Enter the detials of the new WebSocket API.
 
@@ -69,7 +69,7 @@ Follow the instructions below to design a WebSocket API.
     </tbody>
     </table>
     
-    [![Create a WebSocket API menu]({{base_path}}/assets/img/learn/create-web-socket-api.png)]({{base_path}}/assets/img/learn/create-web-socket-api.png)
+    [![Create a WebSocket API menu](../../../assets/img/learn/create-web-socket-api.png)](../../../assets/img/learn/create-web-socket-api.png)
 
     <html>
      <div class="admonition note">
@@ -82,7 +82,7 @@ Follow the instructions below to design a WebSocket API.
 
      The overview page of the created WebSocket API appears.
 
-     [![Overview of WebSocket API]({{base_path}}/assets/img/learn/overview-websocket-api.png)]({{base_path}}/assets/img/learn/overview-websocket-api.png)
+     [![Overview of WebSocket API](../../../assets/img/learn/overview-websocket-api.png)](../../../assets/img/learn/overview-websocket-api.png)
 
 5.  Optionally, enter the endpoint configurations.
 
@@ -92,17 +92,17 @@ Follow the instructions below to design a WebSocket API.
      
          For more information, see the following sections on endpoint related configurations.
 
-         - [Endpoint Timeouts]({{base_path}}/learn/design-api/endpoints/resiliency/endpoint-timeouts)
-         - [Endpoint Suspension]({{base_path}}/learn/design-api/endpoints/resiliency/endpoint-suspension)
-         - [Prevent API Suspension]({{base_path}}/learn/design-api/endpoints/resiliency/prevent-api-suspension)
+         - [Endpoint Timeouts](../../../learn/design-api/endpoints/resiliency/endpoint-timeouts)
+         - [Endpoint Suspension](../../../learn/design-api/endpoints/resiliency/endpoint-suspension)
+         - [Prevent API Suspension](../../../learn/design-api/endpoints/resiliency/prevent-api-suspension)
 
-    [![View endpoint details]({{base_path}}/assets/img/learn/endpoint-view-of-websocket-api.png)]({{base_path}}/assets/img/learn/endpoint-view-of-websocket-api.png)
+    [![View endpoint details](../../../assets/img/learn/endpoint-view-of-websocket-api.png)](../../../assets/img/learn/endpoint-view-of-websocket-api.png)
 
-Now, you have successfully created and configured a WebSocket API. Next, let's [Publish your API]({{base_path}}/learn/design-api/publish-api/publish-an-api).
+Now, you have successfully created and configured a WebSocket API. Next, let's [Publish your API](../../../learn/design-api/publish-api/publish-an-api).
 
 <div class="admonition note">
 <p class="admonition-title">What's Next?</p>
 
-<p>Learn more by trying out the tutorial on <a href="{{base_path}}/learn/tutorials/create-and-publish-websocket-api">Creating and Publishing a WebSocket API</a>.</p>
+<p>Learn more by trying out the tutorial on <a href="../../../learn/tutorials/create-and-publish-websocket-api">Creating and Publishing a WebSocket API</a>.</p>
 </div>
 

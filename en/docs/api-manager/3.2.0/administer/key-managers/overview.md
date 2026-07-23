@@ -6,7 +6,7 @@ This brings the capability of supporting multiple Key Managers for a given API.
 When a Key Manager is added via the Admin Portal, it is persisted in the APIM DB as well as an event is triggered to the Traffic Manager. As a result, the Gateway will receive the event and register the Key Manager in the Gateway.
 Therefore, the Key Manager will be registered as another Key Manager and it will be available for the APIs that are created within the tenant.
 
-[![Add new Key Manager]({{base_path}}/assets/img/administer/add-km-overview.png)]({{base_path}}/assets/img/administer/add-km-overview.png)
+[![Add new Key Manager](../../assets/img/administer/add-km-overview.png)](../../assets/img/administer/add-km-overview.png)
 
 The Key Manager configuration initialization at server startup takes place through an internal API. However, the UI components in Publisher, developer Portal, and Admin Portals populate Key Manager details from the database.
 
@@ -14,7 +14,7 @@ When generating keys for a selected Key Manager, it checks if the Key Manager co
 
 ## Token validation
 
-[![multiple KM token validation]({{base_path}}/assets/img/administer/multiple-km-token-validation.png)]({{base_path}}/assets/img/administer/multiple-km-token-validation.png)
+[![multiple KM token validation](../../assets/img/administer/multiple-km-token-validation.png)](../../assets/img/administer/multiple-km-token-validation.png)
 
 If the token is a JWT token, it retrieves the Issuer details from the JWT and obtains the relevant Key Manager. If the Key Manager is not enabled for the API, token validation fails.
 If the Key Manager is enabled, the token is validated through the JWT validator.
@@ -29,14 +29,14 @@ Finally if the backend JWT generation is enabled, it generates the JWT.
 
 ## Configuring Key Managers with WSO2 API-M
 
-- [Configure WSO2 IS as a Key Manager]({{base_path}}/administer/key-managers/configure-wso2is-connector/)
+- [Configure WSO2 IS as a Key Manager](../../administer/key-managers/configure-wso2is-connector/)
 
-- [Configure Keycloak as a Key Manager]({{base_path}}/administer/key-managers/configure-keycloak-connector/)
+- [Configure Keycloak as a Key Manager](../../administer/key-managers/configure-keycloak-connector/)
 
-- [Configure Okta as a Key Manager]({{base_path}}/administer/key-managers/configure-okta-connector/)
+- [Configure Okta as a Key Manager](../../administer/key-managers/configure-okta-connector/)
 
-- [Configure Auth0 as a Key Manager]({{base_path}}/administer/key-managers/configure-auth0-connector/)
+- [Configure Auth0 as a Key Manager](../../administer/key-managers/configure-auth0-connector/)
 
-- [Configure PingFederate as a Key Manager]({{base_path}}/administer/key-managers/configure-pingfederate-connector/)
+- [Configure PingFederate as a Key Manager](../../administer/key-managers/configure-pingfederate-connector/)
 
-- [Configure ForgeRock as a Key Manager]({{base_path}}/administer/key-managers/configure-forgerock-connector/)
+- [Configure ForgeRock as a Key Manager](../../administer/key-managers/configure-forgerock-connector/)

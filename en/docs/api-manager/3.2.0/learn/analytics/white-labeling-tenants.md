@@ -10,8 +10,8 @@ This section explains how to white label analytics dashboard for tenants. You ca
     
 Create following folder structure inside the tenant folder and add relavent logo and favicon file.
 
-![]({{base_path}}/assets/img/learn/analytics/tenant-white-label-tree.png)
+![](../../assets/img/learn/analytics/tenant-white-label-tree.png)
 
 3. To verify changes Log in to the Analytics Dashboard by accessing `<Protocol>://<Host>:<Port>/analytics-dashboard` (ex: [https://localhost:9643/analytics-dashboard](https://localhost:9643/analytics-dashboard)).
 
-![]({{base_path}}/assets/img/learn/analytics/analytics-white-labeled.png)
+![](../../assets/img/learn/analytics/analytics-white-labeled.png)
